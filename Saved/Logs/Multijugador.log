@@ -139,3 +139,101 @@ LogInit: Object subsystem initialized
 [2021.01.19-16.25.14:843][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
 [2021.01.19-16.25.14:843][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
 [2021.01.19-16.25.14:967][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.01.19-16.25.23:472][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.19-16.25.23:545][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.19-16.25.24:690][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.19-16.25.25:454][  0]SourceControl: Info Source control is disabled
+[2021.01.19-16.25.25:456][  0]SourceControl: Info Source control is disabled
+[2021.01.19-16.25.25:548][  0]SourceControl: Info Source control is disabled
+[2021.01.19-16.25.25:699][  0]SourceControl: Info Source control is disabled
+[2021.01.19-16.25.27:524][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.19-16.25.28:839][  0]LogEngine: Initializing Engine...
+[2021.01.19-16.25.28:840][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.19-16.25.29:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.19-16.25.29:110][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.19-16.25.29:324][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.19-16.25.29:357][  0]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.19-16.25.29:387][  0]LogInit: FAudioDevice initialized.
+[2021.01.19-16.25.29:437][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.19-16.25.29:456][  0]LogInit: Texture streaming: Enabled
+[2021.01.19-16.25.29:644][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.19-16.25.29:658][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={BA0521A0-4E6B-890B-DCD7-B6A9E926ABAD}
+[2021.01.19-16.25.30:413][  0]LogInit: Transaction tracking system initialized
+[2021.01.19-16.25.31:712][  0]BlueprintLog: New page: Editor Load
+[2021.01.19-16.25.34:169][  0]LocalizationService: Info Localization service is disabled
+[2021.01.19-16.25.36:101][  0]LogConsoleResponse:Display: 
+[2021.01.19-16.25.36:793][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.19-16.25.36:793][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.19-16.25.37:757][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/' took 0.01s
+[2021.01.19-16.25.41:145][  0]SourceControl: Info Source control is disabled
+[2021.01.19-16.25.41:145][  0]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.19-16.25.41:146][  0]LogEditorServer:Warning: Can't find file 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.01.19-16.25.41:146][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.19-16.25.41:222][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.211ms to complete.
+[2021.01.19-16.25.41:222][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.077
+[2021.01.19-16.25.41:567][  0]LogCollectionManager: Loaded 0 collections in 0.001961 seconds
+[2021.01.19-16.25.41:675][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.19-16.25.41:675][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
+[2021.01.19-16.25.41:675][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.19-16.25.41:675][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2021.01.19-16.25.41:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2329 classes and 491 folders.
+[2021.01.19-16.25.41:785][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.01.19-16.25.48:246][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2021.01.19-16.25.48:376][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2021.01.19-16.25.48:507][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.19-16.25.48:551][  0]LogSlate: Took 0.032455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.19-16.25.48:580][  0]LogSlate: Took 0.026099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.19-16.25.48:608][  0]LogSlate: Took 0.022106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.19-16.25.48:736][  0]LogRenderer: Reallocating scene render targets to support 1204x612 NumSamples 1 (Frame:1).
+[2021.01.19-16.25.48:847][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.19-16.25.48:993][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2021.01.19-16.25.48:993][  0]LogLoad: (Engine Initialization) Total time: 51.28 seconds
+[2021.01.19-16.25.48:993][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2021.01.19-16.25.48:993][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.19-16.25.49:334][  0]LogOcInput: OculusInput pre-init called
+[2021.01.19-16.25.49:334][  0]LogHMD: Starting GearVRController plugin
+[2021.01.19-16.25.49:463][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.19-16.25.49:586][  0]LogSlate: Took 0.023839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.19-16.25.49:672][  1]LogAssetRegistry: Asset discovery search completed in 34.9227 seconds
+[2021.01.19-16.25.49:674][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.01.19-16.25.49:674][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2021.01.19-16.25.59:779][433]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.19-16.26.00:044][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-16.26.00:044][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pared.uasset.
+[2021.01.19-16.26.00:044][433]LoadErrors:Error: Error /Game/Entorno/Pared : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Copper
+[2021.01.19-16.26.00:044][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-16.26.00:045][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pared.uasset.
+[2021.01.19-16.26.00:046][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-16.26.00:046][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-16.26.00:046][433]LoadErrors:Error: Error /Game/Campo : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Copper
+[2021.01.19-16.26.00:046][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-16.26.00:047][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-16.26.00:048][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-16.26.00:048][433]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenced by Cube_GEN_VARIABLE
+[2021.01.19-16.26.00:049][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-16.26.00:080][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-16.26.00:080][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pared_Invisible.uasset.
+[2021.01.19-16.26.00:081][433]LoadErrors:Error: Error /Game/Entorno/Pared_Invisible : Can't find file for asset. /Game/StarterContent/Props/Materials/M_StatueGlass
+[2021.01.19-16.26.00:081][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-16.26.00:081][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pared_Invisible.uasset.
+[2021.01.19-16.26.00:082][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-16.26.00:083][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-16.26.00:083][433]LoadErrors:Error: Error /Game/Campo : Can't find file for asset. /Game/StarterContent/Props/Materials/M_StatueGlass
+[2021.01.19-16.26.00:083][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-16.26.00:083][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-16.26.00:085][433]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-16.26.00:085][433]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_StatueGlass.M_StatueGlass Referenced by Cube_GEN_VARIABLE
+[2021.01.19-16.26.00:085][433]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-16.26.00:825][433]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-16.26.01:484][433]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.19-16.26.04:319][433]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.19-16.26.04:320][433]LightingResults: New page: Lighting Build
+[2021.01.19-16.26.04:454][433]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0011 seconds. Added 5 classes and 0 folders.
+[2021.01.19-16.26.04:465][433]LoadErrors: New page: Loading map: Campo.umap
+[2021.01.19-16.26.04:974][433]MapCheck: New page: Map Check
+[2021.01.19-16.26.04:974][433]LightingResults: New page: Lighting Build
+[2021.01.19-16.26.06:268][433]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: NavMeshBoundsVolume_1.BrushComponent0 
+[2021.01.19-16.26.06:941][433]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.19-16.26.07:111][433]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.19-16.26.07:199][433]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 88.063ms to complete.
+[2021.01.19-16.26.07:201][433]LogFileHelpers: Loading map 'Campo' took 3.085
