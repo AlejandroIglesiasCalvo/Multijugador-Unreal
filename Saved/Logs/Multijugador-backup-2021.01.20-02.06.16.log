@@ -1,0 +1,606 @@
+﻿Log file open, 01/19/21 19:04:15
+LogInit:Display: Running engine for game: Multijugador
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-416966880) SRandInit(-416966879).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 8.592072
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.19-18.04.19:237][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.19-18.04.19:237][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.19-18.04.19:491][  0]LogInit: Computer: LABALAROJA
+[2021.01.19-18.04.19:491][  0]LogInit: User: FranBarrio
+[2021.01.19-18.04.19:491][  0]LogInit: CPU Page size=4096, Cores=2
+[2021.01.19-18.04.19:491][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.19-18.04.19:492][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2021.01.19-18.04.19:492][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.19-18.04.19:492][  0]LogMemory: Process Physical Memory: 276.76 MB used, 276.76 MB peak
+[2021.01.19-18.04.19:492][  0]LogMemory: Process Virtual Memory: 266.56 MB used, 266.56 MB peak
+[2021.01.19-18.04.19:492][  0]LogMemory: Physical Memory: 7637.34 MB used,  4535.88 MB free, 12173.22 MB total
+[2021.01.19-18.04.19:492][  0]LogMemory: Virtual Memory: 4762.43 MB used,  4535.88 MB free, 134217728.00 MB total
+[2021.01.19-18.04.22:339][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.19-18.04.22:339][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.19-18.04.36:798][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.19-18.04.39:413][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2021.01.19-18.04.39:413][  0]LogD3D11RHI:       2010/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.19-18.04.39:560][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2021.01.19-18.04.39:560][  0]LogD3D11RHI:       128/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.01.19-18.04.39:619][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.19-18.04.39:619][  0]LogD3D11RHI:       0/0/6086 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.19-18.04.39:619][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.19-18.04.39:652][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.19-18.04.39:654][  0]LogD3D11RHI:     GPU DeviceId: 0x134d (for the marketing name, search the web for "GPU Device Id")
+[2021.01.19-18.04.39:654][  0]LogWindows: EnumDisplayDevices:
+[2021.01.19-18.04.39:654][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2021.01.19-18.04.39:660][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:1)
+[2021.01.19-18.04.39:660][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2021.01.19-18.04.39:660][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.19-18.04.39:660][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2021.01.19-18.04.39:660][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.19-18.04.39:660][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.19-18.04.39:661][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.19-18.04.40:049][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.19-18.04.40:513][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.19-18.04.40:692][  0]LogShaderCompilers: Guid format shader working directory is -63 characters bigger than the processId version (../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/15792/).
+[2021.01.19-18.04.40:692][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Fran Barrio/AppData/Local/Temp/UnrealShaderWorkingDir/4286F0F94E20B2DD56437FA42AB7E6C2/'.
+[2021.01.19-18.04.40:693][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.19-18.04.52:763][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.19-18.04.52:990][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.01.19-18.04.53:196][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.19-18.04.53:378][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.01.19-18.04.53:646][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.01.19-18.04.53:802][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.19-18.04.53:992][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.19-18.04.54:177][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.19-18.04.54:358][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.19-18.04.54:522][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.01.19-18.04.54:657][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.01.19-18.04.54:817][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.01.19-18.04.54:963][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.01.19-18.04.55:165][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.01.19-18.04.55:368][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.01.19-18.04.55:801][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.01.19-18.04.55:802][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.01.19-18.04.55:953][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.01.19-18.04.56:377][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.01.19-18.04.56:469][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.01.19-18.04.56:611][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.19-18.04.56:773][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.19-18.04.56:958][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.19-18.04.57:119][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.01.19-18.04.57:119][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.19-18.05.01:016][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.19-18.05.02:177][  0]LogDerivedDataCache: Loaded boot cache 1.16s 90MB C:/Users/Fran Barrio/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.19-18.05.02:177][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Fran Barrio/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.19-18.05.02:177][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.19-18.05.02:177][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.19-18.05.02:177][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.19-18.05.02:177][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.19-18.05.02:322][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.19-18.05.02:334][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Fran Barrio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.19-18.05.02:480][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.19-18.05.02:605][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.19-18.05.02:778][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.19-18.05.02:778][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.19-18.05.17:341][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.19-18.05.20:419][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.01.19-18.05.22:951][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.19-18.05.23:222][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.19-18.05.23:365][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.19-18.05.23:365][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.19-18.05.23:365][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.19-18.05.34:176][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
+[2021.01.19-18.05.34:959][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
+[2021.01.19-18.05.35:289][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.160967 seconds
+[2021.01.19-18.05.35:342][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2021.01.19-18.05.35:342][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2021.01.19-18.05.35:344][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.19-18.05.35:762][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2021.01.19-18.06.38:298][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.19-18.06.38:440][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.19-18.06.42:434][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.19-18.06.44:758][  0]SourceControl: Info Source control is disabled
+[2021.01.19-18.06.45:295][  0]SourceControl: Info Source control is disabled
+[2021.01.19-18.06.45:567][  0]SourceControl: Info Source control is disabled
+[2021.01.19-18.06.45:742][  0]SourceControl: Info Source control is disabled
+[2021.01.19-18.06.49:144][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.19-18.06.52:046][  0]LogEngine: Initializing Engine...
+[2021.01.19-18.06.52:170][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.19-18.06.53:078][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.19-18.06.53:079][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.19-18.06.54:344][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.19-18.06.54:695][  0]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-18.06.54:792][  0]LogInit: FAudioDevice initialized.
+[2021.01.19-18.06.54:863][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Fran Barrio/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.19-18.06.55:232][  0]LogInit: Texture streaming: Enabled
+[2021.01.19-18.06.55:760][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.19-18.06.57:197][  0]LogInit: Transaction tracking system initialized
+[2021.01.19-18.06.58:794][  0]BlueprintLog: New page: Editor Load
+[2021.01.19-18.07.04:967][  0]LocalizationService: Info Localization service is disabled
+[2021.01.19-18.07.08:988][  0]LogConsoleResponse:Display: 
+[2021.01.19-18.07.13:511][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/' took 0.05s
+[2021.01.19-18.07.13:511][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.19-18.07.13:511][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.19-18.07.22:732][  0]SourceControl: Info Source control is disabled
+[2021.01.19-18.07.22:805][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/StarterContent/Maps/Minimal_Default.umap'
+[2021.01.19-18.07.22:818][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.19-18.07.23:170][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 351.43ms to complete.
+[2021.01.19-18.07.23:171][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.410
+[2021.01.19-18.07.27:213][  0]LogCollectionManager: Loaded 0 collections in 0.002020 seconds
+[2021.01.19-18.07.27:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.19-18.07.27:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Developers/FranBarrio/Collections/' took 0.01s
+[2021.01.19-18.07.27:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.19-18.07.27:545][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2021.01.19-18.07.27:620][  0]LogContentBrowser: Native class hierarchy populated in 0.0276 seconds. Added 2329 classes and 491 folders.
+[2021.01.19-18.07.28:005][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2021.01.19-18.07.30:979][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
+[2021.01.19-18.07.31:246][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2021.01.19-18.07.32:730][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.19-18.07.33:235][  0]LogSlate: Took 0.026748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.19-18.07.33:292][  0]LogSlate: Took 0.024408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.19-18.07.33:469][  0]LogSlate: Took 0.024481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.19-18.07.34:586][  0]LogRenderer: Reallocating scene render targets to support 852x496 NumSamples 1 (Frame:1).
+[2021.01.19-18.07.36:013][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.19-18.07.36:423][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2021.01.19-18.07.36:424][  0]LogLoad: (Engine Initialization) Total time: 224.93 seconds
+[2021.01.19-18.07.36:424][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.12 seconds
+[2021.01.19-18.07.36:424][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.19-18.07.36:978][  0]LogOcInput: OculusInput pre-init called
+[2021.01.19-18.07.36:989][  0]LogHMD: Starting GearVRController plugin
+[2021.01.19-18.07.37:461][  0]LogContentStreaming: Texture pool size now 600 MB
+[2021.01.19-18.07.38:078][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/' took 0.92s
+[2021.01.19-18.07.38:313][  1]LogSlate: Took 0.019830 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.19-18.07.38:426][  2]LogAssetRegistry: Asset discovery search completed in 123.4899 seconds
+[2021.01.19-18.07.38:484][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.01.19-18.07.38:484][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.015730 seconds (updated 0 objects)
+[2021.01.19-18.12.33:915][874]LogSlate: Took 0.016569 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.19-18.12.35:136][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-18.12.35:136][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Entorno/Pared.uasset.
+[2021.01.19-18.12.35:136][874]LoadErrors:Error: Error /Game/Entorno/Pared : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Copper
+[2021.01.19-18.12.35:136][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-18.12.35:136][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Entorno/Pared.uasset.
+[2021.01.19-18.12.35:139][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-18.12.35:139][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-18.12.35:139][874]LoadErrors:Error: Error /Game/Campo : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Copper
+[2021.01.19-18.12.35:140][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-18.12.35:140][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-18.12.35:141][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.19-18.12.35:141][874]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenced by Cube_GEN_VARIABLE
+[2021.01.19-18.12.35:141][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-18.12.35:163][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-18.12.35:163][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Entorno/Pared_Invisible.uasset.
+[2021.01.19-18.12.35:163][874]LoadErrors:Error: Error /Game/Entorno/Pared_Invisible : Can't find file for asset. /Game/StarterContent/Props/Materials/M_StatueGlass
+[2021.01.19-18.12.35:164][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-18.12.35:164][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Entorno/Pared_Invisible.uasset.
+[2021.01.19-18.12.35:165][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-18.12.35:165][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-18.12.35:165][874]LoadErrors:Error: Error /Game/Campo : Can't find file for asset. /Game/StarterContent/Props/Materials/M_StatueGlass
+[2021.01.19-18.12.35:165][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-18.12.35:165][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-18.12.35:166][874]LogLinker:Warning: Can't find file '/Game/StarterContent/Props/Materials/M_StatueGlass'
+[2021.01.19-18.12.35:166][874]LoadErrors: Info Failed to load /Game/StarterContent/Props/Materials/M_StatueGlass.M_StatueGlass Referenced by Cube_GEN_VARIABLE
+[2021.01.19-18.12.35:166][874]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Props/Materials/M_StatueGlass' while loading ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.19-18.12.35:355][874]LogSlate: Took 0.017146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.19-18.12.36:652][874]LogTexture:Display: Building textures: Ch24_1001_Diffuse (AutoDXT, 4096X4096)
+[2021.01.19-18.12.58:933][874]LogTexture:Display: Building textures: Ch24_1001_Specular (AutoDXT, 4096X4096)
+[2021.01.19-18.13.03:207][874]LogTexture:Display: Building textures: Ch24_1001_Glossiness (AutoDXT, 4096X4096)
+[2021.01.19-18.13.14:453][874]LogTexture:Display: Building textures: Ch24_1001_Normal (BC5, 4096X4096)
+[2021.01.19-18.13.18:123][874]LogMaterial: Missing cached shader map for material Ch24_Body, compiling. 
+[2021.01.19-18.13.22:001][874]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling. 
+[2021.01.19-18.13.22:187][874]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2021.01.19-18.13.22:201][874]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 256X512)
+[2021.01.19-18.13.22:223][874]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.01.19-18.13.22:312][874]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.01.19-18.13.22:327][874]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.01.19-18.13.22:401][874]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.01.19-18.13.22:417][874]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.01.19-18.13.22:486][874]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2021.01.19-18.13.22:551][874]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-18.13.24:595][874]Cmd: MAP LOAD FILE="../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Campo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.19-18.13.24:596][874]LightingResults: New page: Lighting Build
+[2021.01.19-18.13.25:188][874]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0018 seconds. Added 5 classes and 0 folders.
+[2021.01.19-18.13.25:203][874]LoadErrors: New page: Loading map: Campo.umap
+[2021.01.19-18.13.25:398][874]MapCheck: New page: Map Check
+[2021.01.19-18.13.25:398][874]LightingResults: New page: Lighting Build
+[2021.01.19-18.13.26:038][874]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: NavMeshBoundsVolume_1.BrushComponent0 
+[2021.01.19-18.13.29:281][874]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.19-18.13.29:786][874]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.19-18.13.29:915][874]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 128.958ms to complete.
+[2021.01.19-18.13.29:915][874]LogFileHelpers: Loading map 'Campo' took 5.476
+[2021.01.19-18.14.11:237][102]LogRenderer: Reallocating scene render targets to support 1068x656 NumSamples 1 (Frame:130).
+[2021.01.19-18.15.24:770][625]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.19-18.15.25:680][645]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Multijugador
+[2021.01.19-18.15.25:681][645]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.19-18.15.25:681][645]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2021.01.19-18.15.25:681][645]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.19-18.15.25:681][645]LogTemp: BranchPath = LABALAROJA/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LABALAROJA/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2021.01.19-18.15.26:048][664]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Fran Barrio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2021.01.19-18.25.48:788][145]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Ch24_nonPBR)
+[2021.01.19-18.26.08:510][902]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.Jugador_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.SKEL_Jugador_Blueprint_C' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.Jugador_Blueprint_C' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.Jugador_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.Jugador_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.Jugador_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.SKEL_Jugador_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.19:944][108]LogMetaData: Removing '/Game/Jugador/Jugador_Blueprint.Jugador_Blueprint_C:UserConstructionScript' ref from Metadata '/Game/Jugador_Blueprint.PackageMetaData'
+[2021.01.19-18.26.20:247][108]LogSavePackage: Save=127.96ms
+[2021.01.19-18.26.20:248][108]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador_BlueprintA092B75B484EACBA5A815EA44135C223.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador_Blueprint.uasset'
+[2021.01.19-18.26.20:275][108]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador_Blueprint.uasset
+[2021.01.19-18.26.31:186][423]LogRenderer: Reallocating scene render targets to support 1068x712 NumSamples 1 (Frame:443).
+[2021.01.19-18.26.36:371][549]LogSlate: Took 0.080712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.19-18.26.48:787][950]LogSlate: Took 0.025780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.01.19-18.27.08:526][783]LogSlate: Took 0.145369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.19-18.27.18:969][158]LogSavePackage: Save=446.79ms
+[2021.01.19-18.27.18:969][158]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Campo_Auto1B6D5A2CE412ACD3B6ED623B7C2A41C34.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto1.umap'
+[2021.01.19-18.27.18:972][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto1.umap
+[2021.01.19-18.27.18:991][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 1.529
+[2021.01.19-18.27.18:991][158]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.529
+[2021.01.19-18.27.18:995][158]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/Jugador_Blueprint] ([1] browsable assets)...
+[2021.01.19-18.27.19:020][158]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador/Jugador_Blueprint.Jugador_Blueprint]
+[2021.01.19-18.27.19:020][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/Jugador_Blueprint]
+[2021.01.19-18.27.19:061][158]LogSavePackage: Save=28.73ms
+[2021.01.19-18.27.19:061][158]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador_Blueprint_Auto18EFEA1B44B013C39619C9291F9ACC929.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto1.uasset'
+[2021.01.19-18.27.19:062][158]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto1.uasset
+[2021.01.19-18.27.19:062][158]LogFileHelpers: Auto-saving content packages took 0.069
+[2021.01.19-18.33.16:938][230]BlueprintLog: New page: Compile Jugador_Blueprint
+[2021.01.19-18.33.36:744][495]BlueprintLog: New page: Compile Jugador_Blueprint
+[2021.01.19-18.37.19:983][350]LogSavePackage: Save=421.59ms
+[2021.01.19-18.37.19:983][350]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Campo_Auto2993211994F3EC48DF8F2CF9CA30CEEE3.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto2.umap'
+[2021.01.19-18.37.19:987][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto2.umap
+[2021.01.19-18.37.19:990][350]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.488
+[2021.01.19-18.37.19:990][350]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.488
+[2021.01.19-18.37.19:994][350]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/Jugador_Blueprint] ([1] browsable assets)...
+[2021.01.19-18.37.20:021][350]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador/Jugador_Blueprint.Jugador_Blueprint]
+[2021.01.19-18.37.20:021][350]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/Jugador_Blueprint]
+[2021.01.19-18.37.20:059][350]LogSavePackage: Save=26.67ms
+[2021.01.19-18.37.20:059][350]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador_Blueprint_Auto229ED3AA243B6671A429A7DB88CB94EDE.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto2.uasset'
+[2021.01.19-18.37.20:061][350]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto2.uasset
+[2021.01.19-18.37.20:061][350]LogFileHelpers: Auto-saving content packages took 0.068
+[2021.01.19-18.48.41:775][849]LogSavePackage: Save=359.74ms
+[2021.01.19-18.48.41:775][849]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Campo_Auto364FA23FE4CB80405B70C4592A4C56C3A.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto3.umap'
+[2021.01.19-18.48.41:779][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto3.umap
+[2021.01.19-18.48.41:786][849]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.871
+[2021.01.19-18.48.41:786][849]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.871
+[2021.01.19-18.48.41:790][849]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/Jugador_Blueprint] ([1] browsable assets)...
+[2021.01.19-18.48.41:813][849]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador/Jugador_Blueprint.Jugador_Blueprint]
+[2021.01.19-18.48.41:813][849]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/Jugador_Blueprint]
+[2021.01.19-18.48.42:976][849]LogSavePackage: Save=25.31ms
+[2021.01.19-18.48.42:976][849]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador_Blueprint_Auto36E3BCFA24975270B3C5169B913AC5F6D.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto3.uasset'
+[2021.01.19-18.48.43:010][849]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto3.uasset
+[2021.01.19-18.48.43:010][849]LogFileHelpers: Auto-saving content packages took 1.222
+[2021.01.19-18.50.36:399][384]BlueprintLog: New page: Compile Jugador_Blueprint
+[2021.01.19-18.50.55:570][ 98]LogEditorActor: Deleted Actor: PlayerStart
+[2021.01.19-18.50.55:599][ 98]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2021.01.19-18.50.59:450][315]LogEditorViewport: Clicking on Actor (LMB): Jugador_Blueprint_C (Jugador_Blueprint)
+[2021.01.19-18.51.02:351][424]Cmd: DELETE
+[2021.01.19-18.51.02:351][424]Cmd: ACTOR DELETE
+[2021.01.19-18.51.02:666][424]LogEditorActor: Deleted Actor: Jugador_Blueprint_C
+[2021.01.19-18.51.02:723][424]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2021.01.19-18.52.09:320][346]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.19-18.53.01:738][192]BlueprintLog: New page: Compile ModoJuego
+[2021.01.19-18.53.02:467][199]LogSavePackage: Save=21.02ms
+[2021.01.19-18.53.02:467][199]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/ModoJuegoC8E36D0D4C475F405240108A2EB4EC00.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset'
+[2021.01.19-18.53.02:473][199]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset
+[2021.01.19-18.53.18:008][ 91]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.19-18.53.36:285][906]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.19-18.53.37:225][938]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Multijugador
+[2021.01.19-18.53.37:225][938]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.19-18.53.37:225][938]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2021.01.19-18.53.37:225][938]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.19-18.53.37:225][938]LogTemp: BranchPath = LABALAROJA/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LABALAROJA/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2021.01.19-18.53.37:279][940]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Fran Barrio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2021.01.19-18.53.46:741][314]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-18.53.49:357][314]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-18.53.49:486][314]PIE: New page: PIE session: Campo (Jan 19, 2021, 8:53:49 PM)
+[2021.01.19-18.53.49:486][314]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-18.53.49:662][314]LogPlayLevel: PIE: StaticDuplicateObject took: (0.176475s)
+[2021.01.19-18.53.49:663][314]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-18.53.49:663][314]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2021.01.19-18.53.49:676][314]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.190290s)
+[2021.01.19-18.53.49:770][314]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-18.53.50:001][314]LogInit: FAudioDevice initialized.
+[2021.01.19-18.53.50:054][314]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-18.53.50:241][314]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-19.53.50
+[2021.01.19-18.53.50:297][314]LogWorld: Bringing up level for play took: 0.041122
+[2021.01.19-18.53.52:997][314]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 11 classes and 0 folders.
+[2021.01.19-18.53.53:154][314]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 3.4
+[2021.01.19-18.54.02:354][692]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-18.54.02:381][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-18.54.02:381][692]PIE: New page: PIE session: Campo (Jan 19, 2021, 8:54:02 PM)
+[2021.01.19-18.54.02:381][692]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-18.54.02:397][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015687s)
+[2021.01.19-18.54.02:398][692]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-18.54.02:398][692]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2021.01.19-18.54.02:399][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.017340s)
+[2021.01.19-18.54.02:440][692]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-18.54.02:459][692]LogInit: FAudioDevice initialized.
+[2021.01.19-18.54.02:495][692]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-18.54.02:500][692]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-19.54.02
+[2021.01.19-18.54.02:500][692]LogWorld: Bringing up level for play took: 0.004168
+[2021.01.19-18.54.02:502][692]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.767
+[2021.01.19-18.54.12:428][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2021.01.19-18.54.17:040][447]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2021.01.19-18.54.18:272][490]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2021.01.19-18.54.29:579][123]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.19-18.54.48:069][ 59]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.19-18.57.02:739][289]BlueprintLog: New page: Compile PersonajeBase
+[2021.01.19-18.57.24:657][431]BlueprintLog: New page: Compile PersonajeBase
+[2021.01.19-18.57.29:057][493]LogSlate: Took 2.687512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.19-18.59.09:742][562]BlueprintLog: New page: Compile PersonajeBase
+[2021.01.19-18.59.11:289][588]LogSavePackage: Save=714.43ms
+[2021.01.19-18.59.11:290][588]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/PersonajeBaseCC21447642639BD465AC9395AB47E292.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset'
+[2021.01.19-18.59.11:294][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset
+[2021.01.19-19.01.58:259][254]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.03.17:321][126]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.03.18:182][148]LogSavePackage: Save=37.17ms
+[2021.01.19-19.03.18:182][148]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador4DAF30F646DA0D538F0693A37DB68AD9.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.03.18:187][148]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.03.42:346][356]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.01.19-19.03.46:575][576]BlueprintLog: New page: Compile ModoJuego
+[2021.01.19-19.03.47:427][604]LogSavePackage: Save=16.85ms
+[2021.01.19-19.03.47:427][604]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/ModoJuegoB031D17340A190F51FD728A5872620F3.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset'
+[2021.01.19-19.03.47:433][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset
+[2021.01.19-19.04.15:715][137]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.04.15:748][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.04.15:748][137]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:04:15 PM)
+[2021.01.19-19.04.15:748][137]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.04.15:760][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012929s)
+[2021.01.19-19.04.15:761][137]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.04.15:761][137]LogPlayLevel: PIE: World Init took: (0.000901s)
+[2021.01.19-19.04.15:762][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.014159s)
+[2021.01.19-19.04.15:796][137]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.04.15:814][137]LogInit: FAudioDevice initialized.
+[2021.01.19-19.04.15:851][137]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.04.15:854][137]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.04.15
+[2021.01.19-19.04.15:854][137]LogWorld: Bringing up level for play took: 0.002914
+[2021.01.19-19.04.15:856][137]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.122
+[2021.01.19-19.04.49:760][ 97]LogSavePackage: Save=405.71ms
+[2021.01.19-19.04.49:760][ 97]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Campo_Auto46C5260DB4A9838F16C3B8E98305BA0BA.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto4.umap'
+[2021.01.19-19.04.49:762][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto4.umap
+[2021.01.19-19.04.49:765][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.461
+[2021.01.19-19.04.49:765][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.461
+[2021.01.19-19.04.49:768][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/Jugador_Blueprint] ([1] browsable assets)...
+[2021.01.19-19.04.49:797][ 97]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador/Jugador_Blueprint.Jugador_Blueprint]
+[2021.01.19-19.04.49:797][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/Jugador_Blueprint]
+[2021.01.19-19.04.49:836][ 97]LogSavePackage: Save=25.96ms
+[2021.01.19-19.04.49:836][ 97]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador_Blueprint_Auto47F7B5BD54C7D52E772336987E26FBFF3.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto4.uasset'
+[2021.01.19-19.04.49:838][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Blueprint_Auto4.uasset
+[2021.01.19-19.04.49:838][ 97]LogFileHelpers: Auto-saving content packages took 0.071
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Vida' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Jugador_Blueprint_C_1' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Jugador_Blueprint_C_0' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_Blueprint_C_55' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_Blueprint_C_120' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:376][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_Blueprint_C_43' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:377][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_Blueprint_C_41' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:377][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Jugador_Blueprint_C_49' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:377][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_Blueprint_C_39' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:377][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Jugador_Blueprint_C_53' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:377][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.19-19.05.58:377][148]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Jugador_Blueprint_C_119' or package '/Engine/Transient'.
+[2021.01.19-19.08.07:590][171]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.08.08:678][196]LogSavePackage: Save=150.63ms
+[2021.01.19-19.08.08:678][196]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador5A1181D8492264BE763D399D5E009C89.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.08.08:683][196]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.08.11:430][301]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.08.11:454][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.08.11:454][301]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:08:11 PM)
+[2021.01.19-19.08.11:454][301]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.08.11:467][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013248s)
+[2021.01.19-19.08.11:468][301]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.08.11:469][301]LogPlayLevel: PIE: World Init took: (0.001320s)
+[2021.01.19-19.08.11:469][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.014865s)
+[2021.01.19-19.08.11:504][301]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.08.11:523][301]LogInit: FAudioDevice initialized.
+[2021.01.19-19.08.11:558][301]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.08.11:563][301]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.08.11
+[2021.01.19-19.08.11:563][301]LogWorld: Bringing up level for play took: 0.004470
+[2021.01.19-19.08.11:596][301]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo -0.138
+[2021.01.19-19.08.59:874][937]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.09.00:478][944]LogSavePackage: Save=41.75ms
+[2021.01.19-19.09.00:478][944]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador0B08F9B0444195BC8838E7BA5C511878.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.09.00:483][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.09.02:707][ 54]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.09.02:728][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.09.02:729][ 54]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:09:02 PM)
+[2021.01.19-19.09.02:729][ 54]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.09.02:743][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013885s)
+[2021.01.19-19.09.02:743][ 54]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.09.02:744][ 54]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2021.01.19-19.09.02:744][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.015222s)
+[2021.01.19-19.09.02:779][ 54]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.09.02:795][ 54]LogInit: FAudioDevice initialized.
+[2021.01.19-19.09.02:830][ 54]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.09.02:833][ 54]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.09.02
+[2021.01.19-19.09.02:833][ 54]LogWorld: Bringing up level for play took: 0.002851
+[2021.01.19-19.09.02:835][ 54]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 1.102
+[2021.01.19-19.12.43:150][650]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.12.44:079][675]LogSavePackage: Save=50.12ms
+[2021.01.19-19.12.44:079][675]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador89ECFA70442C646CFCA6B09FF4F9C1F6.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.12.44:084][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.13.24:707][742]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.13.25:771][765]LogSavePackage: Save=48.67ms
+[2021.01.19-19.13.25:771][765]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador47C85BD94E6642E0159BC2BF8E727A96.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.13.25:775][765]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.13.33:526][152]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.13.33:550][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.13.33:550][152]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:13:33 PM)
+[2021.01.19-19.13.33:550][152]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.13.33:564][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013650s)
+[2021.01.19-19.13.33:565][152]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.13.33:565][152]LogPlayLevel: PIE: World Init took: (0.001580s)
+[2021.01.19-19.13.33:566][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.015555s)
+[2021.01.19-19.13.33:605][152]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.13.33:622][152]LogInit: FAudioDevice initialized.
+[2021.01.19-19.13.33:658][152]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.13.33:663][152]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.13.33
+[2021.01.19-19.13.33:663][152]LogWorld: Bringing up level for play took: 0.004725
+[2021.01.19-19.13.33:665][152]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo -0.068
+[2021.01.19-19.14.57:053][787]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.14.57:845][811]LogSavePackage: Save=56.66ms
+[2021.01.19-19.14.57:845][811]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/JugadorD23516DD417C2279F8B020B6881F74BD.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.14.57:850][811]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.15.00:484][956]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.15.00:514][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.15.00:514][956]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:15:00 PM)
+[2021.01.19-19.15.00:514][956]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.15.00:527][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013490s)
+[2021.01.19-19.15.00:529][956]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.15.00:529][956]LogPlayLevel: PIE: World Init took: (0.001536s)
+[2021.01.19-19.15.00:529][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.015316s)
+[2021.01.19-19.15.00:565][956]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.15.00:583][956]LogInit: FAudioDevice initialized.
+[2021.01.19-19.15.00:620][956]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.15.00:624][956]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.15.00
+[2021.01.19-19.15.00:624][956]LogWorld: Bringing up level for play took: 0.003154
+[2021.01.19-19.15.00:626][956]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.893
+[2021.01.19-19.17.25:527][724]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.17.26:176][736]LogSavePackage: Save=50.43ms
+[2021.01.19-19.17.26:176][736]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador959E985846E64B4FCF376D8E209B5B69.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.17.26:185][736]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.17.29:351][910]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.17.29:375][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.17.29:376][910]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:17:29 PM)
+[2021.01.19-19.17.29:376][910]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.17.29:390][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014137s)
+[2021.01.19-19.17.29:392][910]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.17.29:392][910]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2021.01.19-19.17.29:392][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.016141s)
+[2021.01.19-19.17.29:429][910]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.17.29:447][910]LogInit: FAudioDevice initialized.
+[2021.01.19-19.17.29:481][910]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.17.29:485][910]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.17.29
+[2021.01.19-19.17.29:485][910]LogWorld: Bringing up level for play took: 0.003493
+[2021.01.19-19.17.29:487][910]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo -0.247
+[2021.01.19-19.18.18:147][355]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.044
+[2021.01.19-19.18.18:150][355]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/Jugador] ([1] browsable assets)...
+[2021.01.19-19.18.18:165][355]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador/Jugador.Jugador]
+[2021.01.19-19.18.18:165][355]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/Jugador]
+[2021.01.19-19.18.18:220][355]LogSavePackage: Save=49.42ms
+[2021.01.19-19.18.18:220][355]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Jugador_Auto5849FEA074400B941FDB544932AF8910F.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Auto5.uasset'
+[2021.01.19-19.18.18:222][355]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Auto5.uasset
+[2021.01.19-19.18.18:222][355]LogFileHelpers: Auto-saving content packages took 0.075
+[2021.01.19-19.18.23:014][582]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.18.23:695][597]LogSavePackage: Save=49.49ms
+[2021.01.19-19.18.23:695][597]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/JugadorCE2C62864BE0813AFC40E086DDD530BD.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.18.23:700][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.18.35:008][124]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.19-19.18.35:191][127]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Multijugador
+[2021.01.19-19.18.35:191][127]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.19-19.18.35:191][127]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2021.01.19-19.18.35:191][127]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.19-19.18.35:196][127]LogTemp: BranchPath = LABALAROJA/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = LABALAROJA/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2021.01.19-19.18.35:223][127]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Fran Barrio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2021.01.19-19.19.07:001][920]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.19.07:029][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.19.07:029][920]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:19:07 PM)
+[2021.01.19-19.19.07:029][920]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.19.07:043][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014241s)
+[2021.01.19-19.19.07:045][920]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.19.07:045][920]LogPlayLevel: PIE: World Init took: (0.001863s)
+[2021.01.19-19.19.07:045][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.016492s)
+[2021.01.19-19.19.07:082][920]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.19.07:100][920]LogInit: FAudioDevice initialized.
+[2021.01.19-19.19.07:131][920]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.19.07:136][920]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.19.07
+[2021.01.19-19.19.07:136][920]LogWorld: Bringing up level for play took: 0.004438
+[2021.01.19-19.19.07:138][920]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo -0.595
+[2021.01.19-19.20.38:204][ 30]BlueprintLog: New page: Compile Jugador
+[2021.01.19-19.20.39:379][ 51]LogSavePackage: Save=46.40ms
+[2021.01.19-19.20.39:379][ 51]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/JugadorB449087C4524B2A3007D028E2141AD69.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.19-19.20.39:384][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.19-19.20.42:101][204]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.19-19.20.42:124][204]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.19-19.20.42:124][204]PIE: New page: PIE session: Campo (Jan 19, 2021, 9:20:42 PM)
+[2021.01.19-19.20.42:124][204]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.19-19.20.42:138][204]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014197s)
+[2021.01.19-19.20.42:139][204]LogAIModule: Creating AISystem for world Campo
+[2021.01.19-19.20.42:140][204]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2021.01.19-19.20.42:140][204]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.015729s)
+[2021.01.19-19.20.42:176][204]LogInit: XAudio2 using 'Altavoz/Auricular (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.19-19.20.42:194][204]LogInit: FAudioDevice initialized.
+[2021.01.19-19.20.42:227][204]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.19-19.20.42:231][204]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 60) at 2021.01.19-20.20.42
+[2021.01.19-19.20.42:231][204]LogWorld: Bringing up level for play took: 0.003460
+[2021.01.19-19.20.42:233][204]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.499
+[2021.01.19-19.23.32:711][924]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2021.01.19-19.23.33:275][924]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.19-19.23.33:502][924]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.19-19.23.34:317][924]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2021.01.19-19.23.34:343][924]LogRenderer: Reallocating scene render targets to support 1144x712 NumSamples 1 (Frame:1).
+[2021.01.19-19.23.34:343][924]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.19-19.24.31:014][554]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_1H_Magic_Attack_02.Standing_1H_Magic_Attack_02
+[2021.01.19-19.24.31:189][554]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Crouch_Turn_Left_90.Crouch_Turn_Left_90
+[2021.01.19-19.24.31:628][569]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Ch24_nonPBR_Anim_Take_001.Ch24_nonPBR_Anim_Take_001
+[2021.01.19-19.24.31:908][581]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Crouch_Turn_Right_90.Crouch_Turn_Right_90
+[2021.01.19-19.24.33:017][582]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_Idle_03.Standing_Idle_03
+[2021.01.19-19.24.33:071][582]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_React_Death_Right.Standing_React_Death_Right
+[2021.01.19-19.24.58:794][782]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_React_Small_From_Back.Standing_React_Small_From_Back
+[2021.01.19-19.25.02:841][967]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_Block_End.Standing_Block_End
+[2021.01.19-19.25.15:957][589]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_1H_Magic_Attack_01.Standing_1H_Magic_Attack_01
+[2021.01.19-19.25.16:187][599]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Ch24_nonPBR_Anim_mixamo_com.Ch24_nonPBR_Anim_mixamo_com
+[2021.01.19-19.25.51:493][256]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_Run_Forward.Standing_Run_Forward
+[2021.01.19-19.25.51:751][268]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_Run_Left.Standing_Run_Left
+[2021.01.19-19.25.55:415][436]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_Walk_Back.Standing_Walk_Back
+[2021.01.19-19.26.20:954][627]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Standing_Walk_Right.Standing_Walk_Right
+[2021.01.19-19.26.25:962][856]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Jugador/Animaciones/Sword_And_Shield_Death.Sword_And_Shield_Death
+[2021.01.19-19.29.06:983][800]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.518
+[2021.01.19-19.29.06:994][800]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/JugadorBlendSpace] ([1] browsable assets)...
+[2021.01.19-19.29.07:108][800]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Jugador/JugadorBlendSpace.JugadorBlendSpace]
+[2021.01.19-19.29.07:108][800]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/JugadorBlendSpace]
+[2021.01.19-19.29.07:728][800]LogSavePackage: Save=530.49ms
+[2021.01.19-19.29.07:729][800]LogSavePackage: Moving '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/JugadorBlendSpace_Auto62EF25FA54A0EA138AFEED789230C3836.tmp' to '../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/JugadorBlendSpace_Auto6.uasset'
+[2021.01.19-19.29.07:778][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Fran Barrio/Documents/UNIVERSIDAD/Septimo/SEV-Videojuegos/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/JugadorBlendSpace_Auto6.uasset
+[2021.01.19-19.29.07:799][800]LogFileHelpers: Auto-saving content packages took 0.814
