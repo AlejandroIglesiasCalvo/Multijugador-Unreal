@@ -1,0 +1,790 @@
+﻿Log file open, 01/20/21 22:50:04
+LogInit:Display: Running engine for game: Multijugador
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(490723932) SRandInit(490723933).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.140986
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.39
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: F:/Juegos Epic/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.20-21.50.05:661][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.20-21.50.05:661][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.20-21.50.05:690][  0]LogInit: Computer: ELBARTO
+[2021.01.20-21.50.05:690][  0]LogInit: User: aleja
+[2021.01.20-21.50.05:690][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.20-21.50.05:690][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.20-21.50.05:690][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.20-21.50.05:690][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.20-21.50.05:690][  0]LogMemory: Process Physical Memory: 276.20 MB used, 276.21 MB peak
+[2021.01.20-21.50.05:690][  0]LogMemory: Process Virtual Memory: 261.20 MB used, 261.20 MB peak
+[2021.01.20-21.50.05:690][  0]LogMemory: Physical Memory: 6923.83 MB used,  9427.30 MB free, 16351.14 MB total
+[2021.01.20-21.50.05:690][  0]LogMemory: Virtual Memory: 4761.46 MB used,  9427.30 MB free, 134217728.00 MB total
+[2021.01.20-21.50.05:819][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.20-21.50.05:819][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.20-21.50.07:094][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.20-21.50.07:244][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.20-21.50.07:244][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.20-21.50.07:247][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.20-21.50.07:247][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.20-21.50.07:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.20-21.50.07:256][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.20-21.50.07:256][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.20-21.50.07:256][  0]LogWindows: EnumDisplayDevices:
+[2021.01.20-21.50.07:256][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.20-21.50.07:256][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.20-21.50.07:257][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.20-21.50.07:257][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.20-21.50.07:257][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.20-21.50.07:257][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.20-21.50.07:257][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.20-21.50.07:257][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.20-21.50.07:257][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.20-21.50.07:382][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.20-21.50.07:431][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.20-21.50.07:436][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/11404/).
+[2021.01.20-21.50.07:437][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/EF63B1F840839F769533F0AF5A194360/'.
+[2021.01.20-21.50.07:437][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.20-21.50.08:786][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.20-21.50.08:859][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.01.20-21.50.08:932][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.20-21.50.09:006][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.01.20-21.50.09:078][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.01.20-21.50.09:150][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.20-21.50.09:223][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.20-21.50.09:295][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.20-21.50.09:363][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.20-21.50.09:439][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.01.20-21.50.09:530][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.01.20-21.50.09:612][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.01.20-21.50.09:695][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.01.20-21.50.09:766][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.01.20-21.50.09:838][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.01.20-21.50.09:979][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.01.20-21.50.09:979][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.01.20-21.50.10:037][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.01.20-21.50.10:162][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.01.20-21.50.10:222][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.01.20-21.50.10:299][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.20-21.50.10:371][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.20-21.50.10:453][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.20-21.50.10:524][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.01.20-21.50.10:524][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.20-21.50.11:303][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.20-21.50.11:409][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.20-21.50.11:409][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.20-21.50.11:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.20-21.50.11:410][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.20-21.50.11:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.20-21.50.11:410][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.20-21.50.11:430][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.20-21.50.11:443][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.20-21.50.11:455][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.20-21.50.11:456][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.20-21.50.11:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.20-21.50.11:457][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.20-21.50.11:923][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.20-21.50.12:020][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.01.20-21.50.12:235][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.20-21.50.12:301][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.20-21.50.12:378][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.20-21.50.12:378][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.20-21.50.12:378][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.20-21.50.13:155][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
+[2021.01.20-21.50.13:234][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2021.01.20-21.50.13:297][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.027960 seconds
+[2021.01.20-21.50.13:303][  0]LogUObjectArray: 34201 objects as part of root set at end of initial load.
+[2021.01.20-21.50.13:303][  0]LogUObjectAllocator: 7474152 out of 0 bytes used by permanent object pool.
+[2021.01.20-21.50.13:303][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.20-21.50.16:858][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.20-21.50.16:926][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.20-21.50.17:782][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.20-21.50.18:439][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.50.18:442][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.50.18:525][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.50.18:607][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.50.19:611][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.20-21.50.20:577][  0]LogEngine: Initializing Engine...
+[2021.01.20-21.50.20:578][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.20-21.50.20:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.20-21.50.20:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.20-21.50.21:012][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.20-21.50.21:042][  0]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.20-21.50.21:071][  0]LogInit: FAudioDevice initialized.
+[2021.01.20-21.50.21:114][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.20-21.50.21:128][  0]LogInit: Texture streaming: Enabled
+[2021.01.20-21.50.21:276][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.20-21.50.21:605][  0]LogInit: Transaction tracking system initialized
+[2021.01.20-21.50.22:068][  0]BlueprintLog: New page: Editor Load
+[2021.01.20-21.50.23:582][  0]LocalizationService: Info Localization service is disabled
+[2021.01.20-21.50.24:640][  0]LogConsoleResponse:Display: 
+[2021.01.20-21.50.24:834][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.20-21.50.24:834][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.20-21.50.24:922][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/' took 0.02s
+[2021.01.20-21.50.26:461][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.50.26:461][  0]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.20-21.50.26:462][  0]LightingResults: New page: Lighting Build
+[2021.01.20-21.50.26:524][  0]MapCheck: New page: Map Check
+[2021.01.20-21.50.26:524][  0]LightingResults: New page: Lighting Build
+[2021.01.20-21.50.26:732][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.20-21.50.26:733][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.20-21.50.26:747][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.20-21.50.26:831][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 83.855ms to complete.
+[2021.01.20-21.50.26:831][  0]LogFileHelpers: Loading map 'Menu' took 0.370
+[2021.01.20-21.50.27:022][  0]LogCollectionManager: Loaded 0 collections in 0.003756 seconds
+[2021.01.20-21.50.27:128][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.20-21.50.27:128][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
+[2021.01.20-21.50.27:128][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.20-21.50.27:128][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2021.01.20-21.50.27:141][  0]LogContentBrowser: Native class hierarchy populated in 0.0126 seconds. Added 2331 classes and 494 folders.
+[2021.01.20-21.50.27:239][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.01.20-21.50.27:317][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.01.20-21.50.27:385][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2021.01.20-21.50.27:486][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.20-21.50.27:498][  0]LogSlate: Took 0.000437 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.20-21.50.27:501][  0]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.20-21.50.27:508][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.20-21.50.27:623][  0]LogRenderer: Reallocating scene render targets to support 1204x612 NumSamples 1 (Frame:1).
+[2021.01.20-21.50.27:684][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.20-21.50.27:750][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.20-21.50.27:837][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2021.01.20-21.50.27:837][  0]LogLoad: (Engine Initialization) Total time: 25.20 seconds
+[2021.01.20-21.50.27:837][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2021.01.20-21.50.27:837][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.20-21.50.28:177][  0]LogOcInput: OculusInput pre-init called
+[2021.01.20-21.50.28:177][  0]LogHMD: Starting GearVRController plugin
+[2021.01.20-21.50.28:198][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.20-21.50.28:520][  1]LogAssetRegistry: Asset discovery search completed in 15.3083 seconds
+[2021.01.20-21.50.28:522][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.01.20-21.50.28:522][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2021.01.20-21.50.29:320][  3]LogSlate: Took 0.000321 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.20-21.50.29:882][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2021.01.20-21.50.31:384][  3]LogSlate: Took 0.000362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.20-21.50.31:706][  4]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.20-21.51.17:056][553]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.20-21.51.17:057][553]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pared.uasset.
+[2021.01.20-21.51.17:057][553]LoadErrors:Error: Error /Game/Entorno/Pared : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Copper
+[2021.01.20-21.51.17:057][553]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.20-21.51.17:057][553]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pared.uasset.
+[2021.01.20-21.51.17:058][553]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.20-21.51.17:059][553]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.20-21.51.17:059][553]LoadErrors:Error: Error /Game/Campo : Can't find file for asset. /Game/StarterContent/Materials/M_Metal_Copper
+[2021.01.20-21.51.17:059][553]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.20-21.51.17:059][553]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.20-21.51.17:060][553]LogLinker:Warning: Can't find file '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.20-21.51.17:060][553]LoadErrors: Info Failed to load /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenced by Cube_GEN_VARIABLE
+[2021.01.20-21.51.17:061][553]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Metal_Copper' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap.
+[2021.01.20-21.51.17:188][553]LogAIModule: Creating AISystem for world Campo
+[2021.01.20-21.51.17:237][553]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.20-21.51.17:237][553]LightingResults: New page: Lighting Build
+[2021.01.20-21.51.17:238][553]LoadErrors: New page: Loading map: Campo.umap
+[2021.01.20-21.51.17:239][553]MapCheck: New page: Map Check
+[2021.01.20-21.51.17:239][553]LightingResults: New page: Lighting Build
+[2021.01.20-21.51.17:258][553]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: NavMeshBoundsVolume_1.BrushComponent0 
+[2021.01.20-21.51.18:447][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.20-21.51.18:516][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.20-21.51.18:604][553]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.387ms to complete.
+[2021.01.20-21.51.18:605][553]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.20-21.51.18:610][553]LogFileHelpers: Loading map 'Campo' took 1.374
+[2021.01.20-21.51.23:158][ 83]LogEditorViewport: Clicking on Actor (LMB): Enemigo_C (Enemigo)
+[2021.01.20-21.51.24:981][222]Cmd: DELETE
+[2021.01.20-21.51.24:981][222]Cmd: ACTOR DELETE
+[2021.01.20-21.51.24:989][222]LogEditorActor: Deleted Actor: Enemigo_C
+[2021.01.20-21.51.25:032][222]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2021.01.20-21.51.30:126][777]LogLinker:Warning: Can't find file '/Game/Animaciones/EnemigoAnimBlueprint'
+[2021.01.20-21.51.30:126][777]LogLinker:Warning: Can't find file for asset '/Game/Animaciones/EnemigoAnimBlueprint' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:126][777]LoadErrors:Error: Error /Game/Entorno/Enemigo : Can't find file for asset. /Game/Animaciones/EnemigoAnimBlueprint
+[2021.01.20-21.51.30:126][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:127][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:127][777]LoadErrors:Error: Error /Game/Entorno/Enemigo : Can't find file for asset. /Game/PersonajeBase
+[2021.01.20-21.51.30:127][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:127][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:127][777]LoadErrors:Error: Error /Game/Entorno/Enemigo : Can't find file for asset. /Game/Jugador
+[2021.01.20-21.51.30:128][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:128][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:128][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:128][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:129][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:129][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:131][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:131][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:132][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:132][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:133][777]LogLinker:Warning: Can't find file '/Game/Animaciones/EnemigoAnimBlueprint'
+[2021.01.20-21.51.30:133][777]LogLinker:Warning: Can't find file for asset '/Game/Animaciones/EnemigoAnimBlueprint' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:133][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:133][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:133][777]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Vampire/Mesh/Vampire_A_Lusth'
+[2021.01.20-21.51.30:133][777]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Vampire/Mesh/Vampire_A_Lusth' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:133][777]LoadErrors:Error: Error /Game/Entorno/Enemigo : Can't find file for asset. /Game/MixamoAnimPack/Mixamo_Vampire/Mesh/Vampire_A_Lusth
+[2021.01.20-21.51.30:134][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:134][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:134][777]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2021.01.20-21.51.30:134][777]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:134][777]LoadErrors:Error: Error /Game/Entorno/Enemigo : Can't find file for asset. /Game/StarterContent/Particles/P_Explosion
+[2021.01.20-21.51.30:135][777]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2021.01.20-21.51.30:135][777]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:135][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:135][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:136][777]LogLinker:Warning: Can't find file '/Game/MixamoAnimPack/Mixamo_Vampire/Mesh/Vampire_A_Lusth'
+[2021.01.20-21.51.30:136][777]LogLinker:Warning: Can't find file for asset '/Game/MixamoAnimPack/Mixamo_Vampire/Mesh/Vampire_A_Lusth' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:136][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:136][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Enemigo.uasset.
+[2021.01.20-21.51.30:137][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:137][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:137][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:138][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:138][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:138][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:138][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:139][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:139][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:139][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:139][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:139][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:139][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:140][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:140][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:141][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:142][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:142][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:142][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:142][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:142][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:143][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:143][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:143][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:143][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:143][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:144][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:144][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:144][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:144][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:144][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:145][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:145][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:145][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:145][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:145][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:146][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:146][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:146][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:146][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:146][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:146][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:147][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:147][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:147][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:147][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:147][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:148][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:148][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:148][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:148][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:148][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:148][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:149][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:149][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:149][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:149][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:149][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:149][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:150][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:150][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:150][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:150][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:150][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:150][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:151][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:151][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:151][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:151][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:151][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:151][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:154][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:154][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:154][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:155][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:155][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:155][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:155][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:155][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:155][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:156][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:156][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:156][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:156][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:157][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:157][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:157][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:157][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by Enemigo
+[2021.01.20-21.51.30:158][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:158][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:158][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:158][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:159][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:159][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_CallFunction_247
+[2021.01.20-21.51.30:159][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:160][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:160][777]LoadErrors: Info Failed to load /Game/Jugador.Jugador_C Referenced by K2Node_CallFunction_308
+[2021.01.20-21.51.30:160][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading NULL.
+[2021.01.20-21.51.30:160][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:160][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading NULL.
+[2021.01.20-21.51.30:161][777]LogLinker:Warning: Can't find file '/Game/StarterContent/Particles/P_Explosion'
+[2021.01.20-21.51.30:161][777]LoadErrors: Info Failed to load /Game/StarterContent/Particles/P_Explosion.P_Explosion Referenced by K2Node_CallFunction_463
+[2021.01.20-21.51.30:161][777]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Particles/P_Explosion' while loading NULL.
+[2021.01.20-21.51.30:162][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:162][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_CallParentFunction_0
+[2021.01.20-21.51.30:162][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:162][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:162][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_ComponentBoundEvent_0
+[2021.01.20-21.51.30:163][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:163][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:163][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:163][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_CustomEvent_0
+[2021.01.20-21.51.30:163][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:163][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:164][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:164][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_CustomEvent_50
+[2021.01.20-21.51.30:164][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:164][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:164][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:164][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_CustomEvent_69
+[2021.01.20-21.51.30:165][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:165][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:165][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:165][777]LoadErrors: Info Failed to load /Game/Jugador.Jugador_C Referenced by K2Node_DynamicCast_0
+[2021.01.20-21.51.30:165][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading NULL.
+[2021.01.20-21.51.30:165][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:166][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading NULL.
+[2021.01.20-21.51.30:166][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:166][777]LoadErrors: Info Failed to load /Game/Jugador.Jugador_C Referenced by K2Node_DynamicCast_22
+[2021.01.20-21.51.30:166][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading NULL.
+[2021.01.20-21.51.30:167][777]LogLinker:Warning: Can't find file '/Game/Jugador'
+[2021.01.20-21.51.30:167][777]LogLinker:Warning: Can't find file for asset '/Game/Jugador' while loading NULL.
+[2021.01.20-21.51.30:168][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:168][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_VariableGet_192
+[2021.01.20-21.51.30:168][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:168][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:168][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:168][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_VariableGet_7
+[2021.01.20-21.51.30:169][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:169][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:169][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_VariableSet_0
+[2021.01.20-21.51.30:169][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:170][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:170][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_VariableSet_13
+[2021.01.20-21.51.30:170][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:170][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:170][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:170][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by K2Node_VariableSet_14
+[2021.01.20-21.51.30:171][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:171][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:171][777]LogLinker:Warning: Can't find file '/Game/PersonajeBase'
+[2021.01.20-21.51.30:171][777]LoadErrors: Info Failed to load /Game/PersonajeBase.PersonajeBase_C Referenced by PackageMetaData
+[2021.01.20-21.51.30:171][777]LogLinker:Warning: Can't find file for asset '/Game/PersonajeBase' while loading NULL.
+[2021.01.20-21.51.30:171][777]LogLinker:Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:195][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ANIMAtacando': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'NewVar_0': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Corazon': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PawnSensing': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_Enemigo': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_FTrunc_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_DamageCauser': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_InstigatedBy': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_DamageType': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_Damage': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_DynamicCast_bSuccess2': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_DynamicCast_AsJugador2': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_ComponentBoundEvent_Pawn': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_SpawnEmitterAttached_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate2': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_LessEqual_FloatFloat_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetDistanceTo_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerCharacter_ReturnValue2': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_DynamicCast_bSuccess': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_DynamicCast_AsJugador': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerPawn_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_LessEqual_IntInt_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:196][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_Da_o': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Temp_bool_Has_Been_Initd_Variable': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_IsValid_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_CreateMoveToProxyObject_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_K2_GetActorLocation_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Temp_bool_IsClosed_Variable': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CallFunc_GetPlayerCharacter_ReturnValue': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_Event_DeltaSeconds': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Temp_byte_Variable': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CreateDelegate_OutputDelegate': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_MovementResult': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'K2Node_CustomEvent_MovementResult2': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:197][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/Entorno/Enemigo.Enemigo_C:ExecuteUbergraph_Enemigo
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ReceiveAnyDamage': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DamageCauser': Function /Game/Entorno/Enemigo.Enemigo_C:ReceiveAnyDamage
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'InstigatedBy': Function /Game/Entorno/Enemigo.Enemigo_C:ReceiveAnyDamage
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DamageType': Function /Game/Entorno/Enemigo.Enemigo_C:ReceiveAnyDamage
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Damage': Function /Game/Entorno/Enemigo.Enemigo_C:ReceiveAnyDamage
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'BndEvt__PawnSensing_K2Node_ComponentBoundEvent_0_SeePawnDelegate__DelegateSignature': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Pawn': Function /Game/Entorno/Enemigo.Enemigo_C:BndEvt__PawnSensing_K2Node_ComponentBoundEvent_0_SeePawnDelegate__DelegateSignature
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'AtacarJugador': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Impactado': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:198][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Daño': Function /Game/Entorno/Enemigo.Enemigo_C:Impactado
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SeguirJugador': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ReceiveTick': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DeltaSeconds': Function /Game/Entorno/Enemigo.Enemigo_C:ReceiveTick
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ReceiveBeginPlay': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnSuccess_58454EF440F8D65C9AEAFFBA518E2D7D': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MovementResult': Function /Game/Entorno/Enemigo.Enemigo_C:OnSuccess_58454EF440F8D65C9AEAFFBA518E2D7D
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'OnFail_58454EF440F8D65C9AEAFFBA518E2D7D': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:199][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'MovementResult': Function /Game/Entorno/Enemigo.Enemigo_C:OnFail_58454EF440F8D65C9AEAFFBA518E2D7D
+[2021.01.20-21.51.30:200][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:200][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'UberGraphFrame': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:200][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': Enemigo_C /Game/Entorno/Enemigo.Default__Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': Enemigo_C /Game/Entorno/Enemigo.Default__Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': Enemigo_C /Game/Entorno/Enemigo.Default__Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'ComponentDelegateBinding_2': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PawnSensing_GEN_VARIABLE': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.51.30:201][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Entorno/Enemigo.Enemigo_C:SimpleConstructionScript_0
+[2021.01.20-21.51.30:202][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_1': SimpleConstructionScript /Game/Entorno/Enemigo.Enemigo_C:SimpleConstructionScript_0
+[2021.01.20-21.51.30:202][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SCS_Node_2': SimpleConstructionScript /Game/Entorno/Enemigo.Enemigo_C:SimpleConstructionScript_0
+[2021.01.20-21.51.30:202][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': Enemigo_C /Game/Entorno/Enemigo.Default__Enemigo_C
+[2021.01.20-21.51.30:203][777]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Corazon_GEN_VARIABLE': BlueprintGeneratedClass /Game/Entorno/Enemigo.Enemigo_C
+[2021.01.20-21.52.39:946][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.20-21.52.40:022][869]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (GetDistanceTo) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (Reducir Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_DestroyActor) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (GetDistanceTo) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (AtacarJugador) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (SeguirJugador) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:114][869]LogBlueprint:Warning: FMemberReference::ResolveMember (Impactado) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Enemigo_C_0' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'LocalizacionCogerObjeto_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:736][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PhysicsHandle_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Pelota_GEN_VARIABLE' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Enemigo_C_1' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveAnyDamage' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Lanzar pelota' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Coger pelota' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoverseARRIABA_K2Node_InputAxisEvent_0' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveHit' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'RecibirDaño' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TocarPelota' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoverseIZDER_K2Node_InputAxisEvent_1' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_CamaraIZDER_K2Node_InputAxisEvent_50' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_CamaraARRIABA_K2Node_InputAxisEvent_11' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Pelotaaa' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PhysicsHandle' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'LocalizacionCogerObjeto' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Pelota' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Lanzar_K2Node_InputActionEvent_2' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Baile1_K2Node_InputActionEvent_3' or package '/Game/Jugador/Enemigo'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Enemigo' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveAnyDamage' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Lanzar pelota' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveActorBeginOverlap' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Coger pelota' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:737][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoverseARRIABA_K2Node_InputAxisEvent_0' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveHit' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'RecibirDaño' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TocarPelota' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoverseIZDER_K2Node_InputAxisEvent_1' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_CamaraIZDER_K2Node_InputAxisEvent_50' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_CamaraARRIABA_K2Node_InputAxisEvent_11' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Lanzar_K2Node_InputActionEvent_2' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Baile1_K2Node_InputActionEvent_3' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputAxisDelegateBinding_2' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputActionDelegateBinding_1' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Enemigo_C_72' or package '/Engine/Transient'.
+[2021.01.20-21.52.40:738][869]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Enemigo_C_71' or package '/Engine/Transient'.
+[2021.01.20-21.52.58:459][774]LogMetaData: Removing '/Game/Jugador/Enemigo.Enemigo:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Entorno/Enemigo.PackageMetaData'
+[2021.01.20-21.52.58:459][774]LogMetaData: Removing '/Game/Jugador/Enemigo.Enemigo:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Entorno/Enemigo.PackageMetaData'
+[2021.01.20-21.52.58:459][774]LogMetaData: Removing '/Game/Jugador/Enemigo.Enemigo:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Entorno/Enemigo.PackageMetaData'
+[2021.01.20-21.52.58:459][774]LogMetaData: Removing '/Game/Jugador/Enemigo.Enemigo:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Entorno/Enemigo.PackageMetaData'
+[2021.01.20-21.52.58:492][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Enemigo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Enemigo.uasset" SILENT=true
+[2021.01.20-21.52.58:502][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:502][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:508][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:508][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:508][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:508][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:516][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:516][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:521][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:521][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:521][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:521][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:530][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:530][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:534][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:534][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:534][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:534][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:543][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:543][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:543][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:543][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:543][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:543][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:547][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:547][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Corazon) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:547][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:547][774]LogBlueprint:Warning: FMemberReference::ResolveMember (CharacterMovement) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:547][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:547][774]LogBlueprint:Warning: FMemberReference::ResolveMember (Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.52.58:556][774]LogSavePackage: Save=60.34ms
+[2021.01.20-21.52.58:556][774]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/EnemigoDF7E7DB346F4999D093D99B2252C7142.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Enemigo.uasset'
+[2021.01.20-21.52.58:560][774]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Enemigo.uasset
+[2021.01.20-21.53.32:187][836]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.759 s
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 621]
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: Unable to resolve IsEventUnimplementable() - Blueprint (Enemigo) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: Stack: 
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E3E2B6
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080BEB8C2
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080C01E86
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E011D
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0F4D
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0C29
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079412AD5
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079450EED
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007941343A
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079617557
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007975109C
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000797555DC
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000079E24FC8
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000079D4E52D
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000796044EF
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007972F59D
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079625FBF
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079603AA3
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000796265BF
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079357523
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079391844
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079380A2A
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000793FF4EF
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007951160D
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x00000000700A340C
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C4E6EB3
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x0000000070043465
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBA71A8
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB54BE7
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB5CA07
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBB10D9
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB531C1
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB5B89F
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB592A8
+[2021.01.20-21.53.32:187][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBBD900
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBB133A
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CDA8DE
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CA90EE
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D4CAA4
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D36595
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D27939
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E31709
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E1B7D1
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E333DB
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E17B22
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: USER32.dll!0x00000000EC31E858
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: USER32.dll!0x00000000EC31E299
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E33CE6
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007636DB44
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F0B0
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F12A
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor.exe!0x0000000076370CF9
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: UE4Editor.exe!0x00000000763725F7
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EC617034
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: ntdll.dll!0x00000000EDE9D0D1
+[2021.01.20-21.53.32:188][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.32:193][836]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.20-21.53.48:912][836]LogStats:                    SendNewReport - 16.719 s
+[2021.01.20-21.53.48:912][836]LogStats:             FDebug::EnsureFailed - 17.484 s
+[2021.01.20-21.53.48:916][836]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 720]
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: Unable to resolve IsFieldInaccessible() - Blueprint (Enemigo) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: Stack: 
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E3E2B6
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080BEB8C2
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080C01E86
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0ABC
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0F4D
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0C29
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079412AD5
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079450EED
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007941343A
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079617557
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007975109C
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000797555DC
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000079E24FC8
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000079D4E52D
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000796044EF
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007972F59D
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079625FBF
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079603AA3
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000796265BF
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079357523
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079391844
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079380A2A
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000793FF4EF
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007951160D
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x00000000700A340C
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C4E6EB3
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x0000000070043465
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBA71A8
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB54BE7
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB5CA07
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBB10D9
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB531C1
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB5B89F
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB592A8
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBBD900
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBB133A
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CDA8DE
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CA90EE
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D4CAA4
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D36595
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D27939
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E31709
+[2021.01.20-21.53.48:916][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E1B7D1
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E333DB
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E17B22
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: USER32.dll!0x00000000EC31E858
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: USER32.dll!0x00000000EC31E299
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E33CE6
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007636DB44
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F0B0
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F12A
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor.exe!0x0000000076370CF9
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: UE4Editor.exe!0x00000000763725F7
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EC617034
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: ntdll.dll!0x00000000EDE9D0D1
+[2021.01.20-21.53.48:917][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.48:921][836]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.20-21.53.49:394][836]LogStats:                    SendNewReport -  0.474 s
+[2021.01.20-21.53.49:394][836]LogStats:             FDebug::EnsureFailed -  0.480 s
+[2021.01.20-21.53.49:525][836]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.002 s
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: Ensure condition failed: Blueprint != nullptr && Blueprint->ParentClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 1670]
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: Stack: 
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E3E2B6
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080BEB8C2
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080C01E86
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E1F7E
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0F4D
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007A9E0C29
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079412AD5
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079450EED
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007941343A
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079617557
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007975109C
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000797555DC
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000079E24FC8
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000079D4E52D
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000796044EF
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007972F59D
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079625FBF
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079603AA3
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000796265BF
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079357523
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079391844
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x0000000079380A2A
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x00000000793FF4EF
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007951160D
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x00000000700A340C
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C4E6EB3
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x0000000070043465
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBA71A8
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB54BE7
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB5CA07
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBB10D9
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB531C1
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB5B89F
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EB592A8
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBBD900
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006EBB133A
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CDA8DE
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CA90EE
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D4CAA4
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D36595
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D27939
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E31709
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E1B7D1
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E333DB
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E17B22
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: USER32.dll!0x00000000EC31E858
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: USER32.dll!0x00000000EC31E299
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E33CE6
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007636DB44
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F0B0
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F12A
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor.exe!0x0000000076370CF9
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: UE4Editor.exe!0x00000000763725F7
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EC617034
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: ntdll.dll!0x00000000EDE9D0D1
+[2021.01.20-21.53.49:525][836]LogOutputDevice:Error: 
+[2021.01.20-21.53.49:530][836]LogStats:                SubmitErrorReport -  0.000 s

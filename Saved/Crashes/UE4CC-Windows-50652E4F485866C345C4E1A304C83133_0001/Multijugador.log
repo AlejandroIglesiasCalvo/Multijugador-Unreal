@@ -1,0 +1,346 @@
+﻿Log file open, 01/20/21 22:57:33
+LogInit:Display: Running engine for game: Multijugador
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(681796288) SRandInit(681796288).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.126356
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.39
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: F:/Juegos Epic/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.20-21.57.33:944][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.20-21.57.33:944][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.20-21.57.33:960][  0]LogInit: Computer: ELBARTO
+[2021.01.20-21.57.33:960][  0]LogInit: User: aleja
+[2021.01.20-21.57.33:960][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.20-21.57.33:960][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.20-21.57.33:961][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.20-21.57.33:961][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.20-21.57.33:961][  0]LogMemory: Process Physical Memory: 276.19 MB used, 276.20 MB peak
+[2021.01.20-21.57.33:961][  0]LogMemory: Process Virtual Memory: 261.38 MB used, 261.38 MB peak
+[2021.01.20-21.57.33:961][  0]LogMemory: Physical Memory: 7111.59 MB used,  9239.54 MB free, 16351.14 MB total
+[2021.01.20-21.57.33:961][  0]LogMemory: Virtual Memory: 4761.46 MB used,  9239.54 MB free, 134217728.00 MB total
+[2021.01.20-21.57.34:073][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.20-21.57.34:073][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.20-21.57.35:280][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.20-21.57.35:417][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.20-21.57.35:417][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.20-21.57.35:420][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.20-21.57.35:420][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.20-21.57.35:420][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.20-21.57.35:428][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.20-21.57.35:428][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.20-21.57.35:428][  0]LogWindows: EnumDisplayDevices:
+[2021.01.20-21.57.35:428][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.20-21.57.35:428][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.20-21.57.35:429][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.20-21.57.35:429][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.20-21.57.35:429][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.20-21.57.35:429][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.20-21.57.35:429][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.20-21.57.35:429][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.20-21.57.35:429][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.20-21.57.35:541][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.20-21.57.35:573][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.20-21.57.35:579][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/6840/).
+[2021.01.20-21.57.35:579][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/47C2D7734605E00B379A058AECAE6FEB/'.
+[2021.01.20-21.57.35:579][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.20-21.57.36:838][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.20-21.57.36:910][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.01.20-21.57.36:981][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.20-21.57.37:054][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.01.20-21.57.37:128][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.01.20-21.57.37:201][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.20-21.57.37:273][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.20-21.57.37:348][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.20-21.57.37:413][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.20-21.57.37:484][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.01.20-21.57.37:562][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.01.20-21.57.37:633][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.01.20-21.57.37:705][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.01.20-21.57.37:780][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.01.20-21.57.37:851][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.01.20-21.57.37:996][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.01.20-21.57.37:996][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.01.20-21.57.38:055][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.01.20-21.57.38:181][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.01.20-21.57.38:224][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.01.20-21.57.38:294][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.20-21.57.38:366][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.20-21.57.38:436][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.20-21.57.38:506][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.01.20-21.57.38:506][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.20-21.57.39:260][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.20-21.57.39:358][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.20-21.57.39:359][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.20-21.57.39:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.20-21.57.39:359][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.20-21.57.39:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.20-21.57.39:359][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.20-21.57.39:376][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.20-21.57.39:389][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.20-21.57.39:401][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.20-21.57.39:401][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.20-21.57.39:402][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.20-21.57.39:402][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.20-21.57.39:880][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.20-21.57.39:980][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.01.20-21.57.40:227][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.20-21.57.40:306][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.20-21.57.40:384][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.20-21.57.40:384][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.20-21.57.40:384][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.20-21.57.41:131][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
+[2021.01.20-21.57.41:207][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2021.01.20-21.57.41:269][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.028163 seconds
+[2021.01.20-21.57.41:275][  0]LogUObjectArray: 34201 objects as part of root set at end of initial load.
+[2021.01.20-21.57.41:275][  0]LogUObjectAllocator: 7474152 out of 0 bytes used by permanent object pool.
+[2021.01.20-21.57.41:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.20-21.57.44:708][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.20-21.57.44:766][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.20-21.57.45:545][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.20-21.57.46:127][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.57.46:129][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.57.46:205][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.57.46:280][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.57.47:279][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.20-21.57.48:195][  0]LogEngine: Initializing Engine...
+[2021.01.20-21.57.48:196][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.20-21.57.48:449][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.20-21.57.48:449][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.20-21.57.48:632][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.20-21.57.48:662][  0]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.20-21.57.48:690][  0]LogInit: FAudioDevice initialized.
+[2021.01.20-21.57.48:734][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.20-21.57.48:747][  0]LogInit: Texture streaming: Enabled
+[2021.01.20-21.57.48:892][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.20-21.57.48:892][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={39E52337-4F2A-617E-716B-61935C9E02C0}
+[2021.01.20-21.57.49:214][  0]LogInit: Transaction tracking system initialized
+[2021.01.20-21.57.49:675][  0]BlueprintLog: New page: Editor Load
+[2021.01.20-21.57.51:064][  0]LocalizationService: Info Localization service is disabled
+[2021.01.20-21.57.52:065][  0]LogConsoleResponse:Display: 
+[2021.01.20-21.57.52:254][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.20-21.57.52:254][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.20-21.57.52:892][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/' took 0.01s
+[2021.01.20-21.57.53:843][  0]SourceControl: Info Source control is disabled
+[2021.01.20-21.57.53:843][  0]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.20-21.57.53:844][  0]LightingResults: New page: Lighting Build
+[2021.01.20-21.57.53:905][  0]MapCheck: New page: Map Check
+[2021.01.20-21.57.53:906][  0]LightingResults: New page: Lighting Build
+[2021.01.20-21.57.54:100][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.20-21.57.54:102][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.20-21.57.54:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.20-21.57.54:189][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.548ms to complete.
+[2021.01.20-21.57.54:189][  0]LogFileHelpers: Loading map 'Menu' took 0.347
+[2021.01.20-21.57.54:404][  0]LogCollectionManager: Loaded 0 collections in 0.001935 seconds
+[2021.01.20-21.57.54:508][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.20-21.57.54:508][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
+[2021.01.20-21.57.54:508][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.20-21.57.54:508][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2021.01.20-21.57.54:518][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2331 classes and 494 folders.
+[2021.01.20-21.57.54:614][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.01.20-21.57.54:691][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.01.20-21.57.54:756][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2021.01.20-21.57.54:863][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.20-21.57.54:875][  0]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.20-21.57.54:878][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.20-21.57.54:886][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.20-21.57.55:001][  0]LogRenderer: Reallocating scene render targets to support 1204x612 NumSamples 1 (Frame:1).
+[2021.01.20-21.57.55:061][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.20-21.57.55:129][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.20-21.57.55:215][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2021.01.20-21.57.55:215][  0]LogLoad: (Engine Initialization) Total time: 23.97 seconds
+[2021.01.20-21.57.55:215][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2021.01.20-21.57.55:215][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.20-21.57.55:226][  0]LogOcInput: OculusInput pre-init called
+[2021.01.20-21.57.55:226][  0]LogHMD: Starting GearVRController plugin
+[2021.01.20-21.57.55:248][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.20-21.57.55:305][  1]LogAssetRegistry: Asset discovery search completed in 14.1206 seconds
+[2021.01.20-21.57.55:307][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.01.20-21.57.55:307][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2021.01.20-21.57.56:258][108]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.20-21.58.00:583][596]LogSlate: Took 0.000289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.20-21.58.02:036][596]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (GetDistanceTo) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_GetActorLocation) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (Reducir Vida) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (K2_DestroyActor) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (GetDistanceTo) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (AtacarJugador) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (SeguirJugador) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:175][596]LogBlueprint:Warning: FMemberReference::ResolveMember (Impactado) bSelfContext == true, but no scope supplied!
+[2021.01.20-21.58.02:571][596]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2021.01.20-21.58.03:521][596]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.565 s
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: 
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 621]
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: Unable to resolve IsEventUnimplementable() - Blueprint (Enemigo) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: Stack: 
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E3E2B6
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080BEB8C2
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080C01E86
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000796F011D
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000796F0F4D
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000796F0C29
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A372AD5
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A3B0EED
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A37343A
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A577557
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A6B109C
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A6B55DC
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000078B34FC8
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000078A5E52D
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A5644EF
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A68F59D
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A585FBF
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A563AA3
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A5865BF
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A2B7523
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A2F1844
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A2E0A2A
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A35F4EF
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A47160D
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000007025340C
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C4E6EB3
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x00000000701F3465
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED871A8
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED34BE7
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED3CA07
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED910D9
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED331C1
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED3B89F
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED392A8
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED9D900
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED9133A
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CDA8DE
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CA90EE
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D4CAA4
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D36595
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D27939
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E31709
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E1B7D1
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E333DB
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E17B22
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: USER32.dll!0x00000000EC31E858
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: USER32.dll!0x00000000EC31E299
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E33CE6
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor.exe!0x000000007636DB44
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F0B0
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F12A
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor.exe!0x0000000076370CF9
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: UE4Editor.exe!0x00000000763725F7
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EC617034
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: ntdll.dll!0x00000000EDE9D0D1
+[2021.01.20-21.58.03:521][596]LogOutputDevice:Error: 
+[2021.01.20-21.58.03:529][596]LogStats:                SubmitErrorReport -  0.000 s
+[2021.01.20-21.58.04:013][596]LogStats:                    SendNewReport -  0.484 s
+[2021.01.20-21.58.04:013][596]LogStats:             FDebug::EnsureFailed -  1.057 s
+[2021.01.20-21.58.04:022][596]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: 
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 720]
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: Unable to resolve IsFieldInaccessible() - Blueprint (Enemigo) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: Stack: 
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E3E2B6
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080BEB8C2
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080C01E86
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000796F0ABC
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000796F0F4D
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000796F0C29
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A372AD5
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A3B0EED
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A37343A
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A577557
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A6B109C
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A6B55DC
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000078B34FC8
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x0000000078A5E52D
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A5644EF
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A68F59D
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A585FBF
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A563AA3
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A5865BF
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A2B7523
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A2F1844
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A2E0A2A
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A35F4EF
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Kismet.dll!0x000000007A47160D
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x000000007025340C
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007C4E6EB3
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-AssetTools.dll!0x00000000701F3465
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED871A8
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED34BE7
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED3CA07
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED910D9
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED331C1
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED3B89F
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED392A8
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED9D900
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x000000006ED9133A
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CDA8DE
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091CA90EE
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D4CAA4
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D36595
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000091D27939
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E31709
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E1B7D1
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E333DB
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E17B22
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: USER32.dll!0x00000000EC31E858
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: USER32.dll!0x00000000EC31E299
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000080E33CE6
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor.exe!0x000000007636DB44
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F0B0
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor.exe!0x000000007635F12A
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor.exe!0x0000000076370CF9
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: UE4Editor.exe!0x00000000763725F7
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EC617034
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: ntdll.dll!0x00000000EDE9D0D1
+[2021.01.20-21.58.04:022][596]LogOutputDevice:Error: 
+[2021.01.20-21.58.04:029][596]LogStats:                SubmitErrorReport -  0.000 s
