@@ -1,9 +1,9 @@
-﻿Log file open, 01/21/21 18:18:11
+﻿Log file open, 01/21/21 18:33:32
 LogInit:Display: Running engine for game: Multijugador
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1327109536) SRandInit(1327109536).
+LogInit:Display: RandInit(1944229917) SRandInit(1944229917).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.144736
+LogStats: Stats thread started at 0.150422
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -47,301 +47,1276 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line:  /Temp/Autosaves/Game/UEDPCCampo -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line:  -game
 LogInit: Base directory: F:/Juegos Epic/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2021.01.21-17.18.13:270][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.21-17.18.13:270][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.21-17.18.13:275][  0]LogInit: Computer: ELBARTO
-[2021.01.21-17.18.13:275][  0]LogInit: User: aleja
-[2021.01.21-17.18.13:275][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.01.21-17.18.13:275][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.21-17.18.13:275][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2021.01.21-17.18.13:275][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.21-17.18.13:275][  0]LogMemory: Process Physical Memory: 309.58 MB used, 309.59 MB peak
-[2021.01.21-17.18.13:275][  0]LogMemory: Process Virtual Memory: 279.34 MB used, 279.34 MB peak
-[2021.01.21-17.18.13:275][  0]LogMemory: Physical Memory: 9229.67 MB used,  7121.47 MB free, 16351.14 MB total
-[2021.01.21-17.18.13:275][  0]LogMemory: Virtual Memory: 4908.35 MB used,  7121.47 MB free, 134217728.00 MB total
-[2021.01.21-17.18.13:432][  0]LogInit: Using OS detected language (es-ES).
-[2021.01.21-17.18.13:432][  0]LogInit: Using OS detected locale (es-ES).
-[2021.01.21-17.18.13:438][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
-[2021.01.21-17.18.14:421][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.21-17.18.14:617][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2021.01.21-17.18.14:617][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.01.21-17.18.14:623][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.21-17.18.14:623][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.21-17.18.14:623][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.21-17.18.14:635][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.21-17.18.14:636][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2021.01.21-17.18.14:636][  0]LogWindows: EnumDisplayDevices:
-[2021.01.21-17.18.14:636][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2021.01.21-17.18.14:637][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2021.01.21-17.18.14:637][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2021.01.21-17.18.14:637][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2021.01.21-17.18.14:638][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2021.01.21-17.18.14:638][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2021.01.21-17.18.14:638][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2021.01.21-17.18.14:638][  0]LogD3D11RHI:      Driver Date: Unknown
-[2021.01.21-17.18.14:638][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2021.01.21-17.18.14:791][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.21-17.18.14:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.01.21-17.18.14:829][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/15500/).
-[2021.01.21-17.18.14:829][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/95E31F2F4AC513B97550FD8A0B2E264C/'.
-[2021.01.21-17.18.14:829][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2021.01.21-17.18.16:395][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2021.01.21-17.18.16:479][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2021.01.21-17.18.16:562][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2021.01.21-17.18.16:639][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2021.01.21-17.18.16:639][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2021.01.21-17.18.17:584][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2021.01.21-17.18.17:703][  0]LogDerivedDataCache: Loaded boot cache 0.12s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2021.01.21-17.18.17:703][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2021.01.21-17.18.17:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.21-17.18.17:703][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.21-17.18.17:703][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.21-17.18.17:703][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.21-17.18.17:722][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.21-17.18.17:736][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.21-17.18.17:749][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.01.21-17.18.17:750][  0]LogSlate: Using Freetype 2.6.0
-[2021.01.21-17.18.17:751][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.21-17.18.17:751][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.21-17.18.18:373][  0]LogAssetRegistry: FAssetRegistry took 0.0073 seconds to start up
-[2021.01.21-17.18.18:385][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.012264 seconds
-[2021.01.21-17.18.18:520][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.21-17.18.18:613][  0]LogContentStreaming: Texture pool size is 1000.00 MB
-[2021.01.21-17.18.18:851][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.21-17.18.18:928][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2021.01.21-17.18.19:031][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2021.01.21-17.18.19:031][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2021.01.21-17.18.19:031][  0]LogMeshUtilities: No automatic mesh merging module available
-[2021.01.21-17.18.19:892][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
-[2021.01.21-17.18.21:987][  0]LogMoviePlayer: Initializing movie player
-[2021.01.21-17.18.22:617][  0]LogCollectionManager: Loaded 0 collections in 0.002334 seconds
-[2021.01.21-17.18.22:712][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
-[2021.01.21-17.18.22:712][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
-[2021.01.21-17.18.22:712][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
-[2021.01.21-17.18.22:712][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2021.01.21-17.18.22:712][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2021.01.21-17.18.23:250][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.21-17.18.23:328][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.21-17.18.24:024][  0]SourceControl: Información El control de código fuente está desactivado
-[2021.01.21-17.18.24:024][  0]SourceControl: Información El control de código fuente está desactivado
-[2021.01.21-17.18.24:107][  0]SourceControl: Información El control de código fuente está desactivado
-[2021.01.21-17.18.24:615][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.21-17.18.25:440][  0]LogUObjectArray: 37227 objects as part of root set at end of initial load.
-[2021.01.21-17.18.25:440][  0]LogUObjectAllocator: 8612568 out of 0 bytes used by permanent object pool.
-[2021.01.21-17.18.25:440][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.21-17.18.25:605][  0]LogEngine: Initializing Engine...
-[2021.01.21-17.18.25:607][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.21-17.18.25:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2021.01.21-17.18.25:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2021.01.21-17.18.25:878][  0]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2021.01.21-17.18.25:899][  0]LogInit: FAudioDevice initialized.
-[2021.01.21-17.18.25:922][  0]LogInit: Texture streaming: Enabled
-[2021.01.21-17.18.25:940][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2021.01.21-17.18.26:340][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
-[2021.01.21-17.18.26:340][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
-[2021.01.21-17.18.26:704][  0]LogInit:Display: Game Engine Initialized.
-[2021.01.21-17.18.26:986][  0]LogInit:Display: Starting Game.
-[2021.01.21-17.18.26:986][  0]LogNet: Browse: /Temp/Autosaves/Game/UEDPCCampo?Name=Player
-[2021.01.21-17.18.26:987][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/UEDPCCampo?Name=Player
-[2021.01.21-17.18.27:015][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.21-17.18.27:015][  0]LogMemory: Process Physical Memory: 834.07 MB used, 899.30 MB peak
-[2021.01.21-17.18.27:015][  0]LogMemory: Process Virtual Memory: 966.95 MB used, 981.92 MB peak
-[2021.01.21-17.18.27:015][  0]LogMemory: Physical Memory: 9797.68 MB used,  6553.46 MB free, 16351.14 MB total
-[2021.01.21-17.18.27:015][  0]LogMemory: Virtual Memory: 5860.55 MB used,  6553.46 MB free, 134217728.00 MB total
-[2021.01.21-17.18.27:015][  0]LogMemory: 
-[2021.01.21-17.18.27:015][  0]Allocator Stats for TBB: (not implemented)
-[2021.01.21-17.18.27:447][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
-[2021.01.21-17.18.27:447][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
-[2021.01.21-17.18.27:447][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
-[2021.01.21-17.18.27:447][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
-[2021.01.21-17.18.27:450][  0]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
-[2021.01.21-17.18.27:450][  0]LoadErrors: Información Error al cargar /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenciado por Cube_GEN_VARIABLE
-[2021.01.21-17.18.27:450][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
-[2021.01.21-17.18.27:450][  0]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
-[2021.01.21-17.18.27:450][  0]LoadErrors: Información Error al cargar /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenciado por Cube_GEN_VARIABLE
-[2021.01.21-17.18.27:450][  0]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
-[2021.01.21-17.18.27:808][  0]LogAIModule: Creating AISystem for world Campo
-[2021.01.21-17.18.27:841][  0]LogLoad: Game class is 'ModoJuego_C'
-[2021.01.21-17.18.27:867][  0]LogWorld: Bringing World /Temp/Autosaves/Game/UEDPCCampo.Campo up for play (max tick rate 0) at 2021.01.21-18.18.27
-[2021.01.21-17.18.27:870][  0]LogWorld: Bringing up level for play took: 0.026725
-[2021.01.21-17.18.27:877][  0]LogLoad: Took 0.890206 seconds to LoadMap(/Temp/Autosaves/Game/UEDPCCampo)
-[2021.01.21-17.18.28:305][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
-[2021.01.21-17.18.28:305][  0]LogLoad: (Engine Initialization) Total time: 18.14 seconds
-[2021.01.21-17.18.28:305][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
-[2021.01.21-17.18.28:305][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2021.01.21-17.18.28:322][  0]LogOcInput: OculusInput pre-init called
-[2021.01.21-17.18.28:322][  0]LogHMD: Starting GearVRController plugin
-[2021.01.21-17.18.28:406][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2021.01.21-17.18.28:415][  1]LogEngine: All Windows Closed
-[2021.01.21-17.18.28:415][  1]LogWindows: FPlatformMisc::RequestExit(0)
-[2021.01.21-17.18.28:616][  2]LogExit: Preparing to exit.
-[2021.01.21-17.18.28:616][  2]LogMoviePlayer: Shutting down movie player
-[2021.01.21-17.18.29:477][  2]LogExit: Game engine shut down
-[2021.01.21-17.18.29:540][  2]LogObj: Freed 0b from 0 cluster array pools.
-[2021.01.21-17.18.29:540][  2]LogExit: Object subsystem successfully closed.
-[2021.01.21-17.18.29:562][  2]LogD3D11RHI: Shutdown
-[2021.01.21-17.18.29:562][  2]LogD3D11RHI: CleanupD3DDevice
-[2021.01.21-17.18.29:654][  2]LogD3D11RHI: ~FD3D11DynamicRHI
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (298)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module SequenceRecorder (296)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module AutomationController (294)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module AutomationWorker (292)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module AIModule (290)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module AITestSuite (287)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (284)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (282)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (280)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module Media (279)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module CharacterAI (276)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module SessionServices (274)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (272)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (270)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module MovieScene (268)
-[2021.01.21-17.18.29:663][  2]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module Niagara (262)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module NiagaraEditor (261)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (258)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module PortalServices (256)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
-[2021.01.21-17.18.29:664][  2]LogModuleManager: Shutting down and abandoning module ProfilerService (250)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module TaskGraph (248)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module SteamVRController (246)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module SteamVR (244)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (242)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module OculusLibrary (240)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module OculusInput (238)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (236)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (234)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module CableComponent (232)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (230)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module AndroidPermission (228)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module HTML5Networking (224)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (222)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module DesktopPlatform (221)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module HotReload (219)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module UObjectPlugin (216)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (214)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (212)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module SourceControl (211)
-[2021.01.21-17.18.29:816][  2]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (208)
-[2021.01.21-17.18.29:817][  2]LogModuleManager: Shutting down and abandoning module PhysXVehicles (206)
-[2021.01.21-17.18.29:817][  2]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (204)
-[2021.01.21-17.18.29:817][  2]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (202)
-[2021.01.21-17.18.29:817][  2]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (200)
-[2021.01.21-17.18.29:817][  2]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
-[2021.01.21-17.18.29:918][  2]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
-[2021.01.21-17.18.30:255][  2]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
-[2021.01.21-17.18.30:255][  2]LogModuleManager: Shutting down and abandoning module FacialAnimation (192)
-[2021.01.21-17.18.30:255][  2]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (190)
-[2021.01.21-17.18.30:255][  2]LogModuleManager: Shutting down and abandoning module GraphEditor (189)
-[2021.01.21-17.18.30:255][  2]LogModuleManager: Shutting down and abandoning module ContentBrowser (187)
-[2021.01.21-17.18.30:255][  2]LogModuleManager: Shutting down and abandoning module CollectionManager (186)
-[2021.01.21-17.18.30:255][  2]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' was aborted.
-[2021.01.21-17.18.30:255][  2]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' was aborted.
-[2021.01.21-17.18.30:256][  2]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' was aborted.
-[2021.01.21-17.18.30:256][  2]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (185)
-[2021.01.21-17.18.30:256][  2]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (180)
-[2021.01.21-17.18.30:256][  2]LogModuleManager: Shutting down and abandoning module Paper2D (178)
-[2021.01.21-17.18.30:256][  2]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (176)
-[2021.01.21-17.18.30:256][  2]LogModuleManager: Shutting down and abandoning module WmfMedia (174)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (172)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (170)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module MediaAssets (168)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (166)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module VREditor (164)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module StringTableEditor (162)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (160)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (158)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module FunctionalTesting (156)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (154)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module UMG (152)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module UMGEditor (151)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module Sequencer (150)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module AssetTools (148)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module MessageLog (147)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (146)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module SlateReflector (140)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module Slate (138)
-[2021.01.21-17.18.30:258][  2]LogModuleManager: Shutting down and abandoning module EditorStyle (136)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module Messaging (134)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (132)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (130)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module XAudio2 (128)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module Networking (126)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module Core (124)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module KismetCompiler (122)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module LevelSequence (120)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module PhysXFormats (118)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module MeshUtilities (116)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (115)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (113)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (111)
-[2021.01.21-17.18.30:261][  2]LogModuleManager: Shutting down and abandoning module AssetRegistry (108)
-[2021.01.21-17.18.30:262][  2]LogModuleManager: Shutting down and abandoning module DerivedDataCache (106)
-[2021.01.21-17.18.30:748][  2]LogDerivedDataCache: Shutdown
-[2021.01.21-17.18.30:748][  2]LogModuleManager: Shutting down and abandoning module TargetPlatform (104)
-[2021.01.21-17.18.30:748][  2]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (103)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (101)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (99)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (97)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (95)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (93)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (91)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (89)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (87)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (85)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module ImageWrapper (84)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (81)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (79)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (77)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (75)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (73)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (71)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (69)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (67)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module OculusRift (60)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module GearVRController (58)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module GearVR (56)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
-[2021.01.21-17.18.30:749][  2]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
-[2021.01.21-17.18.30:749][  2]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2021.01.21-17.18.30:749][  2]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
-[2021.01.21-17.18.30:855][  2]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
-[2021.01.21-17.18.30:855][  2]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
-[2021.01.21-17.18.30:855][  2]LogOnline:Display: Unloading online subsystem: STEAM
-[2021.01.21-17.18.30:855][  2]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2021.01.21-17.18.30:855][  2]LogOnline:Display: Unloading online subsystem: NULL
-[2021.01.21-17.18.30:855][  2]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2021.01.21-17.18.30:855][  2]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2021.01.21-17.18.30:882][  2]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2021.01.21-17.18.30:883][  2]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2021.01.21-17.18.30:884][  2]LogExit: Exiting.
-[2021.01.21-17.18.30:886][  2]Log file closed, 01/21/21 18:18:30
+[2021.01.21-17.33.33:928][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.21-17.33.33:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.21-17.33.33:945][  0]LogInit: Computer: ELBARTO
+[2021.01.21-17.33.33:945][  0]LogInit: User: aleja
+[2021.01.21-17.33.33:945][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.21-17.33.33:945][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.21-17.33.33:946][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.21-17.33.33:946][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-17.33.33:946][  0]LogMemory: Process Physical Memory: 308.62 MB used, 308.63 MB peak
+[2021.01.21-17.33.33:946][  0]LogMemory: Process Virtual Memory: 279.57 MB used, 279.57 MB peak
+[2021.01.21-17.33.33:946][  0]LogMemory: Physical Memory: 9373.25 MB used,  6977.89 MB free, 16351.14 MB total
+[2021.01.21-17.33.33:946][  0]LogMemory: Virtual Memory: 4908.35 MB used,  6977.89 MB free, 134217728.00 MB total
+[2021.01.21-17.33.34:090][  0]LogInit: Using OS detected language (es-ES).
+[2021.01.21-17.33.34:090][  0]LogInit: Using OS detected locale (es-ES).
+[2021.01.21-17.33.34:096][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2021.01.21-17.33.34:828][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.21-17.33.34:999][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.21-17.33.34:999][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.21-17.33.35:004][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.21-17.33.35:004][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.21-17.33.35:004][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.21-17.33.35:013][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.21-17.33.35:014][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.21-17.33.35:014][  0]LogWindows: EnumDisplayDevices:
+[2021.01.21-17.33.35:014][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.21-17.33.35:015][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.21-17.33.35:015][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.21-17.33.35:016][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.21-17.33.35:016][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.21-17.33.35:016][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.21-17.33.35:016][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.21-17.33.35:016][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.21-17.33.35:016][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.21-17.33.35:155][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.21-17.33.35:176][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.21-17.33.35:182][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/8768/).
+[2021.01.21-17.33.35:182][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/2924CC804C2E2375F30673B9C8FEA1D6/'.
+[2021.01.21-17.33.35:182][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.21-17.33.36:613][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.21-17.33.36:689][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.21-17.33.36:764][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.21-17.33.36:832][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.21-17.33.36:832][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.21-17.33.37:657][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.21-17.33.37:761][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.21-17.33.37:761][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.21-17.33.37:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.21-17.33.37:761][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.21-17.33.37:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.21-17.33.37:761][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.21-17.33.37:779][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.21-17.33.37:792][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.21-17.33.37:804][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.21-17.33.37:804][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.21-17.33.37:805][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.21-17.33.37:805][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.21-17.33.38:356][  0]LogAssetRegistry: FAssetRegistry took 0.0051 seconds to start up
+[2021.01.21-17.33.38:397][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.040103 seconds
+[2021.01.21-17.33.38:524][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.21-17.33.38:613][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2021.01.21-17.33.38:833][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.21-17.33.38:904][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.21-17.33.38:985][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.21-17.33.38:985][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.21-17.33.38:985][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.21-17.33.39:717][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
+[2021.01.21-17.33.41:463][  0]LogMoviePlayer: Initializing movie player
+[2021.01.21-17.33.42:014][  0]LogCollectionManager: Loaded 0 collections in 0.001950 seconds
+[2021.01.21-17.33.42:090][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.21-17.33.42:090][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
+[2021.01.21-17.33.42:090][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.21-17.33.42:090][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2021.01.21-17.33.42:090][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2021.01.21-17.33.43:070][  0]SourceControl: Información El control de código fuente está desactivado
+[2021.01.21-17.33.43:070][  0]SourceControl: Información El control de código fuente está desactivado
+[2021.01.21-17.33.43:153][  0]SourceControl: Información El control de código fuente está desactivado
+[2021.01.21-17.33.43:601][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.21-17.33.44:339][  0]LogUObjectArray: 37227 objects as part of root set at end of initial load.
+[2021.01.21-17.33.44:339][  0]LogUObjectAllocator: 8612576 out of 0 bytes used by permanent object pool.
+[2021.01.21-17.33.44:339][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.21-17.33.44:495][  0]LogEngine: Initializing Engine...
+[2021.01.21-17.33.44:497][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.21-17.33.44:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.21-17.33.44:702][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.21-17.33.44:734][  0]LogInit: XAudio2 using 'PHL 273V5 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-17.33.44:756][  0]LogInit: FAudioDevice initialized.
+[2021.01.21-17.33.44:819][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.21-17.33.44:834][  0]LogInit: Texture streaming: Enabled
+[2021.01.21-17.33.44:855][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.21-17.33.45:243][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2021.01.21-17.33.45:243][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2021.01.21-17.33.45:583][  0]LogInit:Display: Game Engine Initialized.
+[2021.01.21-17.33.45:854][  0]LogInit:Display: Starting Game.
+[2021.01.21-17.33.45:854][  0]LogNet: Browse: /Game/Menu?Name=Player
+[2021.01.21-17.33.45:855][  0]LogLoad: LoadMap: /Game/Menu?Name=Player
+[2021.01.21-17.33.45:876][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-17.33.45:876][  0]LogMemory: Process Physical Memory: 827.66 MB used, 925.81 MB peak
+[2021.01.21-17.33.45:876][  0]LogMemory: Process Virtual Memory: 989.41 MB used, 1014.81 MB peak
+[2021.01.21-17.33.45:876][  0]LogMemory: Physical Memory: 9918.14 MB used,  6433.00 MB free, 16351.14 MB total
+[2021.01.21-17.33.45:876][  0]LogMemory: Virtual Memory: 5885.11 MB used,  6433.00 MB free, 134217728.00 MB total
+[2021.01.21-17.33.45:876][  0]LogMemory: 
+[2021.01.21-17.33.45:876][  0]Allocator Stats for TBB: (not implemented)
+[2021.01.21-17.33.46:191][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.21-17.33.46:192][  0]LogLoad: Game class is 'ModoMenu_C'
+[2021.01.21-17.33.46:195][  0]LogWorld: Bringing World /Game/Menu.Menu up for play (max tick rate 0) at 2021.01.21-18.33.46
+[2021.01.21-17.33.46:195][  0]LogWorld: Bringing up level for play took: 0.000764
+[2021.01.21-17.33.46:199][  0]LogLoad: Took 0.344617 seconds to LoadMap(/Game/Menu)
+[2021.01.21-17.33.46:523][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:1).
+[2021.01.21-17.33.46:523][  0]LogLoad: (Engine Initialization) Total time: 15.65 seconds
+[2021.01.21-17.33.46:523][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.13 seconds
+[2021.01.21-17.33.46:523][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.21-17.33.46:541][  0]LogOcInput: OculusInput pre-init called
+[2021.01.21-17.33.46:541][  0]LogHMD: Starting GearVRController plugin
+[2021.01.21-17.34.32:124][826]LogBlueprintUserMessages: [ModoMenu_C_0] Buscando
+[2021.01.21-17.34.32:124][826]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2021.01.21-17.34.33:390][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 164
+[2021.01.21-17.34.33:390][879]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 164
+[2021.01.21-17.34.33:390][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 14155822
+[2021.01.21-17.34.33:390][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value 14155822
+[2021.01.21-17.34.33:390][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 1
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 1
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 281334
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 281334
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 16196
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value 16196
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 113
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value 113
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 1
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value 1
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data join_in_progress 1
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key join_in_progress value 1
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data lobby_type 0
+[2021.01.21-17.34.33:391][879]LogOnline:Warning: STEAM: Failed to parse setting from key lobby_type value 0
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Carlio90
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Carlio90
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data owner 76561198079887947
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key owner value 76561198079887947
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data publicIP 88.11.4.242
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key publicIP value 88.11.4.242
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42BA29]'
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data AirDropFrequency 72
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key AirDropFrequency value 72
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data AirDropMarker False
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key AirDropMarker value False
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Architecture64 True
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key Architecture64 value True
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BedrollExpiryTime 45
+[2021.01.21-17.34.33:392][879]LogOnline:Warning: STEAM: Failed to parse setting from key BedrollExpiryTime value 45
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamageAI 100
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamageAI value 100
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamageAIBM 100
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamageAIBM value 100
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamagePlayer 100
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamagePlayer value 100
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDurabilityModifier -1
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDurabilityModifier value -1
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonEnemyCount 8
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonEnemyCount value 8
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonFrequency 7
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonFrequency value 7
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonRange 0
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonRange value 0
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonWarning 8
+[2021.01.21-17.34.33:393][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonWarning value 8
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BuildCreate False
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key BuildCreate value False
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CompatibilityVersion Alpha 19.2
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key CompatibilityVersion value Alpha 19.2
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data countrycode ES
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key countrycode value ES
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CurrentPlayers 1
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key CurrentPlayers value 1
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CurrentServerTime 26539
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key CurrentServerTime value 26539
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayCount 3
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayCount value 3
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayLightLength 18
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayLightLength value 18
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayNightLength 60
+[2021.01.21-17.34.33:394][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayNightLength value 60
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DropOnDeath 1
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key DropOnDeath value 1
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DropOnQuit 0
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key DropOnQuit value 0
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EACEnabled False
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key EACEnabled value False
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EnemyDifficulty 0
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key EnemyDifficulty value 0
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EnemySpawnMode True
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key EnemySpawnMode value True
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameDifficulty 1
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameDifficulty value 1
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameHost ALVARO_-26-_
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameHost value ALVARO_-26-_
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameMode Survival
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameMode value Survival
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gamename survival
+[2021.01.21-17.34.33:395][879]LogOnline:Warning: STEAM: Failed to parse setting from key gamename value survival
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameType 7DTD
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameType value 7DTD
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IP 84.125.237.170
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key IP value 84.125.237.170
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsDedicated False
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsDedicated value False
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsPasswordProtected False
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsPasswordProtected value False
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsPublic True
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsPublic value True
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimCount 1
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimCount value 1
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimDeadZone 30
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimDeadZone value 30
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimDecayMode 0
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimDecayMode value 0
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimExpiryTime 7
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimExpiryTime value 7
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOfflineDelay 0
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOfflineDelay value 0
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOfflineDurabilityModifier 4
+[2021.01.21-17.34.33:396][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOfflineDurabilityModifier value 4
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOnlineDurabilityModifier 4
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOnlineDurabilityModifier value 4
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimSize 41
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimSize value 41
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LevelName Navezgane
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key LevelName value Navezgane
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LootAbundance 100
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key LootAbundance value 100
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LootRespawnDays 30
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key LootRespawnDays value 30
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxPlayers 8
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxPlayers value 8
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxSpawnedAnimals 50
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxSpawnedAnimals value 50
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxSpawnedZombies 64
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxSpawnedZombies value 64
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ModdedConfig False
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key ModdedConfig value False
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PartySharedKillRange 100
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key PartySharedKillRange value 100
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ping -1
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key ping value -1
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data platform WindowsPlayer
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key platform value WindowsPlayer
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PlayerKillingMode 2
+[2021.01.21-17.34.33:397][879]LogOnline:Warning: STEAM: Failed to parse setting from key PlayerKillingMode value 2
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Port 26900
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key Port value 26900
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data RequiresMod False
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key RequiresMod value False
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ServerVisibility 2
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key ServerVisibility value 2
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ShowFriendPlayerOnMap True
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key ShowFriendPlayerOnMap value True
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamID 90142218388254730
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key SteamID value 90142218388254730
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data StockFiles True
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key StockFiles value True
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data StockSettings True
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key StockSettings value True
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data version Alpha.19.2.4
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key version value Alpha.19.2.4
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data XPMultiplier 100
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key XPMultiplier value 100
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieBMMove 0
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieBMMove value 0
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieFeralMove 0
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieFeralMove value 0
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieMove 0
+[2021.01.21-17.34.33:398][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieMove value 0
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieMoveNight 0
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieMoveNight value 0
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombiesRun -1
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombiesRun value -1
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B429C65]'
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data cty ES
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key cty value ES
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gi4 223000002
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key gi4 value 223000002
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gib 1280b
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key gib value 1280b
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic0 7
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic0 value 7
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic1 e10
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic1 value e10
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic10 0
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic10 value 0
+[2021.01.21-17.34.33:399][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic11 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic11 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic12 4
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic12 value 4
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic2 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic2 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic3 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic3 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic4 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic4 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic5 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic5 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic6 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic6 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic7 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic7 value 0
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic8 6bf7f000
+[2021.01.21-17.34.33:400][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic8 value 6bf7f000
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gic9 90d5c700
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key gic9 value 90d5c700
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gicn 13
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key gicn value 13
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gisn 1
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key gisn value 1
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data giun 2
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key giun value 2
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gname incontinencia suma
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key gname value incontinencia suma
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Host [BST2] Erwing
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key Host value [BST2] Erwing
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data itim 46a
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key itim value 46a
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data maxal 2
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key maxal value 2
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data mig 1
+[2021.01.21-17.34.33:401][879]LogOnline:Warning: STEAM: Failed to parse setting from key mig value 1
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data platform WIN
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key platform value WIN
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data plyrs 1000200
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key plyrs value 1000200
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PW 1
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key PW value 1
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data pwcs 97100005
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key pwcs value 97100005
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data rk 0
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key rk value 0
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data sts 1
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key sts value 1
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data type 00incontinencia suma
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key type value 00incontinencia suma
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ver 10e?4c4e?14cb8a78?0?e259a412
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key ver value 10e?4c4e?14cb8a78?0?e259a412
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 43678135
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 43678135
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 51914
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 51914
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90142218863104002
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90142218863104002
+[2021.01.21-17.34.33:402][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42B22B]'
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 2
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 2
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid fb84640e-5c28-4c1b-bb27-de105ed11f53
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key guid value fb84640e-5c28-4c1b-bb27-de105ed11f53
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name wolfs (theenderpro2009)
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value wolfs (theenderpro2009)
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data prefabdbversion 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key prefabdbversion value 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90142218785334273
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90142218785334273
+[2021.01.21-17.34.33:403][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42AD5B]'
+[2021.01.21-17.34.33:404][879]LogNetVersion: Multijugador 1.0.0.0, NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4068902597)
+[2021.01.21-17.34.33:404][879]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x2ff5c605, GetBuildUniqueId() = 0x6e446ff0
+[2021.01.21-17.34.33:404][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42A9C4]'
+[2021.01.21-17.34.33:405][879]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x00454c8a, GetBuildUniqueId() = 0x6e446ff0
+[2021.01.21-17.34.33:405][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42BE5E]'
+[2021.01.21-17.34.33:405][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 3
+[2021.01.21-17.34.33:405][879]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 3
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 1d6f04ff-777d-4782-a68e-3ea4998e483a
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 1d6f04ff-777d-4782-a68e-3ea4998e483a
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name mikaela (ramosoneto71)
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value mikaela (ramosoneto71)
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data prefabdbversion 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key prefabdbversion value 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90142218188517377
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90142218188517377
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B4291DD]'
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 0 164
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key 0 value 164
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1 4980769
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1 value 4980769
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2 1
+[2021.01.21-17.34.33:406][879]LogOnline:Warning: STEAM: Failed to parse setting from key 2 value 1
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 3 315150
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key 3 value 315150
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 4 12
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key 4 value 12
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 5 12
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key 5 value 12
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 6 8
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key 6 value 8
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data join_in_progress 1
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key join_in_progress value 1
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data lobby_type 0
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key lobby_type value 0
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Nogibyts
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Nogibyts
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data owner 76561198090531159
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key owner value 76561198090531159
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data publicIP 79.155.143.18
+[2021.01.21-17.34.33:407][879]LogOnline:Warning: STEAM: Failed to parse setting from key publicIP value 79.155.143.18
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42B17B]'
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BinaryData AFBhbmRhTkMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAARL1n84ADgAAAI8LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAjwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAACPAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAC8WAJtRYAAAAAYAm1ZwAAAABgCbVnAAcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAEAAg==
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Failed to parse setting from key BinaryData value AFBhbmRhTkMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAARL1n84ADgAAAI8LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAjwIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAACPAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAC8WAJtRYAAAAAYAm1ZwAAAABgCbVnAAcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEABAEAAg==
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BinarySize 253
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Failed to parse setting from key BinarySize value 253
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsBehindNAT true
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsBehindNAT value true
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MemberList {}
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Failed to parse setting from key MemberList value {}
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name PandaNC
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value PandaNC
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data OwnerID 0110000112F59FCE
+[2021.01.21-17.34.33:408][879]LogOnline:Warning: STEAM: Failed to parse setting from key OwnerID value 0110000112F59FCE
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey0 413161
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey0 value 413161
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey1 17
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey1 value 17
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey2 0
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey2 value 0
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey3 510000
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey3 value 510000
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey4 7
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey4 value 7
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey5 3
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey5 value 3
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey6 1
+[2021.01.21-17.34.33:409][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey6 value 1
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKeyNum 7
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKeyNum value 7
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPrivateMax 0
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPrivateMax value 0
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPrivateOpen 0
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPrivateOpen value 0
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPublicMax 4
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPublicMax value 4
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPublicOpen 3
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPublicOpen value 3
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42B34E]'
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data AirDropFrequency 72
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key AirDropFrequency value 72
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data AirDropMarker True
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key AirDropMarker value True
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Architecture64 True
+[2021.01.21-17.34.33:410][879]LogOnline:Warning: STEAM: Failed to parse setting from key Architecture64 value True
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BedrollExpiryTime 45
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BedrollExpiryTime value 45
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamageAI 100
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamageAI value 100
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamageAIBM 100
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamageAIBM value 100
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamagePlayer 100
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamagePlayer value 100
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDurabilityModifier -1
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDurabilityModifier value -1
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonEnemyCount 8
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonEnemyCount value 8
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonFrequency 7
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonFrequency value 7
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonRange 0
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonRange value 0
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonWarning 8
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonWarning value 8
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BuildCreate True
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key BuildCreate value True
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CompatibilityVersion Alpha 19.2
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key CompatibilityVersion value Alpha 19.2
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data countrycode XX
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key countrycode value XX
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CurrentPlayers 1
+[2021.01.21-17.34.33:411][879]LogOnline:Warning: STEAM: Failed to parse setting from key CurrentPlayers value 1
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CurrentServerTime 17274
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key CurrentServerTime value 17274
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayCount 3
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayCount value 3
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayLightLength 18
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayLightLength value 18
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayNightLength 60
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayNightLength value 60
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DropOnDeath 1
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key DropOnDeath value 1
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DropOnQuit 0
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key DropOnQuit value 0
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EACEnabled False
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key EACEnabled value False
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EnemyDifficulty 0
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key EnemyDifficulty value 0
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EnemySpawnMode True
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key EnemySpawnMode value True
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameDifficulty 1
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameDifficulty value 1
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameHost Alex-4u-1380
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameHost value Alex-4u-1380
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameMode Survival
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameMode value Survival
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gamename Prueba
+[2021.01.21-17.34.33:412][879]LogOnline:Warning: STEAM: Failed to parse setting from key gamename value Prueba
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameType 7DTD
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameType value 7DTD
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IP 37.11.108.221
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key IP value 37.11.108.221
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsDedicated False
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsDedicated value False
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsPasswordProtected True
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsPasswordProtected value True
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsPublic True
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsPublic value True
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimCount 1
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimCount value 1
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimDeadZone 30
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimDeadZone value 30
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimDecayMode 0
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimDecayMode value 0
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimExpiryTime 7
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimExpiryTime value 7
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOfflineDelay 0
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOfflineDelay value 0
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOfflineDurabilityModifier 4
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOfflineDurabilityModifier value 4
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOnlineDurabilityModifier 4
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOnlineDurabilityModifier value 4
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimSize 41
+[2021.01.21-17.34.33:413][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimSize value 41
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LevelName Navezgane
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key LevelName value Navezgane
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LootAbundance 100
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key LootAbundance value 100
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LootRespawnDays 30
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key LootRespawnDays value 30
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxPlayers 8
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxPlayers value 8
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxSpawnedAnimals 50
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxSpawnedAnimals value 50
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxSpawnedZombies 64
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxSpawnedZombies value 64
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ModdedConfig False
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key ModdedConfig value False
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PartySharedKillRange 100
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key PartySharedKillRange value 100
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ping -1
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key ping value -1
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data platform WindowsPlayer
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key platform value WindowsPlayer
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PlayerKillingMode 2
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key PlayerKillingMode value 2
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Port 26900
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key Port value 26900
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data RequiresMod False
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key RequiresMod value False
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ServerVisibility 2
+[2021.01.21-17.34.33:414][879]LogOnline:Warning: STEAM: Failed to parse setting from key ServerVisibility value 2
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ShowFriendPlayerOnMap True
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key ShowFriendPlayerOnMap value True
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamID 90142218343854086
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key SteamID value 90142218343854086
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data StockFiles True
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key StockFiles value True
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data StockSettings False
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key StockSettings value False
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data version Alpha.19.2.4
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key version value Alpha.19.2.4
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data XPMultiplier 125
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key XPMultiplier value 125
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieBMMove 3
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieBMMove value 3
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieFeralMove 3
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieFeralMove value 3
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieMove 0
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieMove value 0
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieMoveNight 3
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieMoveNight value 3
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombiesRun -1
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombiesRun value -1
+[2021.01.21-17.34.33:415][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B429815]'
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 6
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 6
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid e6e37ba3-073e-4ebb-85e4-6ae005c4a781
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key guid value e6e37ba3-073e-4ebb-85e4-6ae005c4a781
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Ayuda por favooooooooooor (byrafita4)
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Ayuda por favooooooooooor (byrafita4)
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data prefabdbversion 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key prefabdbversion value 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90142214604184586
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90142214604184586
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B423EC9]'
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CONMETHOD P2P
+[2021.01.21-17.34.33:416][879]LogOnline:Warning: STEAM: Failed to parse setting from key CONMETHOD value P2P
+[2021.01.21-17.34.33:417][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B429662]'
+[2021.01.21-17.34.33:417][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data AirDropFrequency 24
+[2021.01.21-17.34.33:417][879]LogOnline:Warning: STEAM: Failed to parse setting from key AirDropFrequency value 24
+[2021.01.21-17.34.33:417][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data AirDropMarker False
+[2021.01.21-17.34.33:417][879]LogOnline:Warning: STEAM: Failed to parse setting from key AirDropMarker value False
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Architecture64 True
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key Architecture64 value True
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BedrollExpiryTime 45
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BedrollExpiryTime value 45
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamageAI 100
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamageAI value 100
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamageAIBM 100
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamageAIBM value 100
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDamagePlayer 100
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDamagePlayer value 100
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BlockDurabilityModifier -1
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BlockDurabilityModifier value -1
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonEnemyCount 8
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonEnemyCount value 8
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonFrequency 7
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonFrequency value 7
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonRange 0
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonRange value 0
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BloodMoonWarning 8
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BloodMoonWarning value 8
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BuildCreate False
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key BuildCreate value False
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CompatibilityVersion Alpha 19.2
+[2021.01.21-17.34.33:418][879]LogOnline:Warning: STEAM: Failed to parse setting from key CompatibilityVersion value Alpha 19.2
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data countrycode ES
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key countrycode value ES
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CurrentPlayers 2
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key CurrentPlayers value 2
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data CurrentServerTime 1615766
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key CurrentServerTime value 1615766
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayCount 3
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayCount value 3
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayLightLength 18
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayLightLength value 18
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DayNightLength 90
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key DayNightLength value 90
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DropOnDeath 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key DropOnDeath value 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data DropOnQuit 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key DropOnQuit value 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EACEnabled False
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key EACEnabled value False
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EnemyDifficulty 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key EnemyDifficulty value 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data EnemySpawnMode True
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key EnemySpawnMode value True
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameDifficulty 0
+[2021.01.21-17.34.33:419][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameDifficulty value 0
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameHost Brv dm
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameHost value Brv dm
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameMode Survival
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameMode value Survival
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data gamename BRAVO2021
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key gamename value BRAVO2021
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data GameType 7DTD
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key GameType value 7DTD
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IP 82.158.113.221
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key IP value 82.158.113.221
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsDedicated False
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsDedicated value False
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsPasswordProtected True
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsPasswordProtected value True
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsPublic True
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsPublic value True
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimCount 1
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimCount value 1
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimDeadZone 30
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimDeadZone value 30
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimDecayMode 0
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimDecayMode value 0
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimExpiryTime 7
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimExpiryTime value 7
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOfflineDelay 0
+[2021.01.21-17.34.33:420][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOfflineDelay value 0
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOfflineDurabilityModifier 4
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOfflineDurabilityModifier value 4
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimOnlineDurabilityModifier 4
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimOnlineDurabilityModifier value 4
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LandClaimSize 41
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key LandClaimSize value 41
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LevelName Navezgane
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key LevelName value Navezgane
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LootAbundance 100
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key LootAbundance value 100
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data LootRespawnDays 30
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key LootRespawnDays value 30
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxPlayers 8
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxPlayers value 8
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxSpawnedAnimals 50
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxSpawnedAnimals value 50
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MaxSpawnedZombies 64
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key MaxSpawnedZombies value 64
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ModdedConfig False
+[2021.01.21-17.34.33:421][879]LogOnline:Warning: STEAM: Failed to parse setting from key ModdedConfig value False
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PartySharedKillRange 100
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key PartySharedKillRange value 100
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ping -1
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key ping value -1
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data platform WindowsPlayer
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key platform value WindowsPlayer
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data PlayerKillingMode 2
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key PlayerKillingMode value 2
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data Port 26900
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key Port value 26900
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data RequiresMod False
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key RequiresMod value False
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ServerVisibility 2
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key ServerVisibility value 2
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ShowFriendPlayerOnMap True
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key ShowFriendPlayerOnMap value True
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SteamID 90142217914084363
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key SteamID value 90142217914084363
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data StockFiles True
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key StockFiles value True
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data StockSettings False
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key StockSettings value False
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data version Alpha.19.2.4
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key version value Alpha.19.2.4
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data XPMultiplier 100
+[2021.01.21-17.34.33:422][879]LogOnline:Warning: STEAM: Failed to parse setting from key XPMultiplier value 100
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieBMMove 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieBMMove value 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieFeralMove 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieFeralMove value 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieMove 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieMove value 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombieMoveNight 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombieMoveNight value 0
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data ZombiesRun -1
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key ZombiesRun value -1
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B4285E7]'
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BinaryData AAAASAAAAAAAAAEAAAAA/////wEAAABSYXBoaXN0YQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAEC7JeOAAUAAAAEAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key BinaryData value AAAASAAAAAAAAAEAAAAA/////wEAAABSYXBoaXN0YQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAEC7JeOAAUAAAAEAIwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data BinarySize 192
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key BinarySize value 192
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data IsBehindNAT true
+[2021.01.21-17.34.33:423][879]LogOnline:Warning: STEAM: Failed to parse setting from key IsBehindNAT value true
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data MemberList {"76561198009325454": {"Name":"Raphista","HR":"4","MR":"0"}}
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key MemberList value {"76561198009325454": {"Name":"Raphista","HR":"4","MR":"0"}}
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Raphista
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Raphista
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data OwnerID 0110000102EC978E
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key OwnerID value 0110000102EC978E
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey0 537284073
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey0 value 537284073
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey1 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey1 value 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey2 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey2 value 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey3 1
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey3 value 1
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey4 3
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey4 value 3
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey5 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey5 value 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey6 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey6 value 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKey7 5
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKey7 value 5
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SearchKeyNum 8
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SearchKeyNum value 8
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPrivateMax 0
+[2021.01.21-17.34.33:424][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPrivateMax value 0
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPrivateOpen 0
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPrivateOpen value 0
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPublicMax 16
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPublicMax value 16
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data SlotPublicOpen 15
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key SlotPublicOpen value 15
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B426E3D]'
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data currentmembers 3
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key currentmembers value 3
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data guid 232566ea-1588-4c6c-b3fe-adb5db1fa6ac
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key guid value 232566ea-1588-4c6c-b3fe-adb5db1fa6ac
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Zed the best champ (mcapelru)
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Zed the best champ (mcapelru)
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data prefabdbversion 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:425][879]LogOnline:Warning: STEAM: Failed to parse setting from key prefabdbversion value 95F414C35DF064A69E628D8344EE5FAC1D8406506A1C0929B8629C37EA18B5C4
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90142218332361735
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90142218332361735
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B4299DA]'
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data actual_password 3a5d7b6f542fcbaaefc5d6efd3d25d84
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key actual_password value 3a5d7b6f542fcbaaefc5d6efd3d25d84
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data desc eu4
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key desc value eu4
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data mod eu4
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key mod value eu4
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Tu hermana tiene la mejo
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Tu hermana tiene la mejo
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data password 1
+[2021.01.21-17.34.33:426][879]LogOnline:Warning: STEAM: Failed to parse setting from key password value 1
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data status RUNNING;EU4 v1.30.1.0 Austria (583f);3a5d7b6f542fcbaaefc5d6efd3d25d84
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key status value RUNNING;EU4 v1.30.1.0 Austria (583f);3a5d7b6f542fcbaaefc5d6efd3d25d84
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data version EU4 v1.30.1.0 Austria (583f)
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key version value EU4 v1.30.1.0 Austria (583f)
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverIP 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverIP value 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverPort 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverPort value 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data __gameserverSteamID 90142218937897988
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key __gameserverSteamID value 90142218937897988
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42B32D]'
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000012 13300
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000012 value 13300
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000015 16778752
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000015 value 16778752
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000017 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000017 value 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000003c 14
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000003c value 14
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000003d 65536
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000003d value 65536
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000050 0
+[2021.01.21-17.34.33:427][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000050 value 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000052 1000
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000052 value 1000
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000088 367
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000088 value 367
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000089 38
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000089 value 38
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008a -2
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008a value -2
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008b -92919561
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008b value -92919561
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008c 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008c value 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008d 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008d value 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 100000aa 1
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 100000aa value 1
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000003b 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 2000003b value 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000083 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000083 value 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000084 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000084 value 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000085 0
+[2021.01.21-17.34.33:428][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000085 value 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000086 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000086 value 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000087 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000087 value 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 800a 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key 800a value 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 800b 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key 800b value 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 9 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key 9 value 0
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name Pollito2k
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value Pollito2k
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data owner 76561198047238588
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key owner value 76561198047238588
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data players_cnt 1
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Failed to parse setting from key players_cnt value 1
+[2021.01.21-17.34.33:429][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42AF95]'
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Removed incompatible build: ServerBuildUniqueId = 0x5a73f8c0, GetBuildUniqueId() = 0x6e446ff0
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42BEE2]'
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000012 13100
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000012 value 13100
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000015 16777991
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000015 value 16777991
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000017 0
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000017 value 0
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000003c 14
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000003c value 14
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000003d 65536
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000003d value 65536
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000050 0
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000050 value 0
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000052 1000
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000052 value 1000
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000088 435
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000088 value 435
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 10000089 22
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 10000089 value 22
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008a -2
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008a value -2
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008b -92919561
+[2021.01.21-17.34.33:431][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008b value -92919561
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008c 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008c value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 1000008d 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 1000008d value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 100000aa 1
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 100000aa value 1
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 2000003b 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 2000003b value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000083 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000083 value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000084 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000084 value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000085 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000085 value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000086 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000086 value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 20000087 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 20000087 value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 800a 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 800a value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 800b 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 800b value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data 9 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key 9 value 0
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data name GANIFO
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key name value GANIFO
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data owner 76561198254656363
+[2021.01.21-17.34.33:432][879]LogOnline:Warning: STEAM: Failed to parse setting from key owner value 76561198254656363
+[2021.01.21-17.34.33:433][879]LogOnline:Warning: Unknown or unsupported data type from Steam key data players_cnt 2
+[2021.01.21-17.34.33:433][879]LogOnline:Warning: STEAM: Failed to parse setting from key players_cnt value 2
+[2021.01.21-17.34.33:433][879]LogOnline:Warning: STEAM: Unable to parse search result for lobby 'Lobby [0x18600000B42BFC3]'
+[2021.01.21-17.34.33:433][879]LogBlueprintUserMessages: [ModoMenu_C_0] Exito
+[2021.01.21-17.34.38:192][174]LogBlueprintUserMessages: [ModoMenu_C_0] Conectarse
+[2021.01.21-17.34.38:192][174]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2021.01.21-17.34.38:546][196]LogNet: Browse: steam.76561198173410073//Game/Menu
+[2021.01.21-17.34.38:546][196]LogTemp:Display: ParseSettings for GameNetDriver
+[2021.01.21-17.34.38:546][196]LogTemp:Display: ParseSettings for SteamNetDriver_0
+[2021.01.21-17.34.38:546][196]LogTemp:Display: ParseSettings for PendingNetDriver
+[2021.01.21-17.34.38:547][196]LogNet:Display: SteamNetDriver_0 bound to port 7777
+[2021.01.21-17.34.38:547][196]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.21-17.34.38:547][196]LogNet: Game client on port 7777, rate 10000
+[2021.01.21-17.34.38:547][196]LogNet: UPendingNetGame::InitNetDriver: Sending hello. [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: PendingNetDriver SteamNetDriver_0, IsServer: NO, PC: NULL, Owner: NULL
+[2021.01.21-17.34.41:337][369]LogHandshake: SendChallengeResponse. Timestamp: 19.132395, Cookie: 155039012156018159215121209143197038064006166002144223003209
+[2021.01.21-17.34.41:338][369]LogHandshake: SendChallengeResponse. Timestamp: 19.132395, Cookie: 155039012156018159215121209143197038064006166002144223003209
+[2021.01.21-17.34.41:338][369]LogHandshake: SendChallengeResponse. Timestamp: 19.132395, Cookie: 155039012156018159215121209143197038064006166002144223003209
+[2021.01.21-17.34.41:483][378]LogNet: Welcomed by server (Level: /Game/Campo, Game: /Game/ModoJuego.ModoJuego_C)
+[2021.01.21-17.34.41:483][378]LogLoad: LoadMap: steam.76561198173410073//Game/Campo?game=/Game/ModoJuego.ModoJuego_C
+[2021.01.21-17.34.41:506][378]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-17.34.41:506][378]LogMemory: Process Physical Memory: 751.08 MB used, 925.81 MB peak
+[2021.01.21-17.34.41:506][378]LogMemory: Process Virtual Memory: 1161.41 MB used, 1314.86 MB peak
+[2021.01.21-17.34.41:506][378]LogMemory: Physical Memory: 9742.63 MB used,  6608.51 MB free, 16351.14 MB total
+[2021.01.21-17.34.41:506][378]LogMemory: Virtual Memory: 6125.79 MB used,  6608.51 MB free, 134217728.00 MB total
+[2021.01.21-17.34.41:506][378]LogMemory: 
+[2021.01.21-17.34.41:506][378]Allocator Stats for TBB: (not implemented)
+[2021.01.21-17.34.41:935][378]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.21-17.34.41:935][378]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.21-17.34.41:936][378]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
+[2021.01.21-17.34.41:936][378]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
+[2021.01.21-17.34.41:938][378]LogLinker:Warning: No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.21-17.34.41:938][378]LoadErrors: Información Error al cargar /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenciado por Cube_GEN_VARIABLE
+[2021.01.21-17.34.41:938][378]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo '/Game/StarterContent/Materials/M_Metal_Copper'
+[2021.01.21-17.34.41:938][378]LogLinker:Warning: No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
+[2021.01.21-17.34.41:938][378]LoadErrors: Información Error al cargar /Game/StarterContent/Materials/M_Metal_Copper.M_Metal_Copper Referenciado por Cube_GEN_VARIABLE
+[2021.01.21-17.34.41:938][378]LogUObjectGlobals:Warning: Error al cargar '/Game/StarterContent/Materials/M_Metal_Copper': No puede encontrar el archivo para el activo '/Game/StarterContent/Materials/M_Metal_Copper' mientras carga NULL.
+[2021.01.21-17.34.42:087][378]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-17.34.42:087][378]LogTemp:Display: ParseSettings for GameNetDriver
+[2021.01.21-17.34.42:104][378]LogWorld: Bringing World /Game/Campo.Campo up for play (max tick rate 0) at 2021.01.21-18.34.42
+[2021.01.21-17.34.42:105][378]LogWorld: Bringing up level for play took: 0.016202
+[2021.01.21-17.34.42:106][378]LogLoad: Took 0.622705 seconds to LoadMap(/Game/Campo)
+[2021.01.21-17.34.42:158][378]LogNet:Warning: Dropped 1 packets due to congestion in the voicechannel
+[2021.01.21-17.34.53:043][ 52]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.53:043][ 52]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.53:043][ 52]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.53:043][ 52]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.53:059][ 53]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.53:059][ 53]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.53:059][ 53]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.53:059][ 53]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.53:091][ 55]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.53:091][ 55]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.53:091][ 55]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.53:091][ 55]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.58:235][374]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.34.58:235][374]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.34.58:251][375]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.34.58:251][375]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.34.58:284][377]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.34.58:284][377]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.34.59:478][451]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.59:478][451]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.59:494][452]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.59:494][452]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.59:511][453]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.59:511][453]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.59:789][470]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.59:789][470]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.34.59:789][470]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.34.59:789][470]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.14:786][400]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.14:786][400]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.14:786][400]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.14:786][400]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.19:786][710]LogCharacterMovement: Jugador_C_1 is stuck and failed to move! Velocity: X=297.00 Y=-93.00 Z=0.00 Location: X=-31718.63 Y=-16297.18 Z=278.15 Normal: X=-0.69 Y=0.72 Z=0.00 PenetrationDepth:7.854 Actor:Pelota_Base_C_2 Component:Sphere BoneName:None (0 other events since notify)
+[2021.01.21-17.35.19:786][710]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.19:786][710]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.19:786][710]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.19:786][710]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:537][872]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:537][872]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:537][872]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:537][872]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:553][873]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:553][873]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:553][873]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:553][873]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:569][874]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:569][874]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:569][874]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:569][874]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:585][875]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:585][875]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:585][875]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:585][875]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.38:601][876]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.38:601][876]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:829][510]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:829][510]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:845][511]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:845][511]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:846][511]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:846][511]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:861][512]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:861][512]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:861][512]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:861][512]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:878][513]LogCharacterMovement: Jugador_C_1 is stuck and failed to move! Velocity: X=473.00 Y=370.00 Z=0.00 Location: X=-34563.40 Y=-16185.72 Z=278.15 Normal: X=-0.08 Y=-1.00 Z=0.00 PenetrationDepth:10.534 Actor:Pelota_Base_C_38 Component:Sphere BoneName:None (0 other events since notify)
+[2021.01.21-17.35.48:878][513]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:878][513]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:878][513]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:878][513]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:893][514]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:893][514]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:909][515]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:910][515]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:910][515]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:910][515]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:975][519]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:975][519]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.48:990][520]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.48:990][520]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:006][521]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:006][521]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:006][521]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:006][521]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:022][522]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:022][522]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:022][522]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:022][522]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:039][523]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:039][523]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:039][523]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:039][523]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:055][524]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:055][524]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:055][524]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:055][524]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:071][525]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:071][525]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:071][525]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:071][525]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:088][526]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:088][526]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:103][527]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:103][527]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:119][528]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:119][528]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:135][529]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:135][529]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:136][529]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:136][529]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:151][530]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:151][530]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:151][530]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:151][530]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:167][531]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:167][531]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:168][531]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:168][531]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:200][533]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:200][533]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:200][533]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.49:200][533]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.49:958][580]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.35.49:958][580]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.49:958][580]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.35.49:958][580]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.49:974][581]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.35.49:974][581]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.49:974][581]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.35.49:974][581]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.50:007][583]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.35.50:007][583]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.50:007][583]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-17.35.50:007][583]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-17.35.54:667][872]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.54:667][872]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.54:699][874]LogCharacterMovement: Jugador_C_1 is stuck and failed to move! Velocity: X=244.00 Y=469.00 Z=0.00 Location: X=-34168.23 Y=-16079.00 Z=278.15 Normal: X=-0.68 Y=-0.73 Z=0.00 PenetrationDepth:0.457 Actor:Pelota_Base_C_47 Component:Sphere BoneName:None (0 other events since notify)
+[2021.01.21-17.35.54:699][874]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.54:699][874]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.54:699][874]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-17.35.54:699][874]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-17.35.59:669][180]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.01.21-17.35.59:674][180]LogEngine: All Windows Closed
+[2021.01.21-17.35.59:674][180]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.01.21-17.36.00:569][181]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2021.01.21-17.36.00:569][181]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2021.01.21-17.36.00:569][181]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, Channels: 21, Time: 2021.01.21-17.36.00
+[2021.01.21-17.36.00:569][181]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1
+[2021.01.21-17.36.00:569][181]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2021.01.21-17.36.00:581][181]LogExit: Preparing to exit.
+[2021.01.21-17.36.00:581][181]LogMoviePlayer: Shutting down movie player
+[2021.01.21-17.36.00:722][181]LogExit: Game engine shut down
+[2021.01.21-17.36.00:789][181]LogObj: Freed 0b from 0 cluster array pools.
+[2021.01.21-17.36.00:789][181]LogExit: Object subsystem successfully closed.
+[2021.01.21-17.36.00:809][181]LogD3D11RHI: Shutdown
+[2021.01.21-17.36.00:809][181]LogD3D11RHI: CleanupD3DDevice
+[2021.01.21-17.36.00:872][181]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (298)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module SequenceRecorder (296)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module AutomationController (294)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module AutomationWorker (292)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module AIModule (290)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module AITestSuite (287)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (284)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (282)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (280)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module Media (279)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module CharacterAI (276)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module SessionServices (274)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (272)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (270)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module MovieScene (268)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module Niagara (262)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module NiagaraEditor (261)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (258)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module PortalServices (256)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
+[2021.01.21-17.36.00:881][181]LogModuleManager: Shutting down and abandoning module ProfilerService (250)
+[2021.01.21-17.36.00:893][181]LogModuleManager: Shutting down and abandoning module TaskGraph (248)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module SteamVRController (246)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module SteamVR (244)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (242)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module OculusLibrary (240)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module OculusInput (238)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (236)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (234)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module CableComponent (232)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (230)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module AndroidPermission (228)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module HTML5Networking (224)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (222)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module DesktopPlatform (221)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module HotReload (219)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module UObjectPlugin (216)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (214)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (212)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module SourceControl (211)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (208)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module PhysXVehicles (206)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (204)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (202)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (200)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module FacialAnimation (192)
+[2021.01.21-17.36.00:894][181]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (190)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module GraphEditor (189)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module ContentBrowser (187)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module CollectionManager (186)
+[2021.01.21-17.36.00:895][181]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' was aborted.
+[2021.01.21-17.36.00:895][181]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' was aborted.
+[2021.01.21-17.36.00:895][181]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' was aborted.
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (185)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (180)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module Paper2D (178)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (176)
+[2021.01.21-17.36.00:895][181]LogModuleManager: Shutting down and abandoning module WmfMedia (174)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (172)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (170)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module MediaAssets (168)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (166)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module VREditor (164)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module StringTableEditor (162)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (160)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (158)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module FunctionalTesting (156)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (154)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module UMG (152)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module UMGEditor (151)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module Sequencer (150)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module AssetTools (148)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module MessageLog (147)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (146)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module SlateReflector (140)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module Slate (138)
+[2021.01.21-17.36.00:897][181]LogModuleManager: Shutting down and abandoning module EditorStyle (136)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module Messaging (134)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (132)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (130)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module XAudio2 (128)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module Networking (126)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module Core (124)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module KismetCompiler (122)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module LevelSequence (120)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module PhysXFormats (118)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module MeshUtilities (116)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (115)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (113)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (111)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module AssetRegistry (108)
+[2021.01.21-17.36.00:899][181]LogModuleManager: Shutting down and abandoning module DerivedDataCache (106)
+[2021.01.21-17.36.00:941][181]LogDerivedDataCache: Shutdown
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module TargetPlatform (104)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (103)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (101)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (99)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (97)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (95)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (93)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (91)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (89)
+[2021.01.21-17.36.00:941][181]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (87)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (85)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module ImageWrapper (84)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (81)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (79)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (77)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (75)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (73)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (71)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (69)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (67)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module OculusRift (60)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module GearVRController (58)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module GearVR (56)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
+[2021.01.21-17.36.00:942][181]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
+[2021.01.21-17.36.00:942][181]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.21-17.36.00:942][181]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-17.36.01:073][181]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-17.36.01:073][181]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-17.36.01:073][181]LogOnline:Display: Unloading online subsystem: STEAM
+[2021.01.21-17.36.01:073][181]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.21-17.36.01:073][181]LogOnline:Display: Unloading online subsystem: NULL
+[2021.01.21-17.36.01:073][181]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2021.01.21-17.36.01:073][181]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2021.01.21-17.36.01:074][181]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2021.01.21-17.36.01:076][181]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2021.01.21-17.36.01:076][181]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2021.01.21-17.36.01:076][181]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2021.01.21-17.36.01:076][181]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2021.01.21-17.36.01:076][181]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.01.21-17.36.01:077][181]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.01.21-17.36.01:080][181]LogExit: Exiting.
+[2021.01.21-17.36.01:081][181]Log file closed, 01/21/21 18:36:01

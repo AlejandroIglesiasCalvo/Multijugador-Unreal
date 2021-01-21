@@ -350,3 +350,118 @@ Make sure 'ModoJuego' has been compiled for  Set IdentificadorJugador
 [2021.01.21-17.18.10:089][641]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/UEDPCCampo5DC3C43743EB8EB366F227A90344C18C.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap'
 [2021.01.21-17.18.10:091][641]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap
 [2021.01.21-17.18.10:100][641]LogEditorTransaction: Undo Spawn Play From Here Start
+[2021.01.21-17.19.31:912][513]LogTemp: Repeting last play command: Standalone Game
+[2021.01.21-17.19.32:095][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2021.01.21-17.19.32:499][513]LogSavePackage: Save=363.63ms
+[2021.01.21-17.19.32:499][513]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/UEDPCCampoD143DAE547AE305C7DE5839F7AB06982.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap'
+[2021.01.21-17.19.32:501][513]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap
+[2021.01.21-17.19.32:510][513]LogEditorTransaction: Undo Spawn Play From Here Start
+[2021.01.21-17.20.27:835][562]LogAIModule: Creating AISystem for world Menu
+[2021.01.21-17.20.27:866][562]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.21-17.20.27:866][562]LightingResults: New page: Lighting Build
+[2021.01.21-17.20.27:867][562]LoadErrors: New page: Loading map: Menu.umap
+[2021.01.21-17.20.27:880][562]MapCheck: New page: Map Check
+[2021.01.21-17.20.27:880][562]LightingResults: New page: Lighting Build
+[2021.01.21-17.20.28:050][562]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.21-17.20.28:117][562]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.21-17.20.28:225][562]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 107.818ms to complete.
+[2021.01.21-17.20.28:225][562]LogFileHelpers: Loading map 'Menu' took 0.360
+[2021.01.21-17.20.29:626][719]LogTemp: Repeting last play command: Standalone Game
+[2021.01.21-17.20.29:808][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2021.01.21-17.20.29:990][719]LogSavePackage: Save=133.86ms
+[2021.01.21-17.20.29:990][719]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/UEDPCMenuC0058C954B3711E1EBD34786292A094C.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCMenu.umap'
+[2021.01.21-17.20.29:992][719]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCMenu.umap
+[2021.01.21-17.20.30:000][719]LogEditorTransaction: Undo Spawn Play From Here Start
+[2021.01.21-17.24.38:161][995]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.01.21-17.24.38:251][996]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Multijugador
+[2021.01.21-17.24.38:252][996]LogTemp: CWD: F:\Juegos Epic\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.21-17.24.38:252][996]LogTemp: Initial Dir: F:\Juegos Epic\UE_4.16
+[2021.01.21-17.24.38:252][996]LogTemp: Env CWD: F:\Juegos Epic\UE_4.16\Engine\Binaries\DotNET\IOS
+[2021.01.21-17.24.38:252][996]LogTemp: BranchPath = ELBARTO/F/Juegos Epic/UE_4.16/Engine/Binaries --- GameBranchPath = ELBARTO/F/Juegos Epic/UE_4.16/Engine/Binaries
+[2021.01.21-17.24.38:273][997]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\aleja\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2021.01.21-17.29.10:230][ 61]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-17.29.10:460][ 61]LogSavePackage: Save=150.67ms
+[2021.01.21-17.29.10:460][ 61]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/MenuB718F964489B02907D53D2ABDC2837FE.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap'
+[2021.01.21-17.29.10:461][ 61]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap
+[2021.01.21-17.36.55:719][563]LogSlate: Took 0.002586 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.01.21-17.37.01:285][185]BlueprintLog: New page: Compile MenuWidgetBlueprint
+[2021.01.21-17.37.01:306][185]LogBlueprint:Warning: [Compiler MenuWidgetBlueprint] Warning Could not find a variable named "CheckBoxLan" in 'MenuWidgetBlueprint_C'.
+Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
+[2021.01.21-17.37.01:306][185]LogBlueprint:Warning: [Compiler MenuWidgetBlueprint] Warning Could not find a variable named "CheckBoxLan" in 'MenuWidgetBlueprint_C'.
+Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
+[2021.01.21-17.37.01:307][185]LogBlueprint:Error: [Compiler MenuWidgetBlueprint] Error The property associated with  Check Box Lan  could not be found
+[2021.01.21-17.37.01:307][185]LogBlueprint:Error: [Compiler MenuWidgetBlueprint] Error The property associated with  Check Box Lan  could not be found
+[2021.01.21-17.37.01:594][185]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CheckBoxLan" in 'MenuWidgetBlueprint_C'.
+Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
+[2021.01.21-17.37.01:594][185]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "CheckBoxLan" in 'MenuWidgetBlueprint_C'.
+Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
+[2021.01.21-17.37.01:594][185]BlueprintEditorCompileResults:Error: Error The property associated with  Check Box Lan  could not be found
+[2021.01.21-17.37.01:594][185]BlueprintEditorCompileResults:Error: Error The property associated with  Check Box Lan  could not be found
+[2021.01.21-17.37.01:594][185]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.21-17.37.01:594][185]LogBlueprint:Warning: [Compiler MenuWidgetBlueprint] Warning [2554.39] Compile of MenuWidgetBlueprint failed. 2 Fatal Issue(s) 2 Warning(s) [in 309 ms] (/Game/MenuWidgetBlueprint.MenuWidgetBlueprint)
+[2021.01.21-17.37.19:322][276]LogEditorTransaction: Undo Remove Widget
+[2021.01.21-17.37.20:357][382]LogEditorTransaction: Undo Remove Widget
+[2021.01.21-17.37.23:311][732]BlueprintLog: New page: Compile MenuWidgetBlueprint
+[2021.01.21-17.37.23:505][732]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.21-17.38.41:760][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MenuWidgetBlueprint" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/MenuWidgetBlueprint.uasset" SILENT=true
+[2021.01.21-17.38.41:889][662]LogSavePackage: Save=72.73ms
+[2021.01.21-17.38.41:889][662]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/MenuWidgetBlueprint383F90004ACF1A2454362998B54C2C9C.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/MenuWidgetBlueprint.uasset'
+[2021.01.21-17.38.41:894][662]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/MenuWidgetBlueprint.uasset
+[2021.01.21-17.39.57:897][945]BlueprintLog: New page: Compile Pelotineitor
+[2021.01.21-17.40.12:406][355]BlueprintLog: New page: Compile GeneradorDePelotas
+[2021.01.21-17.40.21:896][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-17.40.22:127][100]LogSavePackage: Save=183.22ms
+[2021.01.21-17.40.22:127][100]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/JugadorBCEDD25A4539367A7B7E56BD53ABB10B.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-17.40.22:129][100]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-17.40.25:658][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Entorno/GeneradorDePelotas" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/GeneradorDePelotas.uasset" SILENT=true
+[2021.01.21-17.40.25:750][386]LogSavePackage: Save=43.50ms
+[2021.01.21-17.40.25:750][386]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/GeneradorDePelotas50FD3B6D4C4F161F6E063596812B190F.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/GeneradorDePelotas.uasset'
+[2021.01.21-17.40.25:755][386]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/GeneradorDePelotas.uasset
+[2021.01.21-17.43.05:568][807]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Menu' took 0.033
+[2021.01.21-17.43.05:571][807]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jugador/Jugador] ([1] browsable assets)...
+[2021.01.21-17.43.05:587][807]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Jugador/Jugador.Jugador]
+[2021.01.21-17.43.05:587][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jugador/Jugador]
+[2021.01.21-17.43.05:818][807]LogSavePackage: Save=183.60ms
+[2021.01.21-17.43.05:818][807]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador_Auto157F8D76A4D81AF8D33FC2BA2FBD1766D.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Auto1.uasset'
+[2021.01.21-17.43.05:820][807]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Jugador/Jugador_Auto1.uasset
+[2021.01.21-17.43.05:822][807]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Entorno/Pelotineitor] ([1] browsable assets)...
+[2021.01.21-17.43.05:822][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Entorno/Pelotineitor]
+[2021.01.21-17.43.05:929][807]LogSavePackage: Save=53.39ms
+[2021.01.21-17.43.05:929][807]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelotineitor_Auto16F484CFE4BB05653BCE83F8A9BA569EE.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Entorno/Pelotineitor_Auto1.uasset'
+[2021.01.21-17.43.05:931][807]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Entorno/Pelotineitor_Auto1.uasset
+[2021.01.21-17.43.05:931][807]LogFileHelpers: Auto-saving content packages took 0.362
+[2021.01.21-17.45.31:321][231]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2021.01.21-17.45.31:465][231]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.01.21-17.45.31:765][231]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2021.01.21-17.45.32:020][231]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.21-17.45.32:216][231]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2021.01.21-17.45.32:243][231]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.01.21-17.48.26:921][552]BlueprintLog: New page: Compile Jugador
+[2021.01.21-17.48.28:380][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-17.48.28:619][647]LogSavePackage: Save=191.50ms
+[2021.01.21-17.48.28:619][647]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador02951BD843A092165DF941B0A7F0E509.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-17.48.28:629][647]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-17.48.30:825][850]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Entorno/Pelotineitor" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pelotineitor.uasset" SILENT=true
+[2021.01.21-17.48.30:924][850]LogSavePackage: Save=51.02ms
+[2021.01.21-17.48.30:924][850]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelotineitor45A7AA214E5B4043AB822D8120EFE37D.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pelotineitor.uasset'
+[2021.01.21-17.48.30:931][850]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pelotineitor.uasset
+[2021.01.21-17.48.37:330][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.01.21-17.49.10:409][677]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-17.49.11:385][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-17.49.11:520][744]LogSavePackage: Save=79.00ms
+[2021.01.21-17.49.11:520][744]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base554503E44D94C8874AD8A78393A2AA68.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-17.49.11:525][744]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-17.49.38:947][521]BlueprintLog: New page: Compile GeneradorDePelotas
+[2021.01.21-17.49.40:409][650]BlueprintLog: New page: Compile Pelotineitor
+[2021.01.21-17.49.52:635][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Entorno/Pelotineitor" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pelotineitor.uasset" SILENT=true
+[2021.01.21-17.49.52:721][916]LogSavePackage: Save=44.96ms
+[2021.01.21-17.49.52:721][916]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelotineitor1A2308AA47E911F0C84F5795D330D80A.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pelotineitor.uasset'
+[2021.01.21-17.49.52:725][916]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/Pelotineitor.uasset
+[2021.01.21-17.49.52:729][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Entorno/GeneradorDePelotas" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/GeneradorDePelotas.uasset" SILENT=true
+[2021.01.21-17.49.52:820][916]LogSavePackage: Save=43.00ms
+[2021.01.21-17.49.52:820][916]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/GeneradorDePelotasD166335D483C5D948543629DB1B37D2F.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/GeneradorDePelotas.uasset'
+[2021.01.21-17.49.52:824][916]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Entorno/GeneradorDePelotas.uasset
+[2021.01.21-17.50.03:934][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-17.50.04:147][190]LogSavePackage: Save=142.53ms
+[2021.01.21-17.50.04:147][190]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Menu41ECF5EF44C1D62EAF98108DC1E1063F.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap'
+[2021.01.21-17.50.04:149][190]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap
