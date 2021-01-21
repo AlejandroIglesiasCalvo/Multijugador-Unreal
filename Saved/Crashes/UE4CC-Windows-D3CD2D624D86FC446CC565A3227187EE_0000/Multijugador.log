@@ -1,0 +1,288 @@
+﻿Log file open, 01/21/21 23:05:59
+LogInit:Display: Running engine for game: Multijugador
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2140675388) SRandInit(-2140675388).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.242364
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.39
+LogOnline:Warning: STEAM: Steam API disabled!
+LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: F:/Juegos Epic/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.21-22.06.00:491][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.21-22.06.00:491][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.21-22.06.00:535][  0]LogInit: Computer: ELBARTO
+[2021.01.21-22.06.00:535][  0]LogInit: User: aleja
+[2021.01.21-22.06.00:535][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.21-22.06.00:535][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.21-22.06.00:535][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.21-22.06.00:535][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-22.06.00:535][  0]LogMemory: Process Physical Memory: 275.31 MB used, 275.31 MB peak
+[2021.01.21-22.06.00:535][  0]LogMemory: Process Virtual Memory: 261.09 MB used, 261.09 MB peak
+[2021.01.21-22.06.00:535][  0]LogMemory: Physical Memory: 7713.73 MB used,  8637.40 MB free, 16351.14 MB total
+[2021.01.21-22.06.00:535][  0]LogMemory: Virtual Memory: 4761.46 MB used,  8637.40 MB free, 134217728.00 MB total
+[2021.01.21-22.06.01:190][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.01.21-22.06.01:190][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2021.01.21-22.06.06:093][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.21-22.06.06:247][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.21-22.06.06:247][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.21-22.06.06:250][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.21-22.06.06:250][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.21-22.06.06:250][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.21-22.06.06:259][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.21-22.06.06:259][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.21-22.06.06:259][  0]LogWindows: EnumDisplayDevices:
+[2021.01.21-22.06.06:259][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.21-22.06.06:260][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.21-22.06.06:260][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.21-22.06.06:261][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.21-22.06.06:261][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.21-22.06.06:261][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.21-22.06.06:261][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.21-22.06.06:261][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.21-22.06.06:261][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.21-22.06.06:379][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.21-22.06.06:418][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.21-22.06.06:426][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/16752/).
+[2021.01.21-22.06.06:426][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/B308EE2A4A1166F9F44DAEB95427AD55/'.
+[2021.01.21-22.06.06:426][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.21-22.06.10:950][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2021.01.21-22.06.11:022][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2021.01.21-22.06.11:097][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2021.01.21-22.06.11:171][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2021.01.21-22.06.11:251][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2021.01.21-22.06.11:324][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.21-22.06.11:400][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.21-22.06.11:476][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.21-22.06.11:548][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.21-22.06.11:625][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2021.01.21-22.06.11:697][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2021.01.21-22.06.11:770][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2021.01.21-22.06.11:845][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2021.01.21-22.06.11:919][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2021.01.21-22.06.11:991][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2021.01.21-22.06.12:139][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2021.01.21-22.06.12:139][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2021.01.21-22.06.12:198][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2021.01.21-22.06.12:416][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2021.01.21-22.06.12:460][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2021.01.21-22.06.12:533][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2021.01.21-22.06.12:604][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2021.01.21-22.06.12:675][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2021.01.21-22.06.12:753][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2021.01.21-22.06.12:753][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.21-22.06.14:612][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.21-22.06.14:720][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.21-22.06.14:720][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.21-22.06.14:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.21-22.06.14:720][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.21-22.06.14:720][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.21-22.06.14:720][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.21-22.06.14:775][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.21-22.06.14:787][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.21-22.06.14:800][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.21-22.06.14:800][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.21-22.06.14:821][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.21-22.06.14:821][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.21-22.06.24:835][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.21-22.06.25:025][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2021.01.21-22.06.25:392][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.21-22.06.25:511][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.21-22.06.25:588][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.21-22.06.25:588][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.21-22.06.25:588][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.21-22.06.27:418][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
+[2021.01.21-22.06.27:542][  0]LogAssetRegistry: FAssetRegistry took 0.0276 seconds to start up
+[2021.01.21-22.06.27:624][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.037479 seconds
+[2021.01.21-22.06.27:631][  0]LogUObjectArray: 34201 objects as part of root set at end of initial load.
+[2021.01.21-22.06.27:631][  0]LogUObjectAllocator: 7474144 out of 0 bytes used by permanent object pool.
+[2021.01.21-22.06.27:631][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.21-22.06.44:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.21-22.06.44:179][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.21-22.06.45:309][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.21-22.06.46:077][  0]SourceControl: Info Source control is disabled
+[2021.01.21-22.06.46:079][  0]SourceControl: Info Source control is disabled
+[2021.01.21-22.06.46:155][  0]SourceControl: Info Source control is disabled
+[2021.01.21-22.06.46:230][  0]SourceControl: Info Source control is disabled
+[2021.01.21-22.06.47:444][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.21-22.06.48:502][  0]LogEngine: Initializing Engine...
+[2021.01.21-22.06.48:503][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.21-22.06.48:982][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.21-22.06.48:982][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.21-22.06.49:166][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.21-22.06.49:205][  0]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-22.06.49:228][  0]LogInit: FAudioDevice initialized.
+[2021.01.21-22.06.49:274][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.21-22.06.49:295][  0]LogInit: Texture streaming: Enabled
+[2021.01.21-22.06.49:441][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.21-22.06.49:821][  0]LogInit: Transaction tracking system initialized
+[2021.01.21-22.06.50:292][  0]BlueprintLog: New page: Editor Load
+[2021.01.21-22.06.51:736][  0]LocalizationService: Info Localization service is disabled
+[2021.01.21-22.06.52:807][  0]LogConsoleResponse:Display: 
+[2021.01.21-22.06.53:331][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.21-22.06.53:331][  0]LogCook:Display: Mobile HDR setting 1
+[2021.01.21-22.06.53:622][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/' took 0.02s
+[2021.01.21-22.06.55:216][  0]SourceControl: Info Source control is disabled
+[2021.01.21-22.06.55:217][  0]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.21-22.06.55:225][  0]LightingResults: New page: Lighting Build
+[2021.01.21-22.06.55:287][  0]MapCheck: New page: Map Check
+[2021.01.21-22.06.55:287][  0]LightingResults: New page: Lighting Build
+[2021.01.21-22.06.55:520][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.21-22.06.55:522][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.21-22.06.55:534][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.21-22.06.55:616][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 81.333ms to complete.
+[2021.01.21-22.06.55:616][  0]LogFileHelpers: Loading map 'Menu' took 0.399
+[2021.01.21-22.06.55:862][  0]LogCollectionManager: Loaded 0 collections in 0.002046 seconds
+[2021.01.21-22.06.55:970][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.21-22.06.55:970][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
+[2021.01.21-22.06.55:970][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.21-22.06.55:970][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2021.01.21-22.06.55:981][  0]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 2331 classes and 494 folders.
+[2021.01.21-22.06.56:075][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.01.21-22.06.56:760][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2021.01.21-22.06.56:823][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2021.01.21-22.06.56:938][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2021.01.21-22.06.56:962][  0]LogSlate: Took 0.011291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.21-22.06.56:973][  0]LogSlate: Took 0.008764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.21-22.06.56:986][  0]LogSlate: Took 0.007708 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.21-22.06.57:197][  0]LogRenderer: Reallocating scene render targets to support 1204x612 NumSamples 1 (Frame:1).
+[2021.01.21-22.06.57:267][  0]LogSlate: Took 0.007027 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.21-22.06.57:342][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2021.01.21-22.06.57:445][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2021.01.21-22.06.57:445][  0]LogLoad: (Engine Initialization) Total time: 64.79 seconds
+[2021.01.21-22.06.57:445][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2021.01.21-22.06.57:445][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.21-22.06.57:455][  0]LogOcInput: OculusInput pre-init called
+[2021.01.21-22.06.57:455][  0]LogHMD: Starting GearVRController plugin
+[2021.01.21-22.06.57:476][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.21-22.06.57:517][  1]LogAssetRegistry: Asset discovery search completed in 29.9986 seconds
+[2021.01.21-22.06.57:520][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2021.01.21-22.06.57:520][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2021.01.21-22.06.59:515][108]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.21-22.07.00:101][108]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2021.01.21-22.07.02:052][108]LogSlate: Took 0.007777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.21-22.07.02:190][109]LogSlate: Took 0.007747 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.21-22.08.35:967][692]BlueprintLog: New page: Compile PersonajeBase
+[2021.01.21-22.08.36:907][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/PersonajeBase" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset" SILENT=true
+[2021.01.21-22.08.37:006][735]LogSavePackage: Save=40.19ms
+[2021.01.21-22.08.37:006][735]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/PersonajeBase7A64209844CA881C7CF3EEACE3F8FBB3.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset'
+[2021.01.21-22.08.37:011][735]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset
+[2021.01.21-22.08.38:884][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-22.08.39:131][878]LogSavePackage: Save=190.14ms
+[2021.01.21-22.08.39:131][878]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador0E038404435318A5AE4D76B1ACDE4406.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-22.08.39:136][878]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-22.09.29:662][450]LogSlate: Took 0.000395 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2021.01.21-22.09.54:164][918]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-22.10.03:162][930]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-22.10.03:266][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Menu.Menu_C' with ClassGeneratedBy '/Game/Menu.Menu:PersistentLevel.Menu'
+[2021.01.21-22.10.03:266][930]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-22.10.03:266][930]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-22.10.03:267][930]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-22.10.03:267][930]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-22.10.03:267][930]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-22.10.03:267][930]LogOnline:Warning: STEAM: Steam API disabled!
+[2021.01.21-22.10.03:267][930]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.21-22.10.03:278][930]PIE: New page: PIE session: Menu (Jan 22, 2021, 12:10:03 AM)
+[2021.01.21-22.10.03:278][930]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Menu
+[2021.01.21-22.10.03:280][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001438s)
+[2021.01.21-22.10.03:280][930]LogAIModule: Creating AISystem for world Menu
+[2021.01.21-22.10.03:281][930]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2021.01.21-22.10.03:281][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu.Menu to /Game/UEDPIE_0_Menu.Menu (0.002375s)
+[2021.01.21-22.10.03:321][930]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-22.10.03:330][930]LogInit: FAudioDevice initialized.
+[2021.01.21-22.10.03:420][930]LogLoad: Game class is 'ModoMenu_C'
+[2021.01.21-22.10.03:424][930]LogWorld: Bringing World /Game/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2021.01.21-23.10.03
+[2021.01.21-22.10.03:425][930]LogWorld: Bringing up level for play took: 0.001288
+[2021.01.21-22.10.03:534][930]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2021.01.21-22.10.03:540][930]PIE: Info Play in editor start time for /Game/UEDPIE_0_Menu 0.979
+[2021.01.21-22.10.03:541][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Menu.Menu_C' with ClassGeneratedBy '/Game/Menu.Menu:PersistentLevel.Menu'
+[2021.01.21-22.10.03:566][930]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2021.01.21-22.10.08:635][514]LogBlueprintUserMessages: [ModoMenu_C_0] Creando
+[2021.01.21-22.10.08:635][514]LogOnline:Warning: OSS: Can't destroy a null online session (Game)
+[2021.01.21-22.10.08:635][514]LogNetVersion: Multijugador 1.0.0.0, NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4068902597)
+[2021.01.21-22.10.08:636][514]LogInit: WinSock: I am ElBarto (172.26.128.1:0)
+[2021.01.21-22.10.08:636][514]LogBlueprintUserMessages: [ModoMenu_C_0] Creada con Exito
+[2021.01.21-22.10.08:638][514]LogNet: Browse: /Game/Campo?listen
+[2021.01.21-22.10.08:639][514]LogLoad: LoadMap: /Game/Campo?listen
+[2021.01.21-22.10.08:663][514]Cmd: MEM
+[2021.01.21-22.10.08:682][514]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-22.10.08:682][514]LogMemory: Process Physical Memory: 1450.13 MB used, 1498.46 MB peak
+[2021.01.21-22.10.08:682][514]LogMemory: Process Virtual Memory: 2169.45 MB used, 2362.43 MB peak
+[2021.01.21-22.10.08:682][514]LogMemory: Physical Memory: 9001.38 MB used,  7349.76 MB free, 16351.14 MB total
+[2021.01.21-22.10.08:682][514]LogMemory: Virtual Memory: 7266.21 MB used,  7349.76 MB free, 134217728.00 MB total
+[2021.01.21-22.10.08:682][514]LogMemory: 
+[2021.01.21-22.10.08:682][514]Allocator Stats for TBB: (not implemented)
+[2021.01.21-22.10.09:784][514]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.584 s
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: === Handled ensure: ===
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: 
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: 
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: Stack: 
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009C02E2B6
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009BDDB8C2
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009BDF1E86
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000077DCBCF7
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x0000000077D9C23D
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000009B660377
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000009B9631A6
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000009B979393
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x000000009B97891A
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000007D775ACF
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000007D72EEA8
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-Engine.dll!0x000000007D79460D
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007A5B2F55
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007ADD8D86
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor.exe!0x00000000937EE2B2
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor.exe!0x00000000937DF0B0
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor.exe!0x00000000937DF12A
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor.exe!0x00000000937F0CF9
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: UE4Editor.exe!0x00000000937F25F7
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: KERNEL32.DLL!0x00000000EC617034
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: ntdll.dll!0x00000000EDE9D0D1
+[2021.01.21-22.10.09:784][514]LogOutputDevice:Error: 
+[2021.01.21-22.10.09:793][514]LogStats:                SubmitErrorReport -  0.000 s
