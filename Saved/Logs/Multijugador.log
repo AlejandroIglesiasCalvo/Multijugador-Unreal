@@ -1837,3 +1837,140 @@ LogInit: Object subsystem initialized
 [2021.01.21-23.38.42:857][970]LogSavePackage: Save=34.78ms
 [2021.01.21-23.38.42:857][970]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/InTheHUD62C3A5B14F73BD5FCBDC5B904A4B2D80.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset'
 [2021.01.21-23.38.42:862][970]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset
+[2021.01.21-23.45.24:924][109]LogEditorTransaction: Undo Modify Component(s)
+[2021.01.21-23.45.30:315][719]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.45.54:311][382]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.46.02:044][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-23.46.02:324][898]LogSavePackage: Save=214.53ms
+[2021.01.21-23.46.02:324][898]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador5CE0DD6B416FED6E60890C94895C9380.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-23.46.02:329][898]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-23.46.02:381][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2021.01.21-23.46.02:741][898]LogSavePackage: Save=293.99ms
+[2021.01.21-23.46.02:741][898]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/UEDPCCampoFA01F7C845D9E67CBD6C1CAB8E147FC3.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap'
+[2021.01.21-23.46.02:743][898]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/UEDPCCampo.umap
+[2021.01.21-23.46.02:753][898]LogEditorTransaction: Undo Spawn Play From Here Start
+[2021.01.21-23.46.05:415][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.46.05:416][198]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:46:05 AM)
+[2021.01.21-23.46.05:416][198]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.46.05:439][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023184s)
+[2021.01.21-23.46.05:441][198]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.46.05:441][198]LogPlayLevel: PIE: World Init took: (0.001982s)
+[2021.01.21-23.46.05:441][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.025519s)
+[2021.01.21-23.46.05:486][198]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.46.05:497][198]LogInit: FAudioDevice initialized.
+[2021.01.21-23.46.05:563][198]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.46.05:570][198]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.46.05
+[2021.01.21-23.46.05:570][198]LogWorld: Bringing up level for play took: 0.004910
+[2021.01.21-23.46.05:587][198]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 1.026
+[2021.01.21-23.46.12:286][973]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.46.12:286][973]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.46.12:287][973]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.46.12:287][973]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.46.12:287][973]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.46.12:341][974]LogPlayLevel:Display: Destroying online subsystem :Context_30
+[2021.01.21-23.46.12:341][974]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.46.21:255][992]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.46.22:750][ 99]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-23.46.22:780][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.46.22:780][ 99]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:46:22 AM)
+[2021.01.21-23.46.22:780][ 99]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.46.22:797][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016281s)
+[2021.01.21-23.46.22:797][ 99]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.46.22:797][ 99]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2021.01.21-23.46.22:798][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.017498s)
+[2021.01.21-23.46.22:843][ 99]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.46.22:851][ 99]LogInit: FAudioDevice initialized.
+[2021.01.21-23.46.22:924][ 99]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.46.22:931][ 99]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.46.22
+[2021.01.21-23.46.22:931][ 99]LogWorld: Bringing up level for play took: 0.004390
+[2021.01.21-23.46.22:948][ 99]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.386
+[2021.01.21-23.46.25:752][420]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32153.990 Y=-16385.049 Z=181.467] for [Pelota_Base_C]
+[2021.01.21-23.46.30:866][ 24]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.46.30:866][ 24]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.46.30:867][ 24]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.46.30:867][ 24]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.46.30:867][ 24]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.46.30:919][ 25]LogPlayLevel:Display: Destroying online subsystem :Context_31
+[2021.01.21-23.46.30:919][ 25]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.47.02:653][522]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.47.04:032][611]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-23.47.04:062][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.47.04:062][611]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:47:04 AM)
+[2021.01.21-23.47.04:062][611]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.47.04:079][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016603s)
+[2021.01.21-23.47.04:080][611]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.47.04:080][611]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2021.01.21-23.47.04:080][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.017893s)
+[2021.01.21-23.47.04:126][611]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.47.04:135][611]LogInit: FAudioDevice initialized.
+[2021.01.21-23.47.04:204][611]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.47.04:211][611]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.47.04
+[2021.01.21-23.47.04:211][611]LogWorld: Bringing up level for play took: 0.004826
+[2021.01.21-23.47.04:229][611]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo -0.333
+[2021.01.21-23.47.10:653][354]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.47.10:653][354]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.47.10:654][354]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.47.10:654][354]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.47.10:654][354]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.47.10:706][355]LogPlayLevel:Display: Destroying online subsystem :Context_32
+[2021.01.21-23.47.10:706][355]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.47.28:715][389]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.47.55:758][365]BlueprintLog: New page: Compile InTheHUD
+[2021.01.21-23.47.55:965][365]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.21-23.48.01:123][916]BlueprintLog: New page: Compile InTheHUD
+[2021.01.21-23.48.01:332][916]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.21-23.48.01:944][979]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-23.48.01:975][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.48.01:975][979]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:48:01 AM)
+[2021.01.21-23.48.01:975][979]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.48.01:991][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015764s)
+[2021.01.21-23.48.01:992][979]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.48.01:992][979]LogPlayLevel: PIE: World Init took: (0.001175s)
+[2021.01.21-23.48.01:992][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.017275s)
+[2021.01.21-23.48.02:036][979]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.48.02:046][979]LogInit: FAudioDevice initialized.
+[2021.01.21-23.48.02:117][979]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.48.02:123][979]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.48.02
+[2021.01.21-23.48.02:124][979]LogWorld: Bringing up level for play took: 0.004366
+[2021.01.21-23.48.02:141][979]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo -0.421
+[2021.01.21-23.48.04:958][230]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-34353.273 Y=-16866.549 Z=185.900] for [Pelota_Base_C]
+[2021.01.21-23.48.06:356][353]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.48.06:356][353]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.48.06:357][353]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.48.06:357][353]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.48.06:357][353]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.48.06:405][354]LogPlayLevel:Display: Destroying online subsystem :Context_33
+[2021.01.21-23.48.06:405][354]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.48.12:550][ 14]BlueprintLog: New page: Compile InTheHUD
+[2021.01.21-23.48.12:752][ 14]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.21-23.48.13:444][ 85]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-23.48.13:474][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.48.13:475][ 85]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:48:13 AM)
+[2021.01.21-23.48.13:475][ 85]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.48.13:491][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015787s)
+[2021.01.21-23.48.13:491][ 85]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.48.13:491][ 85]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2021.01.21-23.48.13:492][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.017040s)
+[2021.01.21-23.48.13:534][ 85]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.48.13:544][ 85]LogInit: FAudioDevice initialized.
+[2021.01.21-23.48.13:614][ 85]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.48.13:621][ 85]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.48.13
+[2021.01.21-23.48.13:621][ 85]LogWorld: Bringing up level for play took: 0.004316
+[2021.01.21-23.48.13:638][ 85]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 1.076
+[2021.01.21-23.48.21:268][772]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.48.21:268][772]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.48.21:269][772]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.48.21:269][772]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.48.21:269][772]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.48.21:320][773]LogPlayLevel:Display: Destroying online subsystem :Context_34
+[2021.01.21-23.48.21:320][773]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.49.13:789][809]BlueprintLog: New page: Compile InTheHUD
+[2021.01.21-23.49.13:959][809]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2021.01.21-23.49.19:082][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InTheHUD" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset" SILENT=true
+[2021.01.21-23.49.19:187][395]LogSavePackage: Save=35.45ms
+[2021.01.21-23.49.19:187][395]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/InTheHUDCD3707914F09AC8BEC78608B9C2D76CB.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset'
+[2021.01.21-23.49.19:192][395]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset
+[2021.01.21-23.49.20:849][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-23.49.21:229][562]LogSavePackage: Save=297.05ms
+[2021.01.21-23.49.21:229][562]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Campo1F3B85B74F7AF87C107E4D93428DC640.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
+[2021.01.21-23.49.21:232][562]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap

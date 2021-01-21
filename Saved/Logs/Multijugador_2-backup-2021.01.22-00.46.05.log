@@ -1,0 +1,1350 @@
+﻿Log file open, 01/22/21 00:40:03
+LogInit:Display: Running engine for game: Multijugador
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1484798675) SRandInit(-1484798675).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.130047
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogOnline:Display: STEAM: Loading Steam SDK 1.39
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  -game
+LogInit: Base directory: F:/Juegos Epic/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2021.01.21-23.40.04:845][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.21-23.40.04:845][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.21-23.40.04:863][  0]LogInit: Computer: ELBARTO
+[2021.01.21-23.40.04:863][  0]LogInit: User: aleja
+[2021.01.21-23.40.04:863][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.21-23.40.04:863][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.21-23.40.04:863][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.01.21-23.40.04:863][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-23.40.04:863][  0]LogMemory: Process Physical Memory: 309.30 MB used, 309.31 MB peak
+[2021.01.21-23.40.04:863][  0]LogMemory: Process Virtual Memory: 279.57 MB used, 279.57 MB peak
+[2021.01.21-23.40.04:863][  0]LogMemory: Physical Memory: 9355.93 MB used,  6995.21 MB free, 16351.14 MB total
+[2021.01.21-23.40.04:863][  0]LogMemory: Virtual Memory: 4908.35 MB used,  6995.21 MB free, 134217728.00 MB total
+[2021.01.21-23.40.04:997][  0]LogInit: Using OS detected language (es-ES).
+[2021.01.21-23.40.04:997][  0]LogInit: Using OS detected locale (es-ES).
+[2021.01.21-23.40.05:003][  0]LogTextLocalizationManager: No specific localization for 'es-ES' exists, so the 'es' localization will be used.
+[2021.01.21-23.40.05:712][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.21-23.40.05:885][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2021.01.21-23.40.05:885][  0]LogD3D11RHI:       8088/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.21-23.40.05:890][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.21-23.40.05:890][  0]LogD3D11RHI:       0/0/8175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.21-23.40.05:890][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.21-23.40.05:901][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.21-23.40.05:902][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.21-23.40.05:902][  0]LogWindows: EnumDisplayDevices:
+[2021.01.21-23.40.05:902][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2021.01.21-23.40.05:902][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2021.01.21-23.40.05:903][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.21-23.40.05:903][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2021.01.21-23.40.05:903][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2021.01.21-23.40.05:903][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2021.01.21-23.40.05:903][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2021.01.21-23.40.05:903][  0]LogD3D11RHI:      Driver Date: Unknown
+[2021.01.21-23.40.05:903][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2021.01.21-23.40.06:047][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.21-23.40.06:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.21-23.40.06:097][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Intermediate/Shaders/WorkingDirectory/4928/).
+[2021.01.21-23.40.06:097][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aleja/AppData/Local/Temp/UnrealShaderWorkingDir/F01C141B45703DA27FC300999476ED48/'.
+[2021.01.21-23.40.06:097][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2021.01.21-23.40.07:522][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2021.01.21-23.40.07:597][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2021.01.21-23.40.07:673][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2021.01.21-23.40.07:744][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2021.01.21-23.40.07:744][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2021.01.21-23.40.08:540][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2021.01.21-23.40.08:646][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.21-23.40.08:646][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2021.01.21-23.40.08:646][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.21-23.40.08:646][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.21-23.40.08:646][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.21-23.40.08:646][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.21-23.40.08:664][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.21-23.40.08:677][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aleja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.21-23.40.08:689][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.21-23.40.08:689][  0]LogSlate: Using Freetype 2.6.0
+[2021.01.21-23.40.08:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.21-23.40.08:690][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.21-23.40.09:260][  0]LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
+[2021.01.21-23.40.09:303][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043312 seconds
+[2021.01.21-23.40.09:429][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.21-23.40.09:516][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2021.01.21-23.40.09:740][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.21-23.40.09:820][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2021.01.21-23.40.09:901][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2021.01.21-23.40.09:901][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2021.01.21-23.40.09:901][  0]LogMeshUtilities: No automatic mesh merging module available
+[2021.01.21-23.40.10:635][  0]LogNetVersion: Multijugador , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 582825890)
+[2021.01.21-23.40.12:361][  0]LogMoviePlayer: Initializing movie player
+[2021.01.21-23.40.12:940][  0]LogCollectionManager: Loaded 0 collections in 0.002078 seconds
+[2021.01.21-23.40.13:010][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' took 0.01s
+[2021.01.21-23.40.13:010][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' took 0.01s
+[2021.01.21-23.40.13:010][  0]LogFileCache: Scanning file cache for directory 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' took 0.01s
+[2021.01.21-23.40.13:010][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2021.01.21-23.40.13:010][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2021.01.21-23.40.13:961][  0]SourceControl: Información El control de código fuente está desactivado
+[2021.01.21-23.40.13:961][  0]SourceControl: Información El control de código fuente está desactivado
+[2021.01.21-23.40.14:040][  0]SourceControl: Información El control de código fuente está desactivado
+[2021.01.21-23.40.14:471][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.21-23.40.15:210][  0]LogUObjectArray: 37227 objects as part of root set at end of initial load.
+[2021.01.21-23.40.15:210][  0]LogUObjectAllocator: 8612576 out of 0 bytes used by permanent object pool.
+[2021.01.21-23.40.15:210][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.21-23.40.15:359][  0]LogEngine: Initializing Engine...
+[2021.01.21-23.40.15:361][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.21-23.40.15:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2021.01.21-23.40.15:587][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2021.01.21-23.40.15:628][  0]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.40.15:642][  0]LogInit: FAudioDevice initialized.
+[2021.01.21-23.40.15:700][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/aleja/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2021.01.21-23.40.15:717][  0]LogInit: Texture streaming: Enabled
+[2021.01.21-23.40.15:736][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2021.01.21-23.40.16:126][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'NormalText'. Utilizando FTextBlockStyle predeterminado en su lugar.
+[2021.01.21-23.40.16:126][  0]LogSlateStyle:Warning: No pudo encontrar el estilo del widget del cuadro 'SpinBox'. Utilizando FSpinBoxStyle predeterminado en su lugar.
+[2021.01.21-23.40.16:457][  0]LogInit:Display: Game Engine Initialized.
+[2021.01.21-23.40.16:718][  0]LogInit:Display: Starting Game.
+[2021.01.21-23.40.16:718][  0]LogNet: Browse: /Game/Menu?Name=Player
+[2021.01.21-23.40.16:718][  0]LogLoad: LoadMap: /Game/Menu?Name=Player
+[2021.01.21-23.40.16:740][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-23.40.16:740][  0]LogMemory: Process Physical Memory: 826.30 MB used, 896.20 MB peak
+[2021.01.21-23.40.16:740][  0]LogMemory: Process Virtual Memory: 969.12 MB used, 991.84 MB peak
+[2021.01.21-23.40.16:740][  0]LogMemory: Physical Memory: 9909.91 MB used,  6441.23 MB free, 16351.14 MB total
+[2021.01.21-23.40.16:740][  0]LogMemory: Virtual Memory: 5869.98 MB used,  6441.23 MB free, 134217728.00 MB total
+[2021.01.21-23.40.16:740][  0]LogMemory: 
+[2021.01.21-23.40.16:740][  0]Allocator Stats for TBB: (not implemented)
+[2021.01.21-23.40.17:040][  0]LogAIModule: Creating AISystem for world Menu
+[2021.01.21-23.40.17:041][  0]LogLoad: Game class is 'ModoMenu_C'
+[2021.01.21-23.40.17:043][  0]LogWorld: Bringing World /Game/Menu.Menu up for play (max tick rate 0) at 2021.01.22-00.40.17
+[2021.01.21-23.40.17:043][  0]LogWorld: Bringing up level for play took: 0.000752
+[2021.01.21-23.40.17:047][  0]LogLoad: Took 0.329220 seconds to LoadMap(/Game/Menu)
+[2021.01.21-23.40.17:346][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:1).
+[2021.01.21-23.40.17:346][  0]LogLoad: (Engine Initialization) Total time: 15.53 seconds
+[2021.01.21-23.40.17:346][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2021.01.21-23.40.17:346][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2021.01.21-23.40.17:365][  0]LogOcInput: OculusInput pre-init called
+[2021.01.21-23.40.17:365][  0]LogHMD: Starting GearVRController plugin
+[2021.01.21-23.40.46:118][781]LogBlueprintUserMessages: [ModoMenu_C_0] Creando
+[2021.01.21-23.40.46:119][781]LogOnline:Warning: STEAM: Can't destroy a null online session (Game)
+[2021.01.21-23.40.46:119][781]LogNetVersion: Multijugador 1.0.0.0, NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4068902597)
+[2021.01.21-23.40.46:389][798]LogBlueprintUserMessages: [ModoMenu_C_0] Creada con Exito
+[2021.01.21-23.40.46:536][798]LogPackageName: SearchForPackageOnDisk took   0.146s to resolve Campo.umap.
+[2021.01.21-23.40.46:669][798]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Campo.umap.
+[2021.01.21-23.40.46:669][798]LogNet: Browse: /Game/Campo?listen
+[2021.01.21-23.40.46:669][798]LogLoad: LoadMap: /Game/Campo?listen
+[2021.01.21-23.40.46:690][798]LogMemory: Platform Memory Stats for Windows
+[2021.01.21-23.40.46:690][798]LogMemory: Process Physical Memory: 745.57 MB used, 896.20 MB peak
+[2021.01.21-23.40.46:690][798]LogMemory: Process Virtual Memory: 1131.40 MB used, 1304.90 MB peak
+[2021.01.21-23.40.46:690][798]LogMemory: Physical Memory: 9701.45 MB used,  6649.69 MB free, 16351.14 MB total
+[2021.01.21-23.40.46:690][798]LogMemory: Virtual Memory: 6081.91 MB used,  6649.69 MB free, 134217728.00 MB total
+[2021.01.21-23.40.46:690][798]LogMemory: 
+[2021.01.21-23.40.46:690][798]Allocator Stats for TBB: (not implemented)
+[2021.01.21-23.40.47:380][798]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.40.47:381][798]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.40.47:381][798]LogTemp:Display: ParseSettings for GameNetDriver
+[2021.01.21-23.40.47:381][798]LogTemp:Display: ParseSettings for SteamNetDriver_0
+[2021.01.21-23.40.47:381][798]LogTemp:Display: ParseSettings for GameNetDriver
+[2021.01.21-23.40.47:382][798]LogNet:Display: SteamNetDriver_0 bound to port 7777
+[2021.01.21-23.40.47:382][798]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.21-23.40.47:382][798]LogNet: GameNetDriver SteamNetDriver_0 IpNetDriver listening on port 7777
+[2021.01.21-23.40.47:393][798]LogWorld: Bringing World /Game/Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.40.47
+[2021.01.21-23.40.47:393][798]LogWorld: Bringing up level for play took: 0.008737
+[2021.01.21-23.40.47:401][798]LogLoad: Took 0.731398 seconds to LoadMap(/Game/Campo)
+[2021.01.21-23.40.53:058][143]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-33629.348 Y=-16187.621 Z=193.987] for [Pelota_Base_C]
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_0
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0993
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_0
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09A8
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_0
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09D7
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_0
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09EC
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_0
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A11
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_0
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A32
+[2021.01.21-23.41.00:753][620]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.04:785][870]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.04:785][870]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.04:785][870]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.04:785][870]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.04:801][871]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.04:801][871]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.04:801][871]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.04:801][871]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.04:834][873]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.04:834][873]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.04:834][873]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.04:834][873]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.08:061][ 73]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32302.588 Y=-17296.326 Z=173.439] for [Pelota_Base_C]
+[2021.01.21-23.41.16:028][567]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.16:028][567]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.16:028][567]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.16:028][567]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.16:044][568]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.16:044][568]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.16:044][568]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.16:044][568]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.16:947][624]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.16:947][624]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.16:947][624]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.16:947][624]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.17:109][634]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.17:109][634]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.17:109][634]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.17:109][634]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.17:125][635]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.17:125][635]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.17:125][635]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.17:125][635]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.17:141][636]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.17:141][636]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.17:141][636]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.17:141][636]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.26:064][189]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32409.934 Y=-16705.684 Z=179.650] for [Pelota_Base_C]
+[2021.01.21-23.41.29:063][375]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-29815.131 Y=-14918.066 Z=267.718] for [Pelota_Base_C]
+[2021.01.21-23.41.31:773][543]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:773][543]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:788][544]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:788][544]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:949][554]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:949][554]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:950][554]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:950][554]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:966][555]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:966][555]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:966][555]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:966][555]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:982][556]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:982][556]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:982][556]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:982][556]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:998][557]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:998][557]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.31:998][557]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.31:998][557]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:014][558]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:014][558]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:014][558]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:014][558]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:030][559]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:030][559]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:030][559]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:030][559]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:046][560]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:046][560]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:046][560]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:046][560]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:062][561]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:062][561]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:062][561]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:062][561]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:078][562]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:078][562]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:078][562]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:078][562]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:094][563]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:094][563]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:095][563]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:095][563]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:111][564]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:111][564]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:111][564]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:111][564]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:127][565]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:127][565]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:127][565]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:127][565]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:143][566]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:143][566]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:143][566]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:143][566]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:159][567]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:159][567]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:159][567]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:159][567]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:175][568]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:175][568]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:175][568]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:175][568]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:191][569]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:191][569]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:191][569]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:191][569]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:207][570]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:207][570]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:207][570]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:207][570]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:223][571]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:223][571]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:223][571]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:223][571]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:255][573]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:256][573]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.32:256][573]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.32:256][573]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.38:627][968]LogNet: NotifyAcceptingConnection accepted from: 76561198173410073:7777
+[2021.01.21-23.41.38:627][968]LogHandshake: SendConnectChallenge. Timestamp: 52.249294, Cookie: 108231234040087066061197105168126105047214234254231170115095
+[2021.01.21-23.41.38:628][968]LogNet: NotifyAcceptingConnection accepted from: 76561198173410073:7777
+[2021.01.21-23.41.38:628][968]LogHandshake: SendConnectChallenge. Timestamp: 52.249294, Cookie: 108231234040087066061197105168126105047214234254231170115095
+[2021.01.21-23.41.38:628][968]LogNet: NotifyAcceptingConnection accepted from: 76561198173410073:7777
+[2021.01.21-23.41.38:628][968]LogHandshake: SendConnectChallenge. Timestamp: 52.249294, Cookie: 108231234040087066061197105168126105047214234254231170115095
+[2021.01.21-23.41.38:628][968]LogNet: NotifyAcceptingConnection accepted from: 76561198173410073:7777
+[2021.01.21-23.41.38:628][968]LogHandshake: SendConnectChallenge. Timestamp: 52.249294, Cookie: 108231234040087066061197105168126105047214234254231170115095
+[2021.01.21-23.41.38:628][968]LogNet: NotifyAcceptingConnection accepted from: 76561198173410073:7777
+[2021.01.21-23.41.38:628][968]LogHandshake: SendConnectChallenge. Timestamp: 52.249294, Cookie: 108231234040087066061197105168126105047214234254231170115095
+[2021.01.21-23.41.38:756][976]LogNet: NotifyAcceptingConnection accepted from: 76561198173410073:7777
+[2021.01.21-23.41.38:756][976]LogNet: Server accepting post-challenge connection from: 76561198173410073:7777
+[2021.01.21-23.41.38:757][976]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.01.21-23.41.38:757][976]LogNet: NotifyAcceptedConnection: Name: Campo, TimeStamp: 01/22/21 00:41:38, [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2021.01.21-23.41.38:757][976]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL
+[2021.01.21-23.41.38:758][976]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Campo.Campo: Accepted
+[2021.01.21-23.41.38:758][976]LogNet: Remote platform little endian=1
+[2021.01.21-23.41.38:758][976]LogNet: This platform little endian=1
+[2021.01.21-23.41.38:885][984]LogNet: Login request: /Game/Menu?Name=Barón Tigretón userId: 76561198173410073
+[2021.01.21-23.41.38:998][991]LogNet: Client netspeed is 10000
+[2021.01.21-23.41.40:530][ 86]LogNet: Join request: /Game/Menu?Name=Barón Tigretón?SplitscreenCount=1
+[2021.01.21-23.41.40:534][ 86]LogNet: Join succeeded: Barón Tigretón
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0993
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09A8
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09D7
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09EC
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A11
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A32
+[2021.01.21-23.41.43:709][283]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.45:273][380]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.45:273][380]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.45:273][380]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.45:273][380]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.45:289][381]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.41.45:289][381]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.41.47:677][529]LogBlueprintUserMessages: [Jugador_C_1] Dañonormal
+[2021.01.21-23.41.47:677][529]LogBlueprintUserMessages: [Pelota_Base_C_34] Golpetazo
+[2021.01.21-23.41.47:709][531]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.47:709][531]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.53:066][863]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32879.480 Y=-16871.002 Z=182.111] for [Pelota_Base_C]
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0993
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09A8
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09D7
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09EC
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A11
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Accessed None trying to read property Pelotaaa
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A32
+[2021.01.21-23.41.53:467][888]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.41.56:516][ 77]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:516][ 77]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:516][ 77]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:516][ 77]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:645][ 85]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:645][ 85]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:645][ 85]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:645][ 85]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:694][ 88]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:694][ 88]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:694][ 88]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:694][ 88]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.56:936][103]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:033][109]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:033][109]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:033][109]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:033][109]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:034][109]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:034][109]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:034][109]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:034][109]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:129][115]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:129][115]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:129][115]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:129][115]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:193][119]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:193][119]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:193][119]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:193][119]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:387][131]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:387][131]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:387][131]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:387][131]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:388][131]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:581][143]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:581][143]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:581][143]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:581][143]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:582][143]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:582][143]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:582][143]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:582][143]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:630][146]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:630][146]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:630][146]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:630][146]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:741][153]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:741][153]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:741][153]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:741][153]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:742][153]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:742][153]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:742][153]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:742][153]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:743][153]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:743][153]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:743][153]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:743][153]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:854][160]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:854][160]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:854][160]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:854][160]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:870][161]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:870][161]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:870][161]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:870][161]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:903][163]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:903][163]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:903][163]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:903][163]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:967][167]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:967][167]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:967][167]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:967][167]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:984][168]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:984][168]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.57:984][168]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.57:984][168]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:065][173]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:065][173]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:065][173]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:065][173]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:098][175]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:098][175]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:098][175]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:098][175]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:210][182]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:210][182]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:210][182]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:210][182]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:259][185]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:259][185]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:259][185]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:259][185]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:372][192]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:548][203]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:548][203]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:548][203]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:548][203]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:549][203]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:549][203]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.58:549][203]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.41.58:549][203]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.41.59:840][283]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.41.59:840][283]LogBlueprintUserMessages: [Pelota_Base_C_43] Golpetazo
+[2021.01.21-23.42.02:034][419]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.02:034][419]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.06:081][670]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.06:081][670]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.06:081][670]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.06:081][670]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Attempted to access Pelota_Base_C_43 via property Pelotaaa, but Pelota_Base_C_43 is pending kill
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0993
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09A8
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Attempted to access Pelota_Base_C_43 via property Pelotaaa, but Pelota_Base_C_43 is pending kill
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09D7
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Accessed None
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:09EC
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Attempted to access Pelota_Base_C_43 via property Pelotaaa, but Pelota_Base_C_43 is pending kill
+	Jugador_C /Game/Campo.Campo:PersistentLevel.Jugador_C_1
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador:0A11
+[2021.01.21-23.42.07:066][731]LogScript:Warning: Script call stack:
+	Function /Game/Jugador/Jugador.Jugador_C:LanzarPelotaRed
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+	Function /Game/Jugador/Jugador.Jugador_C:Lanzar pelota
+	Function /Game/Jugador/Jugador.Jugador_C:ExecuteUbergraph_Jugador
+
+[2021.01.21-23.42.09:259][867]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:259][867]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:260][867]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:260][867]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:260][867]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:260][867]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:260][867]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:260][867]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:261][867]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:261][867]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:262][867]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:262][867]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:485][881]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:485][881]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:485][881]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:485][881]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:486][881]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:486][881]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:486][881]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:486][881]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:487][881]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:487][881]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:487][881]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:487][881]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:598][888]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:598][888]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:598][888]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:598][888]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:630][890]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:630][890]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:630][890]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:630][890]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:743][897]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:743][897]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:743][897]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:743][897]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:791][900]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:791][900]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:791][900]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:791][900]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:856][904]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:856][904]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:856][904]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:856][904]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:969][911]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:969][911]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:969][911]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:969][911]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:970][911]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:970][911]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.09:970][911]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.09:970][911]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.10:131][921]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.10:131][921]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.10:131][921]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.10:131][921]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.10:132][921]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.10:132][921]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.10:132][921]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.10:132][921]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.11:663][ 16]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:663][ 16]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:663][ 16]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:663][ 16]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:678][ 17]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:678][ 17]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:839][ 27]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:840][ 27]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:840][ 27]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:840][ 27]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:855][ 28]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:855][ 28]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:855][ 28]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:855][ 28]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:871][ 29]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:871][ 29]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:871][ 29]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:871][ 29]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:888][ 30]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:888][ 30]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:888][ 30]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:888][ 30]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:904][ 31]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:904][ 31]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:904][ 31]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:904][ 31]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:920][ 32]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:920][ 32]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:920][ 32]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:920][ 32]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:937][ 33]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:937][ 33]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:937][ 33]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:937][ 33]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.11:969][ 35]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.22:809][707]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.22:809][707]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.22:809][707]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.22:809][707]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.22:825][708]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.22:825][708]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.22:825][708]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.22:825][708]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.22:857][710]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.22:857][710]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.22:857][710]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.22:857][710]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:115][726]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:115][726]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:115][726]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:115][726]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:131][727]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:131][727]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:131][727]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:131][727]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:147][728]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:147][728]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:147][728]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:147][728]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:180][730]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:180][730]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:180][730]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:180][730]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:374][742]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:374][742]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:374][742]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:374][742]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:389][743]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:389][743]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:389][743]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:389][743]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:405][744]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:405][744]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.23:405][744]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.23:405][744]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.27:261][983]LogBlueprintUserMessages: [Pelota_Base_C_60] Explosion!!!
+[2021.01.21-23.42.31:653][255]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.31:653][255]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.31:668][256]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.31:668][256]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.31:668][256]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.31:668][256]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.31:669][256]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.31:669][256]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.31:671][256]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.31:671][256]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.32:073][281]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-33329.336 Y=-16158.949 Z=206.292] for [Pelota_Base_C]
+[2021.01.21-23.42.32:137][285]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.32:137][285]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.32:137][285]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.32:137][285]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.32:137][285]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.32:137][285]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.32:314][296]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.32:314][296]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.32:314][296]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.32:314][296]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.38:059][652]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32165.709 Y=-14932.505 Z=144.884] for [Pelota_Base_C]
+[2021.01.21-23.42.38:862][702]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.38:862][702]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.38:862][702]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.38:862][702]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:266][727]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:266][727]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:266][727]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:266][727]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:330][731]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:330][731]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:330][731]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:330][731]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:443][738]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:443][738]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:443][738]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:443][738]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:524][743]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:653][751]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:653][751]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:653][751]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:653][751]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:701][754]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:701][754]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:701][754]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:701][754]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:863][764]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:863][764]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:863][764]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:863][764]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:864][764]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:864][764]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.39:864][764]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.39:864][764]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:056][776]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:056][776]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:056][776]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:056][776]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:154][782]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:154][782]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:154][782]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:154][782]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:460][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:461][801]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:508][804]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:508][804]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:508][804]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:508][804]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:524][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:524][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:524][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:524][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:525][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:525][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:525][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:525][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:526][805]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:782][821]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:783][821]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:992][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.40:993][834]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:089][964]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:089][964]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:089][964]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:089][964]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:105][965]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:105][965]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:105][965]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:105][965]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:250][974]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:250][974]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:250][974]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:250][974]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:395][983]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:395][983]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:395][983]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:395][983]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:525][991]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:525][991]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:525][991]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:525][991]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:540][992]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:540][992]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:540][992]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:540][992]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:590][995]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:590][995]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:590][995]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:590][995]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:637][998]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:637][998]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:637][998]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:637][998]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:685][  1]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:685][  1]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:685][  1]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:686][  1]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:734][  4]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:734][  4]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:734][  4]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:734][  4]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:766][  6]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:766][  6]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:766][  6]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:766][  6]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:814][  9]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:814][  9]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:814][  9]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:815][  9]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:879][ 13]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:879][ 13]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.43:879][ 13]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.42.43:879][ 13]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.42.44:059][ 24]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-29216.832 Y=-14774.625 Z=182.227] for [Pelota_Base_C]
+[2021.01.21-23.42.56:060][768]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-34320.148 Y=-15725.342 Z=151.896] for [Pelota_Base_C]
+[2021.01.21-23.42.56:332][785]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.56:332][785]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.56:347][786]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.42.56:347][786]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.42.58:962][948]LogBlueprintUserMessages: [Jugador_C_1] Dañonormal
+[2021.01.21-23.42.58:962][948]LogBlueprintUserMessages: [Pelota_Base_C_82] Golpetazo
+[2021.01.21-23.43.02:751][183]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:751][183]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:751][183]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:751][183]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:799][186]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:799][186]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:799][186]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:799][186]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:864][190]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:864][190]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:864][190]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:864][190]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.02:977][197]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.05:060][326]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-33673.020 Y=-16528.334 Z=194.299] for [Pelota_Base_C]
+[2021.01.21-23.43.13:479][848]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.43.13:479][848]LogBlueprintUserMessages: [Pelota_Base_C_70] Golpetazo
+[2021.01.21-23.43.14:061][884]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-34487.422 Y=-16435.988 Z=184.104] for [Pelota_Base_C]
+[2021.01.21-23.43.23:067][442]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-33015.109 Y=-14892.582 Z=120.156] for [Pelota_Base_C]
+[2021.01.21-23.43.24:792][549]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.24:792][549]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.24:792][549]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.24:792][549]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.43.24:874][554]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.43.30:409][897]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:409][897]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:409][897]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:409][897]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:425][898]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:425][898]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:683][914]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:683][914]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:683][914]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:683][914]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:699][915]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:699][915]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:699][915]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:699][915]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:731][917]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:731][917]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.30:731][917]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.30:731][917]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:312][953]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:312][953]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:312][953]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:312][953]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:328][954]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:328][954]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:328][954]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:328][954]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:521][966]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:521][966]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:521][966]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:521][966]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:537][967]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:537][967]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:537][967]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:537][967]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:554][968]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:554][968]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.31:554][968]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.31:554][968]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:071][  0]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.43.32:071][  0]LogBlueprintUserMessages: [Pelota_Base_C_101] Golpetazo
+[2021.01.21-23.43.32:086][  1]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:086][  1]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:102][  2]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=434.51 Y=65.93 Z=0.00 Location: X=-33689.22 Y=-16037.48 Z=278.15 Normal: X=-0.65 Y=0.76 Z=0.00 PenetrationDepth:53.426 Actor:Pelota_Base_C_101 Component:Sphere BoneName:None (0 other events since notify)
+[2021.01.21-23.43.32:103][  2]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.32:103][  2]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:103][  2]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:103][  2]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.32:103][  2]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:103][  2]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.32:119][  3]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.33:264][ 74]LogBlueprintUserMessages: [Pelota_Base_C_105] Explosion!!!
+[2021.01.21-23.43.36:361][266]LogRep: FRepLayout::UpdateChangelistHistory: History overflow, forcing history dump Jugador_C
+[2021.01.21-23.43.36:603][281]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.36:603][281]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.36:603][281]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.36:603][281]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.36:748][290]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.36:748][290]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.36:748][290]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.36:748][290]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.36:764][291]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.36:764][291]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.36:765][291]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.36:765][291]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.38:635][407]LogBlueprintUserMessages: [Jugador_C_0] Daño de area
+[2021.01.21-23.43.38:636][407]LogBlueprintUserMessages: [Pelota_Base_C_108] Explosion!!!
+[2021.01.21-23.43.41:072][558]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32630.723 Y=-15712.450 Z=192.424] for [Pelota_Base_C]
+[2021.01.21-23.43.57:410][571]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.57:410][571]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.57:410][571]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.57:410][571]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.57:426][572]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.57:426][572]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.43.57:426][572]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.43.57:426][572]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.44.01:685][836]LogBlueprintUserMessages: [Jugador_C_1] Dañonormal
+[2021.01.21-23.44.01:685][836]LogBlueprintUserMessages: [Pelota_Base_C_120] Golpetazo
+[2021.01.21-23.44.14:443][627]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.14:444][627]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.14:444][627]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.14:444][627]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.14:621][638]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.14:621][638]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.14:621][638]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.14:621][638]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.18:589][884]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.18:589][884]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.18:589][884]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.18:589][884]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.18:622][886]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.18:622][886]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.18:622][886]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.44.18:622][886]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.44.22:543][129]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.44.22:543][129]LogBlueprintUserMessages: [Pelota_Base_C_138] Golpetazo
+[2021.01.21-23.44.23:059][161]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32263.445 Y=-15303.376 Z=150.450] for [Pelota_Base_C]
+[2021.01.21-23.44.53:060][ 20]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32444.623 Y=-15274.547 Z=249.281] for [Pelota_Base_C]
+[2021.01.21-23.44.59:061][392]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-34440.387 Y=-15678.543 Z=155.626] for [Pelota_Base_C]
+[2021.01.21-23.45.02:464][603]LogBlueprintUserMessages: [Jugador_C_1] Lo coges
+[2021.01.21-23.45.02:464][603]LogBlueprintUserMessages: [Jugador_C_1] Tocas pelota
+[2021.01.21-23.45.02:733][618]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.01.21-23.45.02:740][618]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2021.01.21-23.45.02:743][618]LogEngine: All Windows Closed
+[2021.01.21-23.45.02:743][618]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.01.21-23.45.03:517][619]LogNet: World NetDriver shutdown SteamNetDriver_0 [GameNetDriver]
+[2021.01.21-23.45.03:517][619]LogNet: DestroyNamedNetDriver SteamNetDriver_0 [GameNetDriver]
+[2021.01.21-23.45.03:518][619]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2021.01.21-23.45.03:518][619]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, Channels: 23, Time: 2021.01.21-23.45.03
+[2021.01.21-23.45.03:518][619]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 76561198173410073:7777, Name: SteamNetConnection_0, Driver: GameNetDriver SteamNetDriver_0, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1
+[2021.01.21-23.45.03:519][619]LogExit: GameNetDriver SteamNetDriver_0 shut down
+[2021.01.21-23.45.03:529][619]LogExit: Preparing to exit.
+[2021.01.21-23.45.03:529][619]LogMoviePlayer: Shutting down movie player
+[2021.01.21-23.45.03:588][619]LogExit: Game engine shut down
+[2021.01.21-23.45.03:646][619]LogObj: Freed 0b from 0 cluster array pools.
+[2021.01.21-23.45.03:646][619]LogExit: Object subsystem successfully closed.
+[2021.01.21-23.45.03:664][619]LogD3D11RHI: Shutdown
+[2021.01.21-23.45.03:664][619]LogD3D11RHI: CleanupD3DDevice
+[2021.01.21-23.45.03:728][619]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (298)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module SequenceRecorder (296)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module AutomationController (294)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module AutomationWorker (292)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module AIModule (290)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module GameplayDebugger (289)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module AITestSuite (287)
+[2021.01.21-23.45.03:734][619]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (284)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (282)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (280)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module Media (279)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module CharacterAI (276)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module SessionServices (274)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (272)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (270)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module MovieScene (268)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module GeometryCache (266)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (265)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module Niagara (262)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module NiagaraEditor (261)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (258)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module PortalServices (256)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module PortalRpc (254)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module MessagingRpc (252)
+[2021.01.21-23.45.03:735][619]LogModuleManager: Shutting down and abandoning module ProfilerService (250)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module TaskGraph (248)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module SteamVRController (246)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module SteamVR (244)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (242)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module OculusLibrary (240)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module OculusInput (238)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (236)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (234)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module CableComponent (232)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (230)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module AndroidPermission (228)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module HTML5Networking (224)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (222)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module DesktopPlatform (221)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module HotReload (219)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module UObjectPlugin (216)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (214)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (212)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module SourceControl (211)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (208)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module PhysXVehicles (206)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (204)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (202)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (200)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module UdpMessaging (198)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module TcpMessaging (196)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (194)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module FacialAnimation (192)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (190)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module GraphEditor (189)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module ContentBrowser (187)
+[2021.01.21-23.45.03:767][619]LogModuleManager: Shutting down and abandoning module CollectionManager (186)
+[2021.01.21-23.45.03:767][619]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Collections/' was aborted.
+[2021.01.21-23.45.03:767][619]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Developers/aleja/Collections/' was aborted.
+[2021.01.21-23.45.03:768][619]LogDirectoryWatcher: A directory notification for 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Collections/' was aborted.
+[2021.01.21-23.45.03:768][619]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (185)
+[2021.01.21-23.45.03:768][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (180)
+[2021.01.21-23.45.03:768][619]LogModuleManager: Shutting down and abandoning module Paper2D (178)
+[2021.01.21-23.45.03:768][619]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (176)
+[2021.01.21-23.45.03:768][619]LogModuleManager: Shutting down and abandoning module WmfMedia (174)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (172)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (170)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module MediaAssets (168)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (166)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module VREditor (164)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module StringTableEditor (162)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (160)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (158)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module FunctionalTesting (156)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (154)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module UMG (152)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module UMGEditor (151)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module Sequencer (150)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module AssetTools (148)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module MessageLog (147)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (146)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module SlateReflector (140)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module Slate (138)
+[2021.01.21-23.45.03:769][619]LogModuleManager: Shutting down and abandoning module EditorStyle (136)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module Messaging (134)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (132)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (130)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module XAudio2 (128)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module Networking (126)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module Core (124)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module KismetCompiler (122)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module LevelSequence (120)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module PhysXFormats (118)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module MeshUtilities (116)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (115)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (113)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (111)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module AssetRegistry (108)
+[2021.01.21-23.45.03:771][619]LogModuleManager: Shutting down and abandoning module DerivedDataCache (106)
+[2021.01.21-23.45.03:859][619]LogDerivedDataCache: Shutdown
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TargetPlatform (104)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (103)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (101)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (99)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (97)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (95)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (93)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (91)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (89)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (87)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (85)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module ImageWrapper (84)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (81)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (79)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (77)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (75)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (73)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (71)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (69)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (67)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module OculusRift (60)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module GearVRController (58)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module GearVR (56)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (52)
+[2021.01.21-23.45.03:859][619]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (48)
+[2021.01.21-23.45.03:859][619]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.21-23.45.03:859][619]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.45.04:383][619]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.45.04:383][619]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.45.04:383][619]LogOnline:Display: Unloading online subsystem: STEAM
+[2021.01.21-23.45.04:383][619]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.21-23.45.04:383][619]LogOnline:Display: Unloading online subsystem: NULL
+[2021.01.21-23.45.04:383][619]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2021.01.21-23.45.04:383][619]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2021.01.21-23.45.04:397][619]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2021.01.21-23.45.04:399][619]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2021.01.21-23.45.04:400][619]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2021.01.21-23.45.04:401][619]LogExit: Exiting.
+[2021.01.21-23.45.04:403][619]Log file closed, 01/22/21 00:45:04
