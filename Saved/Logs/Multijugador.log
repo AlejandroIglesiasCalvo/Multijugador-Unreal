@@ -486,3 +486,14 @@ Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
 [2021.01.21-17.55.43:184][881]LogSavePackage: Save=82.55ms
 [2021.01.21-17.55.43:184][881]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_BaseB8DF86824286618A4F7424B6D66A9CDF.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
 [2021.01.21-17.55.43:189][881]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.00.40:396][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.01.21-18.00.40:892][ 46]LogSavePackage: Save=433.86ms
+[2021.01.21-18.00.40:892][ 46]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Campo_Auto29CCA14BF448180F2575DAC9A37BE6DFC.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto2.umap'
+[2021.01.21-18.00.40:894][ 46]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto2.umap
+[2021.01.21-18.00.40:898][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.531
+[2021.01.21-18.00.40:898][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.531
+[2021.01.21-18.00.52:304][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-18.00.52:733][888]LogSavePackage: Save=367.34ms
+[2021.01.21-18.00.52:733][888]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Campo2B0B7B9D4B02714FC6B384BFEA4ECAAE.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
+[2021.01.21-18.00.52:742][888]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap
+[2021.01.21-18.00.52:781][888]LogFileHelpers: Saving map 'Campo' took 0.570
