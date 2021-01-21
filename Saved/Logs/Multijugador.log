@@ -497,3 +497,59 @@ Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
 [2021.01.21-18.00.52:733][888]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Campo2B0B7B9D4B02714FC6B384BFEA4ECAAE.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
 [2021.01.21-18.00.52:742][888]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap
 [2021.01.21-18.00.52:781][888]LogFileHelpers: Saving map 'Campo' took 0.570
+[2021.01.21-18.07.37:196][ 94]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-18.07.38:559][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-18.07.38:693][212]LogSavePackage: Save=81.21ms
+[2021.01.21-18.07.38:694][212]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base0531580242E184DB99E929B219E4C055.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-18.07.38:698][212]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.08.01:166][768]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-18.08.03:416][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-18.08.03:539][  5]LogSavePackage: Save=79.60ms
+[2021.01.21-18.08.03:539][  5]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base6000EFF84DEE8EE07D0F1D8F167EEE15.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-18.08.03:544][  5]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.08.33:403][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-18.08.33:530][577]LogSavePackage: Save=79.24ms
+[2021.01.21-18.08.33:531][577]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base3205FDDF42D5E3A54C4904A1FB3F56A4.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-18.08.33:533][577]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.08.50:915][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-18.08.51:360][735]LogSavePackage: Save=365.15ms
+[2021.01.21-18.08.51:360][735]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/CampoB5A8F92C4D16DA37BFB7B7B92EB2DC12.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
+[2021.01.21-18.08.51:364][735]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap
+[2021.01.21-18.08.51:404][735]LogFileHelpers: Saving map 'Campo' took 0.585
+[2021.01.21-18.13.53:527][691]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-18.14.35:591][522]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-18.14.58:372][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-18.14.58:502][964]LogSavePackage: Save=78.66ms
+[2021.01.21-18.14.58:502][964]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base7F521DB74207605720A5A4BDEEE6EFA4.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-18.14.58:506][964]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.15.01:229][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-18.15.01:467][208]LogSavePackage: Save=187.08ms
+[2021.01.21-18.15.01:467][208]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador9BC1B9104F0CDFA6C0B366A749508710.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-18.15.01:469][208]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-18.16.08:214][308]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-18.16.09:568][419]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-18.16.09:695][419]LogSavePackage: Save=82.38ms
+[2021.01.21-18.16.09:695][419]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base6DBD28C2494A59F5FEC3069957587DB1.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-18.16.09:700][419]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.18.51:545][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2021.01.21-18.18.51:990][324]LogSavePackage: Save=390.90ms
+[2021.01.21-18.18.51:990][324]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Campo_Auto3E44A5B2743797C26441F9E9FBB2B3981.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto3.umap'
+[2021.01.21-18.18.51:992][324]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Autosaves/Game/Campo_Auto3.umap
+[2021.01.21-18.18.51:995][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Campo' took 0.478
+[2021.01.21-18.18.51:995][324]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.478
+[2021.01.21-18.32.20:976][ 37]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-18.32.42:547][317]BlueprintLog: New page: Compile GeneradorDePelotas
+[2021.01.21-18.32.45:621][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-18.32.45:751][620]LogSavePackage: Save=78.51ms
+[2021.01.21-18.32.45:751][620]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_Base15EDA163473D8B1578E1379DF30DBD85.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-18.32.45:755][620]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
+[2021.01.21-18.32.56:418][698]BlueprintLog: New page: Compile Pelotineitor
+[2021.01.21-18.33.52:329][ 72]BlueprintLog: New page: Compile Jugador
+[2021.01.21-18.33.53:639][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-18.33.53:887][154]LogSavePackage: Save=185.25ms
+[2021.01.21-18.33.53:887][154]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador452A053D4618F52438E44D98A06E1DBF.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-18.33.53:892][154]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-18.34.05:262][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-18.34.05:714][268]LogSavePackage: Save=369.96ms
+[2021.01.21-18.34.05:714][268]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/CampoCD2468AA4B50E3503580EDB827BEFB62.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
+[2021.01.21-18.34.05:719][268]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap
