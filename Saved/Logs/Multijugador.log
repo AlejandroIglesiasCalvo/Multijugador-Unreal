@@ -465,3 +465,24 @@ Make sure 'MenuWidgetBlueprint_C' has been compiled for  Get CheckBoxLan
 [2021.01.21-17.50.04:147][190]LogSavePackage: Save=142.53ms
 [2021.01.21-17.50.04:147][190]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Menu41ECF5EF44C1D62EAF98108DC1E1063F.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap'
 [2021.01.21-17.50.04:149][190]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Menu.umap
+[2021.01.21-17.50.36:609][388]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-17.50.36:650][388]Cmd: MAP LOAD FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.21-17.50.36:650][388]LightingResults: New page: Lighting Build
+[2021.01.21-17.50.36:651][388]LoadErrors: New page: Loading map: Campo.umap
+[2021.01.21-17.50.36:651][388]MapCheck: New page: Map Check
+[2021.01.21-17.50.36:651][388]LightingResults: New page: Lighting Build
+[2021.01.21-17.50.36:675][388]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: NavMeshBoundsVolume_1.BrushComponent0 
+[2021.01.21-17.50.36:904][388]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.21-17.50.36:978][388]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.21-17.50.37:080][388]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 101.461ms to complete.
+[2021.01.21-17.50.37:080][388]LogFileHelpers: Loading map 'Campo' took 0.432
+[2021.01.21-17.55.16:294][107]BlueprintLog: New page: Compile Jugador
+[2021.01.21-17.55.17:453][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-17.55.17:690][149]LogSavePackage: Save=185.78ms
+[2021.01.21-17.55.17:690][149]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador8EE12A234C67F250F6AE0F9B2B1D4B88.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-17.55.17:694][149]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-17.55.41:853][793]BlueprintLog: New page: Compile Pelota_Base
+[2021.01.21-17.55.43:043][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Pelotas/Pelota_Base" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset" SILENT=true
+[2021.01.21-17.55.43:184][881]LogSavePackage: Save=82.55ms
+[2021.01.21-17.55.43:184][881]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Pelota_BaseB8DF86824286618A4F7424B6D66A9CDF.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset'
+[2021.01.21-17.55.43:189][881]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Pelotas/Pelota_Base.uasset
