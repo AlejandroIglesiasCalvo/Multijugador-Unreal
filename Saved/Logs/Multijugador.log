@@ -1974,3 +1974,216 @@ LogInit: Object subsystem initialized
 [2021.01.21-23.49.21:229][562]LogSavePackage: Save=297.05ms
 [2021.01.21-23.49.21:229][562]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Campo1F3B85B74F7AF87C107E4D93428DC640.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
 [2021.01.21-23.49.21:232][562]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap
+[2021.01.21-23.53.24:643][164]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-23.53.24:693][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.53.24:693][164]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:53:24 AM)
+[2021.01.21-23.53.24:693][164]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.53.24:710][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017043s)
+[2021.01.21-23.53.24:711][164]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.53.24:711][164]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2021.01.21-23.53.24:712][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.018818s)
+[2021.01.21-23.53.24:767][164]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.53.24:777][164]LogInit: FAudioDevice initialized.
+[2021.01.21-23.53.24:847][164]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.53.24:853][164]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.53.24
+[2021.01.21-23.53.24:854][164]LogWorld: Bringing up level for play took: 0.004645
+[2021.01.21-23.53.24:871][164]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.31
+[2021.01.21-23.53.27:373][397]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.53.27:373][397]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.53.27:374][397]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.53.27:374][397]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.53.27:374][397]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.53.27:417][398]LogPlayLevel:Display: Destroying online subsystem :Context_35
+[2021.01.21-23.53.27:417][398]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.53.28:951][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/InTheHUD" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset" SILENT=true
+[2021.01.21-23.53.29:044][569]LogSavePackage: Save=34.75ms
+[2021.01.21-23.53.29:044][569]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/InTheHUD64691AC145C60E6C5F4A9FB178F98A12.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset'
+[2021.01.21-23.53.29:046][569]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/InTheHUD.uasset
+[2021.01.21-23.53.30:883][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-23.53.31:156][765]LogSavePackage: Save=208.67ms
+[2021.01.21-23.53.31:156][765]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador6DBEBC184F176119322315A66AA1A629.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-23.53.31:161][765]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-23.53.41:140][845]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.53.42:454][939]LogTemp: Repeting last play command: Selected Viewport
+[2021.01.21-23.53.42:485][939]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.21-23.53.42:485][939]PIE: New page: PIE session: Campo (Jan 22, 2021, 1:53:42 AM)
+[2021.01.21-23.53.42:485][939]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Campo
+[2021.01.21-23.53.42:501][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016370s)
+[2021.01.21-23.53.42:502][939]LogAIModule: Creating AISystem for world Campo
+[2021.01.21-23.53.42:502][939]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2021.01.21-23.53.42:503][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Campo.Campo to /Game/UEDPIE_0_Campo.Campo (0.017639s)
+[2021.01.21-23.53.42:546][939]LogInit: XAudio2 using 'Bluetooth A2DP Stereo Audio (WH-1000XM4( Stereo ))' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2021.01.21-23.53.42:555][939]LogInit: FAudioDevice initialized.
+[2021.01.21-23.53.42:622][939]LogLoad: Game class is 'ModoJuego_C'
+[2021.01.21-23.53.42:628][939]LogWorld: Bringing World /Game/UEDPIE_0_Campo.Campo up for play (max tick rate 0) at 2021.01.22-00.53.42
+[2021.01.21-23.53.42:629][939]LogWorld: Bringing up level for play took: 0.004473
+[2021.01.21-23.53.42:646][939]PIE: Info Play in editor start time for /Game/UEDPIE_0_Campo 0.084
+[2021.01.21-23.53.47:033][452]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:033][452]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:033][452]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:033][452]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:042][453]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:042][453]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:042][453]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:042][453]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:059][455]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:059][455]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:059][455]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:059][455]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:075][457]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:075][457]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:075][457]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:075][457]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:083][458]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:083][458]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:083][458]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:083][458]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:100][460]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:100][460]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.47:100][460]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.47:100][460]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.48:457][620]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-32146.176 Y=-17086.164 Z=197.053] for [Pelota_Base_C]
+[2021.01.21-23.53.52:013][ 25]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.52:014][ 25]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.52:022][ 26]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.52:022][ 26]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.52:039][ 28]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.52:039][ 28]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.52:040][ 28]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.52:040][ 28]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.55:872][482]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.55:872][482]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.55:872][482]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.53.55:872][482]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.58:664][809]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.53.58:664][809]LogBlueprintUserMessages: [Pelota_Base_C_7] Golpetazo
+[2021.01.21-23.53.58:714][815]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.58:714][815]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.58:764][821]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.58:764][821]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.53.58:873][834]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.53.58:873][834]LogBlueprintUserMessages: [Pelota_Base_C_7] Golpetazo
+[2021.01.21-23.54.04:427][489]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.04:427][489]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.04:455][492]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.04:455][492]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.04:455][492]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.04:455][492]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.06:404][724]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.54.06:404][724]LogBlueprintUserMessages: [Pelota_Base_C_11] Golpetazo
+[2021.01.21-23.54.09:043][ 32]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.09:043][ 32]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.09:052][ 33]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.09:052][ 33]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.09:466][ 82]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-34176.941 Y=-15429.942 Z=155.665] for [Pelota_Base_C]
+[2021.01.21-23.54.10:903][253]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.54.10:903][253]LogBlueprintUserMessages: [Pelota_Base_C_12] Golpetazo
+[2021.01.21-23.54.13:020][504]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.13:020][504]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.13:028][505]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.13:028][505]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.13:045][507]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.13:045][507]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.13:045][507]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.13:045][507]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.13:062][509]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.13:062][509]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.13:062][509]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.13:062][509]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.14:917][723]LogBlueprintUserMessages: [Jugador_C_0] Daño de area
+[2021.01.21-23.54.14:917][723]LogBlueprintUserMessages: [Pelota_Base_C_14] Explosion!!!
+[2021.01.21-23.54.22:427][603]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.22:427][603]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.25:118][923]LogBlueprintUserMessages: [Jugador_C_0] Daño de area
+[2021.01.21-23.54.25:118][923]LogBlueprintUserMessages: [Pelota_Base_C_20] Explosion!!!
+[2021.01.21-23.54.28:660][342]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:660][342]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:668][343]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:669][343]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:685][345]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:685][345]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:685][345]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:685][345]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:703][347]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:703][347]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:703][347]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:703][347]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:711][348]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:711][348]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:711][348]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:711][348]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:728][350]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:728][350]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.28:728][350]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.28:728][350]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.29:517][442]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.29:517][442]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.29:517][442]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.29:517][442]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.29:526][443]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.29:526][443]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.29:526][443]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.29:526][443]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:428][550]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:428][550]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:428][550]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:428][550]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:436][551]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:436][551]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:436][551]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:436][551]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:445][552]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:445][552]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:445][552]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:445][552]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:456][553]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:456][553]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.30:456][553]LogBlueprintUserMessages: [Jugador_C_0] Lo coges
+[2021.01.21-23.54.30:456][553]LogBlueprintUserMessages: [Jugador_C_0] Tocas pelota
+[2021.01.21-23.54.31:046][623]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.54.31:046][623]LogBlueprintUserMessages: [Pelota_Base_C_25] Golpetazo
+[2021.01.21-23.54.31:627][645]LogBlueprintUserMessages: [Jugador_C_0] Dañonormal
+[2021.01.21-23.54.31:627][645]LogBlueprintUserMessages: [Pelota_Base_C_25] Golpetazo
+[2021.01.21-23.54.35:108][ 45]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.54.35:108][ 45]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2021.01.21-23.54.35:109][ 45]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2021.01.21-23.54.35:109][ 45]LogOnline:Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2021.01.21-23.54.35:109][ 45]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2021.01.21-23.54.35:162][ 46]LogPlayLevel:Display: Destroying online subsystem :Context_36
+[2021.01.21-23.54.35:162][ 46]LogOnline:Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2021.01.21-23.54.37:169][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-23.54.37:444][276]LogSavePackage: Save=213.65ms
+[2021.01.21-23.54.37:444][276]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/JugadorD8369B784B9FF004D2D1788D8B9A3B7C.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-23.54.37:449][276]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.21-23.54.39:362][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Campo" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.01.21-23.54.39:737][482]LogSavePackage: Save=289.14ms
+[2021.01.21-23.54.39:737][482]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/CampoE3646F8342D6715D8ADCF4A7342F2C3B.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap'
+[2021.01.21-23.54.39:739][482]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Campo.umap
+[2021.01.21-23.55.23:706][805]BlueprintLog: New page: Compile Jugador
+[2021.01.21-23.55.24:773][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/Jugador" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset" SILENT=true
+[2021.01.21-23.55.25:064][849]LogSavePackage: Save=223.88ms
+[2021.01.21-23.55.25:064][849]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/Jugador6B3C4F78450CE80A4D79AAB67D2023D1.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset'
+[2021.01.21-23.55.25:069][849]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/Jugador.uasset
+[2021.01.22-00.00.04:262][878]BlueprintLog: New page: Compile ModoJuego
+[2021.01.22-00.00.05:036][920]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModoJuego" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset" SILENT=true
+[2021.01.22-00.00.05:183][920]LogSavePackage: Save=84.23ms
+[2021.01.22-00.00.05:183][920]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/ModoJuego2B569B4C4F84192CDAF7C89C212B6E75.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset'
+[2021.01.22-00.00.05:188][920]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset
+[2021.01.22-00.00.48:624][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModoJuego" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset" SILENT=true
+[2021.01.22-00.00.48:773][887]LogSavePackage: Save=84.75ms
+[2021.01.22-00.00.48:773][887]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/ModoJuego794B89C845E632982DC7B9B3DFCA8557.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset'
+[2021.01.22-00.00.48:779][887]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset
+[2021.01.22-00.01.37:588][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jugador/PersonajeBase" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset" SILENT=true
+[2021.01.22-00.01.37:706][ 86]LogSavePackage: Save=40.72ms
+[2021.01.22-00.01.37:706][ 86]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/PersonajeBase41CD817741D05BD764D1BABD93CDE0B4.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset'
+[2021.01.22-00.01.37:711][ 86]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/Jugador/PersonajeBase.uasset
+[2021.01.22-00.02.16:475][542]BlueprintLog: New page: Compile ModoJuego
+[2021.01.22-00.02.18:591][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModoJuego" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset" SILENT=true
+[2021.01.22-00.02.18:721][737]LogSavePackage: Save=74.48ms
+[2021.01.22-00.02.18:721][737]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/ModoJuego2814827F4EB4D5BFA1019680D838F95A.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset'
+[2021.01.22-00.02.18:725][737]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset
+[2021.01.22-00.02.27:123][584]BlueprintLog: New page: Compile ModoJuego
+[2021.01.22-00.02.28:077][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ModoJuego" FILE="E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset" SILENT=true
+[2021.01.22-00.02.28:213][643]LogSavePackage: Save=73.05ms
+[2021.01.22-00.02.28:213][643]LogSavePackage: Moving 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Saved/ModoJuego29D14D724A394983C793B79273DBE217.tmp' to 'E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset'
+[2021.01.22-00.02.28:218][643]LogSavePackage:Display: Finished SavePackage E:/UNIVERSIDAD-2020/Videojuegos/Unreal/Multijugador/Multijugador-Unreal/Content/ModoJuego.uasset
